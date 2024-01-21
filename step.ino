@@ -230,24 +230,24 @@ private:
   }
 
   void exportSystem(JsonObject json) override {
-    JsonObject jsonPower       = json.createNestedObject("power");
+    JsonObject jsonPower       = json["power"].to<JsonObject>();
     jsonPower["voltage"]          = serialized(String(Power.getVoltage(), 1));
     jsonPower["interruptions"] = Power.getInterruptions();
   }
 
   void exportInput(JsonObject json) override {
-    JsonArray jsonChannels = json.createNestedArray("channels");
+    JsonArray jsonChannels = json["channels"].to<JsonArray>();
     for (uint8_t ch = 0; ch < nSteppers; ch++) {
-      JsonObject jsonChannel = jsonChannels.createNestedObject();
+      JsonObject jsonChannel = jsonChannels.add<JsonObject>();
       jsonChannel["number"]  = ch;
 
       {
-        JsonObject jsonPitchbend = jsonChannel.createNestedObject("pitchbend");
+        JsonObject jsonPitchbend = jsonChannel["pitchbend"].to<JsonObject>();
         jsonPitchbend["value"]   = _steppers[ch].pitchBend;
       }
 
       {
-        JsonObject jsonChromatic = jsonChannel.createNestedObject("chromatic");
+        JsonObject jsonChromatic = jsonChannel["chromatic"].to<JsonObject>();
         jsonChromatic["start"]   = V2MIDI::C(3);
         jsonChromatic["count"]   = 24;
       }
