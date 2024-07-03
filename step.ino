@@ -1,4 +1,4 @@
-// © Kay Sievers <kay@versioduo.com>, 2020-2022
+// © Kay Sievers <kay@versioduo.com>, 2020-2024
 // SPDX-License-Identifier: Apache-2.0
 
 #include <V2Base.h>
@@ -12,12 +12,12 @@
 #include <V2PowerSupply.h>
 #include <V2Stepper.h>
 
-V2DEVICE_METADATA("com.versioduo.step", 17, "versioduo:samd:step");
+V2DEVICE_METADATA("com.versioduo.step", 18, "versioduo:samd:step");
 
 static constexpr uint8_t nSteppers = 4;
 static V2LED::WS2812 LED(nSteppers + 2, PIN_LED_WS2812, &sercom2, SPI_PAD_0_SCK_1, PIO_SERCOM);
-static V2Link::Port Plug(&SerialPlug);
-static V2Link::Port Socket(&SerialSocket);
+static V2Link::Port Plug(&SerialPlug, PIN_SERIAL_PLUG_TX_ENABLE);
+static V2Link::Port Socket(&SerialSocket, PIN_SERIAL_SOCKET_TX_ENABLE);
 static V2Base::Timer::Periodic Timer(2, 200000);
 static V2Base::Analog::ADC ADC(V2Base::Analog::ADC::getID(PIN_VOLTAGE_SENSE));
 
@@ -231,7 +231,7 @@ private:
 
   void exportSystem(JsonObject json) override {
     JsonObject jsonPower       = json["power"].to<JsonObject>();
-    jsonPower["voltage"]          = serialized(String(Power.getVoltage(), 1));
+    jsonPower["voltage"]       = serialized(String(Power.getVoltage(), 1));
     jsonPower["interruptions"] = Power.getInterruptions();
   }
 
