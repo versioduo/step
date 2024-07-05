@@ -14,12 +14,12 @@
 
 V2DEVICE_METADATA("com.versioduo.step", 18, "versioduo:samd:step");
 
-static constexpr uint8_t nSteppers = 4;
-static V2LED::WS2812 LED(nSteppers + 2, PIN_LED_WS2812, &sercom2, SPI_PAD_0_SCK_1, PIO_SERCOM);
-static V2Link::Port Plug(&SerialPlug, PIN_SERIAL_PLUG_TX_ENABLE);
-static V2Link::Port Socket(&SerialSocket, PIN_SERIAL_SOCKET_TX_ENABLE);
+static constexpr uint8_t       nSteppers = 4;
+static V2LED::WS2812           LED(nSteppers + 2, PIN_LED_WS2812, &sercom2, SPI_PAD_0_SCK_1, PIO_SERCOM);
+static V2Link::Port            Plug(&SerialPlug, PIN_SERIAL_PLUG_TX_ENABLE);
+static V2Link::Port            Socket(&SerialSocket, PIN_SERIAL_SOCKET_TX_ENABLE);
 static V2Base::Timer::Periodic Timer(2, 200000);
-static V2Base::Analog::ADC ADC(V2Base::Analog::ADC::getID(PIN_VOLTAGE_SENSE));
+static V2Base::Analog::ADC     ADC(V2Base::Analog::ADC::getID(PIN_VOLTAGE_SENSE));
 
 static class Stepper : public V2Stepper::Motor {
 public:
@@ -117,8 +117,8 @@ private:
     }
 
     // The number of green LEDs shows the voltage.
-    float fraction = voltage / (float)config.max;
-    uint8_t n      = ceil((float)nSteppers * fraction);
+    float   fraction = voltage / (float)config.max;
+    uint8_t n        = ceil((float)nSteppers * fraction);
     LED.splashHSV(0.5, n, V2Color::Green, 1, 0.5);
   }
 } Power;
@@ -138,7 +138,7 @@ public:
 private:
   struct {
     int16_t pitchBend;
-    float rotate;
+    float   rotate;
   } _steppers[nSteppers]{};
 
   void handleReset() override {
@@ -161,10 +161,9 @@ private:
     if (!Power.on(continuous))
       return false;
 
-    if (!continuous) {
+    if (!continuous)
       for (uint8_t i = 0; i < nSteppers; i++)
         Steppers[i].reset();
-    }
 
     return true;
   }
@@ -255,7 +254,7 @@ private:
   }
 } Device;
 
-// Dispatch MIDI packets
+// Dispatch MIDI packets.
 static class MIDI {
 public:
   void loop() {
@@ -275,24 +274,26 @@ private:
   V2MIDI::Packet _midi{};
 } MIDI;
 
-// Dispatch Link packets
+// Dispatch Link packets.
 static class Link : public V2Link {
 public:
-  Link() : V2Link(&Plug, &Socket) {}
+  Link() : V2Link(&Plug, &Socket) {
+    Device.link = this;
+  }
 
 private:
   V2MIDI::Packet _midi{};
 
-  // Receive a host event from our parent device
-  void receivePlug(V2Link::Packet *packet) override {
+  // Receive a host event from our parent device.
+  void receivePlug(V2Link::Packet* packet) override {
     if (packet->getType() == V2Link::Packet::Type::MIDI) {
       packet->receive(&_midi);
       Device.dispatch(&Plug, &_midi);
     }
   }
 
-  // Forward children device events to the host
-  void receiveSocket(V2Link::Packet *packet) override {
+  // Forward children device events to the host.
+  void receiveSocket(V2Link::Packet* packet) override {
     if (packet->getType() == V2Link::Packet::Type::MIDI) {
       uint8_t address = packet->getAddress();
       if (address == 0x0f)
