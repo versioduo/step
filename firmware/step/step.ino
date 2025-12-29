@@ -1,6 +1,5 @@
 #include <V2Base.h>
 #include <V2Buttons.h>
-#include <V2Color.h>
 #include <V2Device.h>
 #include <V2LED.h>
 #include <V2Link.h>
@@ -31,15 +30,15 @@ namespace {
     void handleMovement(Move move) override {
       switch (move) {
         case Move::Forward:
-          LED.setHSV(_index, V2Color::Cyan, 1, 0.4);
+          LED.setHSV(_index, V2Colour::Cyan, 1, 0.4);
           break;
 
         case Move::Reverse:
-          LED.setHSV(_index, V2Color::Orange, 1, 0.4);
+          LED.setHSV(_index, V2Colour::Orange, 1, 0.4);
           break;
 
         case Move::Stop:
-          LED.setHSV(_index, V2Color::Green, 1, 0.2);
+          LED.setHSV(_index, V2Colour::Green, 1, 0.2);
           break;
       }
     }
@@ -104,20 +103,20 @@ namespace {
     void handleNotify(float voltage) override {
       // Power interruption, or commands without a power connection show yellow LEDs.
       if (voltage < config.min) {
-        LED.splashHSV(0.5, V2Color::Yellow, 1, 0.5);
+        LED.splashHSV(0.5, V2Colour::Yellow, 1, 0.5);
         return;
       }
 
       // Over-voltage shows red LEDs.
       if (voltage > config.max) {
-        LED.splashHSV(0.5, V2Color::Red, 1, 1);
+        LED.splashHSV(0.5, V2Colour::Red, 1, 1);
         return;
       }
 
       // The number of green LEDs shows the voltage.
       const float fraction{voltage / (float)config.max};
       const float n{ceil((float)nSteppers * fraction)};
-      LED.splashHSV(0.5, 0, n, V2Color::Green, 1, 0.5);
+      LED.splashHSV(0.5, 0, n, V2Colour::Green, 1, 0.5);
     }
   } Power;
 
@@ -318,8 +317,8 @@ namespace {
     }
 
     void handleHold(uint8_t count) override {
-      LED.setHSV(nSteppers + 0, V2Color::Cyan, 1, 0.25);
-      LED.setHSV(nSteppers + 1, V2Color::Cyan, 1, 0.25);
+      LED.setHSV(nSteppers + 0, V2Colour::Cyan, 1, 0.25);
+      LED.setHSV(nSteppers + 1, V2Colour::Cyan, 1, 0.25);
     }
 
     void handleRelease() override {}
