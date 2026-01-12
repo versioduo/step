@@ -640,6 +640,12 @@
           "group_by": false,
           "label": "Reference",
           "name": "Reference",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Footprint",
+          "name": "Footprint",
           "show": true
         },
         {
@@ -652,13 +658,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Footprint",
-          "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -667,18 +667,54 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": true,
+          "label": "Mouser",
+          "name": "Mouser",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Rating",
+          "name": "Rating",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Enable",
+          "name": "Sim.Enable",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
-      "name": "Grouped By Value",
-      "sort_asc": true,
-      "sort_field": "Reference"
+      "name": "",
+      "sort_asc": false,
+      "sort_field": "Footprint"
     },
     "connection_grid_size": 50.0,
     "drawing": {
