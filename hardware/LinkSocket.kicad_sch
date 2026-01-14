@@ -53,7 +53,7 @@
 				)
 			)
 			(property "Description" "Amphenol – Minitek127"
-				(at 0 -16.51 0)
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -62,7 +62,28 @@
 				)
 			)
 			(property "Mouser" "649-200211120001T4LF"
-				(at 0 -20.574 0)
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Amphenol FCI"
+				(at 0 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Product" "20021112-00010T4LF"
+				(at 0 -20.32 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -313,7 +334,7 @@
 				)
 			)
 			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 -13.462 0)
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -322,7 +343,28 @@
 				)
 			)
 			(property "Mouser" "810-CGA3E2X7R1H104MA"
-				(at 0 -17.272 0)
+				(at 0 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "TDK"
+				(at 0 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Product" "CGA3E2X7R1H104M080AA"
+				(at 0 -17.78 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -460,7 +502,7 @@
 				)
 			)
 			(property "Description" "Resistor, small symbol"
-				(at 0 -12.192 0)
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -469,7 +511,38 @@
 				)
 			)
 			(property "Mouser" "71-CRCW0603100RFKEAH"
-				(at 0 -15.494 0)
+				(at 0 -25.4 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Rating" "330mW"
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Vishay"
+				(at 0 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Product" "CRCW0603100RFKEAHP"
+				(at 0 -20.32 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -597,8 +670,29 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser" " 595-THVD2442DRCR "
-				(at 0 0 0)
+			(property "Mouser" "595-THVD2442DRCR"
+				(at 0 -35.56 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Product" "THVD2442DRCR "
+				(at 0 -33.02 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Texas Instruments"
+				(at 0 -30.48 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -632,7 +726,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.286 5.08) (xy -4.699 5.08)
+						(xy -2.286 5.08) (xy -4.4335 5.08)
 					)
 					(stroke
 						(width 0)
@@ -680,7 +774,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.762 2.667) (xy -4.699 2.667)
+						(xy -0.762 2.667) (xy -4.4468 2.6741)
 					)
 					(stroke
 						(width 0)
@@ -1833,7 +1927,34 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" " 595-THVD2442DRCR "
+		(property "Mouser" "595-THVD2442DRCR"
+			(at 151.13 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "THVD2442DRCR "
+			(at 151.13 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 151.13 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 151.13 85.09 0)
 			(effects
 				(font
@@ -2143,6 +2264,42 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "330mW"
+			(at 162.56 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 162.56 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "CRCW0603100RFKEAHP"
+			(at 162.56 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 162.56 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b4a41cef-a01d-4c51-b4ed-8d9de16be514")
 		)
@@ -2285,6 +2442,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Amphenol FCI"
+			(at 151.13 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "20021112-00010T4LF"
+			(at 151.13 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 151.13 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cc1d2583-8d27-4958-b6d5-bbf29de774b6")
 		)
@@ -2380,6 +2564,33 @@
 		)
 		(property "Mouser" "810-CGA3E2X7R1H104MA"
 			(at 172.72 82.042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 172.72 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "CGA3E2X7R1H104M080AA"
+			(at 172.72 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 172.72 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
