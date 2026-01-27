@@ -372,6 +372,16 @@
 					(hide yes)
 				)
 			)
+			(property "Rating" "50V"
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "capacitor cap"
 				(at 0 0 0)
 				(effects
@@ -1127,7 +1137,7 @@
 				)
 			)
 			(property "Value" "+3V3"
-				(at 0 4.064 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1152,7 +1162,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(property "Description" ""
 				(at 0 -14.986 0)
 				(effects
 					(font
@@ -1252,7 +1262,7 @@
 				)
 			)
 			(property "Value" "+5V"
-				(at 0 4.064 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1277,7 +1287,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(property "Description" ""
 				(at 0 -14.478 0)
 				(effects
 					(font
@@ -1368,7 +1378,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
-				(at 0 -7.112 0)
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1377,7 +1387,7 @@
 				)
 			)
 			(property "Value" "GND"
-				(at 0 -4.064 0)
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1403,8 +1413,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at -0.254 -10.414 0)
+			(property "Description" ""
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1852,7 +1862,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+		(property "Description" ""
 			(at 151.13 62.23 0)
 			(effects
 				(font
@@ -1954,15 +1964,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 151.13 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "410993e1-7cbb-43f8-9043-ba6a7a27131f")
 		)
@@ -2050,7 +2051,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 144.78 142.24 0)
 			(effects
 				(font
@@ -2116,7 +2117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 151.13 100.33 0)
 			(effects
 				(font
@@ -2182,7 +2183,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 172.72 67.31 0)
 			(effects
 				(font
@@ -2291,15 +2292,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 162.56 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "b4a41cef-a01d-4c51-b4ed-8d9de16be514")
 		)
@@ -2360,7 +2352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 157.48 147.32 0)
 			(effects
 				(font
@@ -2453,15 +2445,6 @@
 		)
 		(property "Product" "20021112-00010T4LF"
 			(at 151.13 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 151.13 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2589,8 +2572,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 172.72 64.77 0)
+		(property "Rating" "50V"
+			(at 172.72 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2657,7 +2640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
+		(property "Description" ""
 			(at 144.78 147.32 0)
 			(effects
 				(font
@@ -2722,7 +2705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
+		(property "Description" ""
 			(at 157.48 142.24 0)
 			(effects
 				(font
