@@ -79,7 +79,7 @@
         "layers_to_include_on_all_layers": [],
         "mirror": false,
         "negative": false,
-        "output_filename": "",
+        "output_filename": "step-gerber",
         "plot_drawing_sheet": false,
         "plot_footprint_values": true,
         "plot_pad_numbers": false,
@@ -170,7 +170,7 @@
         "description": "",
         "floor": true,
         "format": "png",
-        "height": 1440,
+        "height": 3000,
         "light_bottom_intensity": [
           0.0,
           0.0,
@@ -192,7 +192,7 @@
           0.0,
           0.0
         ],
-        "output_filename": "foo",
+        "output_filename": "step-board.png",
         "pan_x": 0.0,
         "pan_y": 0.0,
         "pan_z": 0.0,
@@ -202,14 +202,14 @@
         "pivot_z": 0.0,
         "post_process": true,
         "preset": "",
-        "procedural_textures": false,
+        "procedural_textures": true,
         "quality": "basic",
         "rotation_x": 0.0,
         "rotation_y": 15.0,
         "rotation_z": 5.0,
         "side": "top",
         "use_board_stackup_colors": true,
-        "width": 2560,
+        "width": 4000,
         "zoom": 1.0
       },
       "type": "pcb_render"
