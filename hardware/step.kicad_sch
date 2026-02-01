@@ -485,127 +485,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "V2_Connector_WAGO:2065"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 1.524 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "WAGO 2065-100"
-				(at 9.144 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "V2_Connector_WAGO:2065-100"
-				(at 0 -9.906 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "WAGO"
-				(at 0 -13.208 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Product" "2065-100/998-403"
-				(at 0 -16.51 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "2065_1_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -0.508)
-					(mid -0.5058 0)
-					(end 0 0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "V2_Cortex_Debug:Cortex_Debug"
+		(symbol "V2_Connector_Debug:Cortex"
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
@@ -618,7 +498,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "Cortex_Debug"
+			(property "Value" "Cortex"
 				(at -8.89 8.89 0)
 				(effects
 					(font
@@ -627,7 +507,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "V2_Cortex_Debug:Cortex_Debug_Pad"
+			(property "Footprint" "V2_Connector_Debug:Cortex"
 				(at 0 -13.97 0)
 				(effects
 					(font
@@ -654,7 +534,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Cortex_Debug_1_0"
+			(symbol "Cortex_1_0"
 				(polyline
 					(pts
 						(xy -1.27 5.842) (xy -1.27 1.524)
@@ -716,11 +596,11 @@
 					(center 0 -2.54)
 					(radius 0.508)
 					(stroke
-						(width 0.254)
-						(type default)
+						(width -0.0001)
+						(type solid)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(circle
@@ -911,7 +791,7 @@
 					)
 				)
 			)
-			(symbol "Cortex_Debug_1_1"
+			(symbol "Cortex_1_1"
 				(rectangle
 					(start -8.89 7.62)
 					(end 11.43 -7.62)
@@ -921,6 +801,126 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "V2_Connector_WAGO:2065"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.524 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "WAGO 2065-100"
+				(at 9.144 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "V2_Connector_WAGO:2065-100"
+				(at 0 -9.906 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "WAGO"
+				(at 0 -13.208 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Product" "2065-100/998-403"
+				(at 0 -16.51 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "2065_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -8782,7 +8782,7 @@
 		(lib_id "V2_Artwork:Arrow_Out")
 		(at 237.49 144.78 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -9147,7 +9147,7 @@
 		(lib_id "V2_Mechanical:MountingHole_2mm")
 		(at 184.15 193.04 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -9465,7 +9465,7 @@
 		(lib_id "V2_Mechanical:MountingHole_2mm")
 		(at 184.15 172.72 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -10082,7 +10082,7 @@
 		(lib_id "V2_PCB_Devices:Button-bottom")
 		(at 210.82 163.83 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -10626,7 +10626,7 @@
 		(lib_id "V2_Mechanical:MountingHole_3mm")
 		(at 256.54 176.53 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -10697,7 +10697,7 @@
 		(lib_id "V2_Artwork:Plus")
 		(at 199.39 144.78 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -10873,7 +10873,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Cortex_Debug:Cortex_Debug")
+		(lib_id "V2_Connector_Debug:Cortex")
 		(at 120.65 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10882,22 +10882,23 @@
 		(dnp no)
 		(uuid "4cc11ea8-fcc3-4f81-a9b7-809c1c7ae0b6")
 		(property "Reference" "J103"
-			(at 121.92 95.25 0)
+			(at 114.3 96.012 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Cortex_Debug"
-			(at 121.92 97.79 0)
+		(property "Value" "Cortex"
+			(at 111.76 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Footprint" "V2_Cortex_Debug:Cortex_Debug_Pad"
+		(property "Footprint" "V2_Connector_Debug:Cortex"
 			(at 120.65 121.92 0)
 			(effects
 				(font
@@ -11873,7 +11874,7 @@
 		(lib_id "V2_Mechanical:MountingHole_2mm")
 		(at 184.15 152.4 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -12306,7 +12307,7 @@
 		(lib_id "V2_Mechanical:MountingHole_2mm")
 		(at 184.15 182.88 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -12441,7 +12442,7 @@
 		(lib_id "V2_PCB_Devices:PCB_Plug_Horizontal")
 		(at 233.68 160.02 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -12772,7 +12773,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:PWR_FLAG")
-		(at 251.46 21.59 90)
+		(at 251.46 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12780,7 +12781,7 @@
 		(dnp no)
 		(uuid "8a6e7a5d-4b4e-46e3-ae84-b4db0434e389")
 		(property "Reference" "#FLG0101"
-			(at 249.555 21.59 0)
+			(at 251.46 19.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12789,7 +12790,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 242.57 21.59 90)
+			(at 242.316 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13452,7 +13453,7 @@
 		(lib_id "V2_Mechanical:MountingHole_2mm")
 		(at 184.15 162.56 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -13654,7 +13655,7 @@
 		(lib_id "V2_Artwork:Board_step")
 		(at 162.56 173.99 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -14340,7 +14341,7 @@
 		(lib_id "V2_Artwork:Arrow_In")
 		(at 220.98 144.78 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -14979,7 +14980,7 @@
 		(lib_id "V2_Mechanical:MountingHole_3mm")
 		(at 256.54 165.1 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -15302,7 +15303,7 @@
 		(lib_id "V2_Mechanical:MountingHole_3mm")
 		(at 256.54 153.67 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -15373,7 +15374,7 @@
 		(lib_id "V2_Artwork:V2-logo")
 		(at 163.195 160.02 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -15445,7 +15446,7 @@
 		(lib_id "V2_PCB_Devices:PCB_Plug_Horizontal")
 		(at 233.68 175.26 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)

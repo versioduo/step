@@ -1558,7 +1558,7 @@
 					)
 				)
 			)
-			(property "Footprint" "V2_Driver_Stepper:QFN36-5X6"
+			(property "Footprint" "V2_Package_DFN_QFN:QFN36-5X6"
 				(at 0 -49.784 0)
 				(effects
 					(font
@@ -6144,7 +6144,7 @@
 				)
 			)
 		)
-		(property "Footprint" "V2_Driver_Stepper:QFN36-5X6"
+		(property "Footprint" "V2_Package_DFN_QFN:QFN36-5X6"
 			(at 158.75 150.114 0)
 			(effects
 				(font
