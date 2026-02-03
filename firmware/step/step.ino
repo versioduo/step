@@ -79,7 +79,7 @@ namespace {
 
   class Power : public V2PowerSupply {
   public:
-    Power() : V2PowerSupply({.min{4.8}, .max{26}}) {}
+    Power() : V2PowerSupply({.min{4.8}, .max{30}}) {}
 
     void begin() {
       pinMode(PIN_DRIVER_ENABLE, OUTPUT);
