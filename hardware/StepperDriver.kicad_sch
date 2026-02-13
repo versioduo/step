@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Stepper Driver")
-		(date "2025-10-27")
-		(rev "2")
+		(date "2026-02-10")
+		(rev "2026-02-10")
 		(company "Versio Duo")
 	)
 	(lib_symbols
@@ -6630,7 +6630,7 @@
 		(dnp no)
 		(uuid "e9feafc0-7605-463c-ab43-73a5a7113a3d")
 		(property "Reference" "C206"
-			(at 112.268 81.28 0)
+			(at 112.776 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6639,7 +6639,7 @@
 			)
 		)
 		(property "Value" "0u47"
-			(at 112.776 84.074 0)
+			(at 112.776 83.566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6983,7 +6983,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:PWR_FLAG")
-		(at 121.92 78.74 0)
+		(at 121.92 78.74 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6991,7 +6991,7 @@
 		(dnp no)
 		(uuid "ffb62d9c-8028-445f-841b-27c581c7afdd")
 		(property "Reference" "#FLG0201"
-			(at 121.92 76.835 0)
+			(at 123.825 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7000,7 +7000,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 128.27 76.708 0)
+			(at 128.524 76.962 90)
 			(effects
 				(font
 					(size 1.27 1.27)

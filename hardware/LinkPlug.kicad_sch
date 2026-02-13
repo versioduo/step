@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "V2 Link")
-		(date "2025-10-27")
-		(rev "4")
+		(date "2026-02-10")
+		(rev "2026-02-10")
 		(company "Plug")
 	)
 	(lib_symbols
@@ -1583,7 +1583,7 @@
 	)
 	(text "Power input from plug."
 		(exclude_from_sim no)
-		(at 135.89 161.29 0)
+		(at 137.414 160.528 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2025,72 +2025,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:PWR_FLAG")
-		(at 144.78 156.21 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "37ff2809-4acb-4182-b079-1b56f96f0fb2")
-		(property "Reference" "#FLG01902"
-			(at 146.685 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 153.035 156.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 144.78 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "483eb306-b068-40f0-92ab-26a8a11b1c6e")
-		)
-		(instances
-			(project "pulse"
-				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c6db2f80-f80f-4104-8ca1-02f0ab85cfea"
-					(reference "#FLG01902")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "V2_power:PWR_FLAG")
-		(at 144.78 152.4 270)
+		(at 144.78 154.94 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2098,7 +2033,7 @@
 		(dnp no)
 		(uuid "4072bcf9-7e5a-49f7-9263-a0a606602071")
 		(property "Reference" "#FLG01901"
-			(at 146.685 152.4 0)
+			(at 144.78 156.845 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2107,7 +2042,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 153.035 152.4 90)
+			(at 153.924 155.067 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2115,7 +2050,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 152.4 0)
+			(at 144.78 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2124,7 +2059,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 152.4 0)
+			(at 144.78 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2133,7 +2068,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 144.78 152.4 0)
+			(at 144.78 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2500,7 +2435,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:+5V")
-		(at 144.78 152.4 90)
+		(at 144.78 154.94 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2508,7 +2443,7 @@
 		(dnp no)
 		(uuid "a50a4f94-6044-4810-b7e9-9168e306b849")
 		(property "Reference" "#PWR01908"
-			(at 148.59 152.4 0)
+			(at 148.59 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2517,7 +2452,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 139.7 152.4 90)
+			(at 139.7 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2525,7 +2460,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 152.4 0)
+			(at 144.78 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2534,7 +2469,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 152.4 0)
+			(at 144.78 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2543,7 +2478,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 144.78 152.4 0)
+			(at 144.78 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2885,72 +2820,6 @@
 			(project "pulse"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c6db2f80-f80f-4104-8ca1-02f0ab85cfea"
 					(reference "#PWR01901")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "V2_power:GND")
-		(at 144.78 156.21 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e963bf16-3224-41f7-baa2-c3a09c3b7e41")
-		(property "Reference" "#PWR01909"
-			(at 138.43 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 139.7 156.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 144.78 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8b16e80a-b354-4954-acd8-92c00c2926a7")
-		)
-		(instances
-			(project "pulse"
-				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c6db2f80-f80f-4104-8ca1-02f0ab85cfea"
-					(reference "#PWR01909")
 					(unit 1)
 				)
 			)
