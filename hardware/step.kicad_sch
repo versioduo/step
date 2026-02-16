@@ -5668,6 +5668,7 @@
 				(effects
 					(font
 						(size 1.27 1.27)
+						(color 255 92 187 1)
 					)
 				)
 			)
@@ -5793,6 +5794,7 @@
 				(effects
 					(font
 						(size 1.27 1.27)
+						(color 255 92 187 1)
 					)
 				)
 			)
@@ -5918,6 +5920,7 @@
 				(effects
 					(font
 						(size 1.27 1.27)
+						(color 255 92 187 1)
 					)
 				)
 			)
@@ -8468,10 +8471,11 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 184.15 121.92 90)
+			(at 185.166 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 255 92 187 1)
 				)
 			)
 		)
@@ -8537,6 +8541,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 255 92 187 1)
 				)
 			)
 		)
@@ -8754,7 +8759,7 @@
 		(lib_id "V2_Artwork:Arrow_Out")
 		(at 223.52 165.1 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -8806,15 +8811,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 223.52 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project ""
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
@@ -8847,6 +8843,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 255 92 187 1)
 				)
 			)
 		)
@@ -9299,7 +9296,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "183b23ac-bf89-4f74-a8bb-b8be259b2ecc")
 		(property "Reference" "#PWR105"
 			(at 243.84 31.75 0)
@@ -9311,12 +9307,12 @@
 			)
 		)
 		(property "Value" "+28V"
-			(at 236.22 31.7499 90)
+			(at 233.172 31.7499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 255 92 187 1)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -9885,6 +9881,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 255 92 187 1)
 				)
 			)
 		)
@@ -10036,7 +10033,7 @@
 		(lib_id "V2_PCB_Devices:Button-bottom")
 		(at 190.5 152.4 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -10077,15 +10074,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 190.5 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 190.5 152.4 0)
 			(effects
 				(font
@@ -10322,7 +10310,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "344f2f85-b75c-4a92-9115-fb3597609471")
 		(property "Reference" "#PWR102"
 			(at 252.73 19.05 0)
@@ -10334,12 +10321,12 @@
 			)
 		)
 		(property "Value" "+28V"
-			(at 260.35 19.0499 90)
+			(at 264.414 19.0499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 255 92 187 1)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -10400,10 +10387,11 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 72.39 17.78 0)
+			(at 72.39 17.018 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 255 92 187 1)
 				)
 			)
 		)
@@ -10534,6 +10522,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 255 92 187 1)
 				)
 			)
 		)
@@ -10595,10 +10584,11 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 41.91 121.92 90)
+			(at 41.148 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 255 92 187 1)
 				)
 			)
 		)
@@ -10707,7 +10697,7 @@
 		(lib_id "V2_Artwork:Plus")
 		(at 223.52 152.4 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -10751,15 +10741,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 223.52 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 223.52 152.4 0)
 			(effects
 				(font
@@ -11184,6 +11165,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 255 92 187 1)
 				)
 			)
 		)
@@ -11706,6 +11688,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 255 92 187 1)
 				)
 			)
 		)
@@ -11767,12 +11750,12 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 46.99 46.99 90)
+			(at 46.482 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 255 92 187 1)
 				)
-				(justify bottom)
 			)
 		)
 		(property "Footprint" ""
@@ -12384,10 +12367,11 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 102.87 102.87 90)
+			(at 101.854 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 255 92 187 1)
 				)
 			)
 		)
@@ -12434,7 +12418,7 @@
 		(lib_id "V2_PCB_Devices:PCB_Plug_Horizontal")
 		(at 190.5 160.02 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -12475,15 +12459,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 190.5 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 190.5 160.02 0)
 			(effects
 				(font
@@ -13638,7 +13613,7 @@
 		(lib_id "V2_Artwork:Board_step")
 		(at 157.48 160.02 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -13680,15 +13655,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 157.48 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 157.48 160.02 0)
 			(effects
 				(font
@@ -14324,7 +14290,7 @@
 		(lib_id "V2_Artwork:Arrow_In")
 		(at 223.52 158.75 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -14368,15 +14334,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 223.52 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 223.52 158.75 0)
 			(effects
 				(font
@@ -15468,7 +15425,7 @@
 		(lib_id "V2_PCB_Devices:PCB_Plug_Horizontal")
 		(at 190.5 168.91 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -15509,15 +15466,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 190.5 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 190.5 168.91 0)
 			(effects
 				(font

@@ -2603,6 +2603,7 @@
 				(effects
 					(font
 						(size 1.27 1.27)
+						(color 255 92 187 1)
 					)
 				)
 			)
@@ -2728,6 +2729,7 @@
 				(effects
 					(font
 						(size 1.27 1.27)
+						(color 255 92 187 1)
 					)
 				)
 			)
@@ -2853,6 +2855,7 @@
 				(effects
 					(font
 						(size 1.27 1.27)
+						(color 255 92 187 1)
 					)
 				)
 			)
@@ -3536,7 +3539,7 @@
 		)
 		(uuid "203cff1d-507a-460f-9856-be2f6d3e2f97")
 	)
-	(label "LDO-5V"
+	(label "+5VOUT"
 		(at 125.73 73.66 0)
 		(effects
 			(font
@@ -3908,7 +3911,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0fe9dbc6-040a-4f27-8c19-d4042580ccc6")
 		(property "Reference" "#PWR208"
 			(at 143.51 88.9 0)
@@ -3920,12 +3922,12 @@
 			)
 		)
 		(property "Value" "+28V"
-			(at 135.89 88.8999 90)
+			(at 133.35 88.8999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 255 92 187 1)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4614,10 +4616,11 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 170.18 156.21 90)
+			(at 171.45 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 255 92 187 1)
 				)
 			)
 		)
@@ -5228,7 +5231,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "794bed67-c6fe-4917-909e-c35d3b8beebb")
 		(property "Reference" "#PWR205"
 			(at 143.51 81.28 0)
@@ -5240,12 +5242,12 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 135.89 81.2799 90)
+			(at 133.35 81.2799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 255 92 187 1)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5323,6 +5325,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 255 92 187 1)
 				)
 			)
 		)
@@ -5385,7 +5388,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7bd08665-c1f8-477f-99ca-ce07607b001c")
 		(property "Reference" "#PWR209"
 			(at 143.51 91.44 0)
@@ -5397,12 +5399,12 @@
 			)
 		)
 		(property "Value" "+28V"
-			(at 135.89 91.4399 90)
+			(at 133.35 91.4399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 255 92 187 1)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -6566,6 +6568,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 255 92 187 1)
 				)
 			)
 		)
