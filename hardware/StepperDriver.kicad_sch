@@ -58,8 +58,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 -12.7 0)
+			(property "Description" ""
+				(at 0 -13.462 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -228,8 +228,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 -12.7 0)
+			(property "Description" ""
+				(at 0 -13.462 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -408,8 +408,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 -12.7 0)
+			(property "Description" ""
+				(at 0 -13.462 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -578,8 +578,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 -12.7 0)
+			(property "Description" ""
+				(at 0 -13.462 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -748,8 +748,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 -12.7 0)
+			(property "Description" ""
+				(at 0 -13.462 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -757,7 +757,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser" "810-CNA6P1X7R1H106K2"
+			(property "Mouser" "810-CNC6P1X7R1H106K2"
 				(at 0 -22.86 0)
 				(show_name)
 				(effects
@@ -777,7 +777,7 @@
 					(hide yes)
 				)
 			)
-			(property "Product" "CNA6P1X7R1H106K250AE"
+			(property "Product" "CNC6P1X7R1H106K250AE"
 				(at 0 -17.78 0)
 				(show_name)
 				(effects
@@ -928,8 +928,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Polarized capacitor, small symbol"
-				(at 0 -12.7 0)
+			(property "Description" ""
+				(at 0 -13.208 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1226,7 +1226,7 @@
 					)
 				)
 			)
-			(property "Footprint" "V2_Package_DFN_QFN:QFN36-5X6"
+			(property "Footprint" "V2_Package_DFN_QFN:QFN-36-5X6"
 				(at 0 -49.784 0)
 				(effects
 					(font
@@ -2292,8 +2292,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor, small symbol"
-				(at 0 -12.7 0)
+			(property "Description" ""
+				(at 0 -12.192 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2457,8 +2457,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor, small symbol"
-				(at 0 -12.7 0)
+			(property "Description" ""
+				(at 0 -12.192 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3721,7 +3721,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 158.75 62.992 0)
 			(effects
 				(font
@@ -3730,7 +3730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "810-CNA6P1X7R1H106K2"
+		(property "Mouser" "810-CNC6P1X7R1H106K2"
 			(at 158.75 66.04 0)
 			(show_name yes)
 			(effects
@@ -3750,7 +3750,7 @@
 				(hide yes)
 			)
 		)
-		(property "Product" "CNA6P1X7R1H106K250AE"
+		(property "Product" "CNC6P1X7R1H106K250AE"
 			(at 158.75 67.31 0)
 			(effects
 				(font
@@ -3840,7 +3840,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 107.95 94.742 0)
 			(effects
 				(font
@@ -4026,7 +4026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 175.26 104.902 0)
 			(effects
 				(font
@@ -4134,7 +4134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 170.18 62.992 0)
 			(effects
 				(font
@@ -4143,7 +4143,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "810-CNA6P1X7R1H106K2"
+		(property "Mouser" "810-CNC6P1X7R1H106K2"
 			(at 170.18 66.04 0)
 			(effects
 				(font
@@ -4161,7 +4161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Product" "CNA6P1X7R1H106K250AE"
+		(property "Product" "CNC6P1X7R1H106K250AE"
 			(at 170.18 67.31 0)
 			(effects
 				(font
@@ -4445,7 +4445,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 124.46 62.992 0)
 			(effects
 				(font
@@ -4798,7 +4798,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 201.422 127 0)
 			(effects
 				(font
@@ -4993,7 +4993,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 139.7 99.822 0)
 			(effects
 				(font
@@ -5582,7 +5582,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor, small symbol"
+		(property "Description" ""
 			(at 143.51 62.738 0)
 			(effects
 				(font
@@ -6048,7 +6048,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 126.492 78.74 0)
 			(effects
 				(font
@@ -6146,7 +6146,7 @@
 				)
 			)
 		)
-		(property "Footprint" "V2_Package_DFN_QFN:QFN36-5X6"
+		(property "Footprint" "V2_Package_DFN_QFN:QFN-36-5X6"
 			(at 158.75 150.114 0)
 			(effects
 				(font
@@ -6472,7 +6472,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 201.422 129.54 0)
 			(effects
 				(font
@@ -6668,7 +6668,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 120.65 94.742 0)
 			(effects
 				(font
