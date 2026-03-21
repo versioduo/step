@@ -1,14 +1,14 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "6f918008-f405-4535-9a98-a7a6b1fd7c1d")
 	(paper "A4")
 	(title_block
 		(title "V2 Link")
-		(date "2026-02-10")
+		(date "2026-03-20")
 		(rev "2026-02-10")
-		(company "Plug")
+		(company "Versio Duo")
 	)
 	(lib_symbols
 		(symbol "V2_Capacitor:0603_0u1"
@@ -22,8 +22,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at 1.778 1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -33,6 +37,8 @@
 			)
 			(property "Value" "0u1"
 				(at 1.778 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -42,87 +48,101 @@
 			)
 			(property "Footprint" "V2_Capacitor_SMD:C_0603"
 				(at 0 -17.018 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 -13.462 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Mouser" "810-CGA3E2X7R1H104MA"
 				(at 0 -20.32 0)
-				(show_name)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Manufacturer" "TDK"
 				(at 0 -15.24 0)
-				(show_name)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Product" "CGA3E2X7R1H104M080AA"
 				(at 0 -17.78 0)
-				(show_name)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Rating" "50V"
 				(at 0 -22.86 0)
-				(show_name)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "capacitor cap"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "C_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "0603_0u1_0_1"
@@ -155,7 +175,7 @@
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -173,7 +193,7 @@
 				(pin passive line
 					(at 0 -2.54 90)
 					(length 2.032)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -198,8 +218,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
 				(at 0 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -208,6 +232,8 @@
 			)
 			(property "Value" "2x05_Horizontal"
 				(at 1.27 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -216,59 +242,68 @@
 			)
 			(property "Footprint" "V2_Connector_Header_1.27mm:PinHeader_2x05_P1.27mm_Horizontal"
 				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at -1.27 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Amphenol – Minitek127"
 				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Mouser" "649-200211120001T4LF"
 				(at 0 -22.86 0)
-				(show_name)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Manufacturer" "Amphenol FCI"
 				(at 0 -17.78 0)
-				(show_name)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Product" "20021112-00010T4LF"
 				(at 0 -20.32 0)
-				(show_name)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "2x05_Horizontal_1_1"
@@ -302,78 +337,6 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -6.35 0 0)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -6.35 -2.54 0)
-					(length 3.81)
-					(name "Pin_7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -6.35 -5.08 0)
-					(length 3.81)
-					(name "Pin_9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 6.35 5.08 180)
 					(length 3.81)
 					(name "Pin_2"
@@ -384,6 +347,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -410,6 +391,24 @@
 					)
 				)
 				(pin passive line
+					(at -6.35 0 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 6.35 0 180)
 					(length 3.81)
 					(name "Pin_6"
@@ -428,6 +427,24 @@
 					)
 				)
 				(pin passive line
+					(at -6.35 -2.54 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 6.35 -2.54 180)
 					(length 3.81)
 					(name "Pin_8"
@@ -438,6 +455,24 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 -5.08 0)
+					(length 3.81)
+					(name "Pin_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -470,8 +505,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at 2.54 17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -481,6 +520,8 @@
 			)
 			(property "Value" "THVD2442"
 				(at 2.54 15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -490,59 +531,68 @@
 			)
 			(property "Footprint" "V2_Package_SON:VSON-10-4-1EP_3x3mm_P0.5mm_EP1.65x2.4mm_ThermalVias"
 				(at 0 -43.18 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 -22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Mouser" "595-THVD2442DRCR"
 				(at 0 -35.56 0)
-				(show_name)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Product" "THVD2442DRCR "
 				(at 0 -33.02 0)
-				(show_name)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Manufacturer" "Texas Instruments"
 				(at 0 -30.48 0)
-				(show_name)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "THVD2442_0_1"
@@ -821,6 +871,96 @@
 					)
 				)
 				(pin power_in line
+					(at 0 -15.24 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(name "Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "Z"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
 					(at 0 15.24 270)
 					(length 2.54)
 					(name "VCC"
@@ -857,96 +997,6 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 -15.24 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 7.62 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "Z"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 -7.62 180)
-					(length 2.54)
-					(name "Y"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(embedded_fonts no)
 		)
@@ -961,8 +1011,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
 				(at 2.032 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.016 1.016)
@@ -971,6 +1025,8 @@
 			)
 			(property "Value" "100R"
 				(at 3.81 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -979,87 +1035,101 @@
 			)
 			(property "Footprint" "V2_Resistor_SMD:R_0603"
 				(at 0 -15.748 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 -12.192 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Mouser" "71-CRCW0603100RFKEAH"
 				(at 0 -25.4 0)
-				(show_name)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Rating" "330mW"
 				(at 0 -22.86 0)
-				(show_name)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Manufacturer" "Vishay"
 				(at 0 -17.78 0)
-				(show_name)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Product" "CRCW0603100RFKEAHP"
 				(at 0 -20.32 0)
-				(show_name)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "R resistor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "R_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "0603_100R_0_1"
@@ -1079,7 +1149,7 @@
 				(pin passive line
 					(at 0 2.54 270)
 					(length 0.762)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1097,7 +1167,7 @@
 				(pin passive line
 					(at 0 -2.54 90)
 					(length 0.762)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1116,7 +1186,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "V2_power:+3V3"
-			(power)
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
@@ -1127,17 +1197,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -12.192 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "+3V3"
 				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1147,38 +1223,46 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 -14.986 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "+3V3_0_1"
@@ -1223,7 +1307,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1242,7 +1326,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "V2_power:+5V"
-			(power)
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
@@ -1253,17 +1337,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "+5V"
 				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1273,38 +1363,46 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 -14.478 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "+5V_0_1"
@@ -1349,7 +1447,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1368,7 +1466,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "V2_power:GND"
-			(power)
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
@@ -1379,58 +1477,72 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "GND"
 				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "GND_0_1"
@@ -1451,7 +1563,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1470,7 +1582,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "V2_power:PWR_FLAG"
-			(power)
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
@@ -1481,17 +1593,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#FLG"
 				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "PWR_FLAG"
 				(at -8.89 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1500,45 +1618,53 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Special symbol for telling ERC where power comes from"
 				(at 0 -10.922 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "flag power"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "PWR_FLAG_0_0"
 				(pin power_out line
 					(at 0 0 180)
 					(length 0)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1581,7 +1707,7 @@
 		(fill
 			(type none)
 		)
-		(uuid bceac3f1-71fb-48f7-a021-1712813c46e1)
+		(uuid "bceac3f1-71fb-48f7-a021-1712813c46e1")
 	)
 	(text "Power input from plug."
 		(exclude_from_sim no)
@@ -1963,61 +2089,73 @@
 		(lib_id "V2_power:GND")
 		(at 166.37 58.42 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "0424c4f3-85a4-465c-b233-1a650daff944")
 		(property "Reference" "#PWR1902"
 			(at 166.37 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 166.37 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 166.37 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 166.37 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 166.37 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "9559d2ab-bbcb-42a5-9837-c8c1c1e3178e")
 		)
 		(instances
-			(project "pulse"
+			(project "step"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c6db2f80-f80f-4104-8ca1-02f0ab85cfea"
 					(reference "#PWR1902")
 					(unit 1)
@@ -2029,22 +2167,28 @@
 		(lib_id "V2_power:PWR_FLAG")
 		(at 144.78 154.94 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "4072bcf9-7e5a-49f7-9263-a0a606602071")
 		(property "Reference" "#FLG1901"
 			(at 144.78 156.845 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "PWR_FLAG"
 			(at 153.924 155.067 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2053,36 +2197,42 @@
 		)
 		(property "Footprint" ""
 			(at 144.78 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 144.78 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 144.78 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "e89999aa-e24e-414a-ab75-dbcd485f7bbf")
 		)
 		(instances
-			(project "pulse"
+			(project "step"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c6db2f80-f80f-4104-8ca1-02f0ab85cfea"
 					(reference "#FLG1901")
 					(unit 1)
@@ -2094,14 +2244,18 @@
 		(lib_id "V2_Interface_RS485:THVD2442")
 		(at 146.05 76.2 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49f2f260-4bf1-486c-9d7a-43ac2a901e5b")
 		(property "Reference" "U1901"
 			(at 148.1933 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2111,6 +2265,8 @@
 		)
 		(property "Value" "THVD2442"
 			(at 148.1933 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2120,56 +2276,68 @@
 		)
 		(property "Footprint" "V2_Package_SON:VSON-10-4-1EP_3x3mm_P0.5mm_EP1.65x2.4mm_ThermalVias"
 			(at 146.05 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 146.05 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 146.05 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Mouser" "595-THVD2442DRCR"
 			(at 146.05 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Product" "THVD2442DRCR "
 			(at 146.05 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
 			(at 146.05 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2206,7 +2374,7 @@
 			(uuid "014f5540-b641-4e5f-a062-dcb2818ad208")
 		)
 		(instances
-			(project "pulse"
+			(project "step"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c6db2f80-f80f-4104-8ca1-02f0ab85cfea"
 					(reference "U1901")
 					(unit 1)
@@ -2218,13 +2386,17 @@
 		(lib_id "V2_Resistor:0603_100R")
 		(at 157.48 71.12 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "51d3649f-ce1e-4270-8185-d550f68a90c3")
 		(property "Reference" "R1901"
 			(at 162.56 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2233,6 +2405,8 @@
 		)
 		(property "Value" "100R"
 			(at 161.29 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2241,65 +2415,79 @@
 		)
 		(property "Footprint" "V2_Resistor_SMD:R_0603"
 			(at 157.48 86.868 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 157.48 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 157.48 83.312 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Mouser" "71-CRCW0603100RFKEAH"
 			(at 157.48 86.614 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Rating" "330mW"
 			(at 157.48 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Vishay"
 			(at 157.48 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Product" "CRCW0603100RFKEAHP"
 			(at 157.48 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2309,7 +2497,7 @@
 			(uuid "9539cc78-8993-4c39-b91e-f72dc7f8b08e")
 		)
 		(instances
-			(project "pulse"
+			(project "step"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c6db2f80-f80f-4104-8ca1-02f0ab85cfea"
 					(reference "R1901")
 					(unit 1)
@@ -2321,13 +2509,17 @@
 		(lib_id "V2_Connector_Header_1.27mm:2x05_Horizontal")
 		(at 147.32 132.08 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "62a1336e-f99f-41ce-b326-637bf3886a09")
 		(property "Reference" "J1901"
 			(at 148.59 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2336,6 +2528,8 @@
 		)
 		(property "Value" "2x05_Horizontal"
 			(at 147.32 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2344,56 +2538,68 @@
 		)
 		(property "Footprint" "V2_Connector_Header_1.27mm:PinHeader_2x05_P1.27mm_Horizontal"
 			(at 147.32 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 146.05 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Amphenol – Minitek127"
 			(at 147.32 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Mouser" "649-200211120001T4LF"
 			(at 147.32 152.654 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Amphenol FCI"
 			(at 147.32 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Product" "20021112-00010T4LF"
 			(at 147.32 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2427,7 +2633,7 @@
 			(uuid "77d5716b-e94d-4972-a4a7-bc85640097a7")
 		)
 		(instances
-			(project "pulse"
+			(project "step"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c6db2f80-f80f-4104-8ca1-02f0ab85cfea"
 					(reference "J1901")
 					(unit 1)
@@ -2439,22 +2645,28 @@
 		(lib_id "V2_power:+5V")
 		(at 144.78 154.94 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "a50a4f94-6044-4810-b7e9-9168e306b849")
 		(property "Reference" "#PWR1908"
 			(at 148.59 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "+5V"
 			(at 138.43 154.94 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2464,36 +2676,42 @@
 		)
 		(property "Footprint" ""
 			(at 144.78 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 144.78 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 144.78 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "6138cfca-995f-4bb0-86b4-1baba76baf67")
 		)
 		(instances
-			(project "pulse"
+			(project "step"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c6db2f80-f80f-4104-8ca1-02f0ab85cfea"
 					(reference "#PWR1908")
 					(unit 1)
@@ -2505,61 +2723,73 @@
 		(lib_id "V2_power:GND")
 		(at 140.97 129.54 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "afb73ded-0411-4bb9-9664-e9156d949823")
 		(property "Reference" "#PWR1904"
 			(at 134.62 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 135.89 129.5399 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 140.97 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 140.97 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 140.97 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "e01f8e72-6f52-4760-8287-26b71cb18a3a")
 		)
 		(instances
-			(project "pulse"
+			(project "step"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c6db2f80-f80f-4104-8ca1-02f0ab85cfea"
 					(reference "#PWR1904")
 					(unit 1)
@@ -2571,22 +2801,28 @@
 		(lib_id "V2_power:+5V")
 		(at 140.97 134.62 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "bd20b057-b856-45fa-ab3f-0c7b37662069")
 		(property "Reference" "#PWR1906"
 			(at 144.78 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "+5V"
 			(at 135.89 134.62 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2596,36 +2832,42 @@
 		)
 		(property "Footprint" ""
 			(at 140.97 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 140.97 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 140.97 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "e5f43022-1cd1-4aa9-adf2-4f4ad6abc7ff")
 		)
 		(instances
-			(project "pulse"
+			(project "step"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c6db2f80-f80f-4104-8ca1-02f0ab85cfea"
 					(reference "#PWR1906")
 					(unit 1)
@@ -2637,61 +2879,73 @@
 		(lib_id "V2_power:GND")
 		(at 146.05 91.44 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "be77e115-89c3-4c96-8eda-21367d69e956")
 		(property "Reference" "#PWR1903"
 			(at 146.05 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 146.05 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 146.05 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 146.05 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 146.05 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "70af5325-f426-4c84-8b79-d3ace8844cae")
 		)
 		(instances
-			(project "pulse"
+			(project "step"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c6db2f80-f80f-4104-8ca1-02f0ab85cfea"
 					(reference "#PWR1903")
 					(unit 1)
@@ -2703,22 +2957,28 @@
 		(lib_id "V2_power:+5V")
 		(at 153.67 129.54 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "c2da836a-3661-4643-af78-9afd18d81ebe")
 		(property "Reference" "#PWR1905"
 			(at 149.86 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "+5V"
 			(at 158.75 129.54 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2728,36 +2988,42 @@
 		)
 		(property "Footprint" ""
 			(at 153.67 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 153.67 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 153.67 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "0632701c-0603-4ed6-9c4c-2b97fdb34e6a")
 		)
 		(instances
-			(project "pulse"
+			(project "step"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c6db2f80-f80f-4104-8ca1-02f0ab85cfea"
 					(reference "#PWR1905")
 					(unit 1)
@@ -2769,22 +3035,28 @@
 		(lib_id "V2_power:+3V3")
 		(at 146.05 53.34 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "e7fe0738-e64f-410b-87d2-2898ed4dbb8d")
 		(property "Reference" "#PWR1901"
 			(at 146.05 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "+3V3"
 			(at 146.05 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2794,36 +3066,42 @@
 		)
 		(property "Footprint" ""
 			(at 146.05 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 146.05 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 146.05 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "9e10a50f-84bd-4393-a3f7-51214f6112f5")
 		)
 		(instances
-			(project "pulse"
+			(project "step"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c6db2f80-f80f-4104-8ca1-02f0ab85cfea"
 					(reference "#PWR1901")
 					(unit 1)
@@ -2835,61 +3113,73 @@
 		(lib_id "V2_power:GND")
 		(at 153.67 134.62 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "efe495e2-5921-4d2f-9f16-57ddd4bdedbd")
 		(property "Reference" "#PWR1907"
 			(at 160.02 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 158.75 134.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 153.67 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 153.67 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 153.67 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "46aea9ab-ba0c-450b-97bd-5130ebe3c51a")
 		)
 		(instances
-			(project "pulse"
+			(project "step"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c6db2f80-f80f-4104-8ca1-02f0ab85cfea"
 					(reference "#PWR1907")
 					(unit 1)
@@ -2901,13 +3191,17 @@
 		(lib_id "V2_Capacitor:0603_0u1")
 		(at 166.37 55.88 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "f076f75b-54ef-473a-90ee-71c9fc219e00")
 		(property "Reference" "C1901"
 			(at 168.91 54.6162 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2917,6 +3211,8 @@
 		)
 		(property "Value" "0u1"
 			(at 168.148 57.912 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2926,65 +3222,79 @@
 		)
 		(property "Footprint" "V2_Capacitor_SMD:C_0603"
 			(at 166.37 72.898 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 166.37 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 166.37 69.342 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Mouser" "810-CGA3E2X7R1H104MA"
 			(at 166.37 73.152 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "TDK"
 			(at 166.37 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Product" "CGA3E2X7R1H104M080AA"
 			(at 166.37 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Rating" "50V"
 			(at 166.37 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2994,7 +3304,7 @@
 			(uuid "b1a8d27d-3513-46b9-82e6-88c9a75565c1")
 		)
 		(instances
-			(project "pulse"
+			(project "step"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c6db2f80-f80f-4104-8ca1-02f0ab85cfea"
 					(reference "C1901")
 					(unit 1)
