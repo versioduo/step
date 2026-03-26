@@ -9,18 +9,17 @@
         "description": "",
         "drawing_sheet": "",
         "format": "pdf",
-        "hpgl_page_size": "default",
-        "hpgl_pen_size": 1.016,
-        "hpgl_plot_origin": "A3",
         "min_pen_width": 847,
-        "output_dir": "",
+        "output_filename": "step.pdf",
         "page_size": "auto",
         "pdf_hierarchical_links": true,
         "pdf_metadata": true,
         "pdf_property_popups": true,
         "plot_all": true,
         "plot_drawing_sheet": true,
-        "use_background_color": true
+        "show_hop_over": false,
+        "use_background_color": true,
+        "variant_name": ""
       },
       "type": "sch_export_plot_pdf"
     },
@@ -29,6 +28,7 @@
       "id": "8209ceeb-77ca-4f9d-891d-a426b02a215b",
       "settings": {
         "black_and_white": true,
+        "check_zones": false,
         "create_gerber_job_file": false,
         "crossout_dnp_footprints_on_fab_layers": false,
         "description": "",
@@ -99,7 +99,9 @@
       "id": "bf6df3bc-ef62-429b-9518-34452a746791",
       "settings": {
         "back_fp_property_popups": true,
+        "background_color": "rgba(0, 0, 0, 0.000)",
         "black_and_white": false,
+        "check_zones": true,
         "color_theme": "",
         "crossout_dnp_footprints_on_fab_layers": true,
         "description": "",
@@ -139,7 +141,8 @@
           "In3.Cu",
           "In2.Cu",
           "In1.Cu",
-          "F.Cu"
+          "F.Cu",
+          "F.SilkS"
         ],
         "layers_to_include_on_all_layers": [
           "Edge.Cuts"
@@ -153,6 +156,7 @@
         "plot_footprint_values": true,
         "plot_pad_numbers": false,
         "plot_ref_des": true,
+        "scale": 1.0,
         "single_document": true,
         "sketch_dnp_footprints_on_fab_layers": true,
         "sketch_pads_on_fab_layers": false,
@@ -238,7 +242,7 @@
       ],
       "settings": {
         "format": "zip",
-        "output_path": "."
+        "output_path": "step-gerber"
       },
       "type": "archive"
     },
