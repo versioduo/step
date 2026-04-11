@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "V2 step")
-		(date "2026-03-20")
+		(date "2026-04-11")
 		(rev "2026-02-10")
 		(company "Versio Duo")
 		(comment 1 "Stepper Motor Controller")
@@ -557,7 +557,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 1.778 1.524 0)
+				(at 2.54 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -568,7 +568,7 @@
 				)
 			)
 			(property "Value" "0u1"
-				(at 1.778 -2.032 0)
+				(at 2.54 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -579,7 +579,7 @@
 				)
 			)
 			(property "Footprint" "V2_Capacitor_SMD:C_0603"
-				(at 0 -17.018 0)
+				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -613,6 +613,17 @@
 			)
 			(property "Mouser" "810-CGA3E2X7R1H104MA"
 				(at 0 -20.32 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Capacitor:${SYMBOL_NAME}"
+				(at 0 -15.24 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -757,7 +768,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 1.524 1.778 0)
+				(at 2.54 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -768,7 +779,7 @@
 				)
 			)
 			(property "Value" "10u"
-				(at 1.524 -2.032 0)
+				(at 2.54 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -779,7 +790,7 @@
 				)
 			)
 			(property "Footprint" "V2_Capacitor_SMD:C_0603"
-				(at 0 -17.018 0)
+				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -813,6 +824,17 @@
 			)
 			(property "Mouser" "810-C1608X6S1A106M"
 				(at 0 -22.86 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Capacitor:${SYMBOL_NAME}"
+				(at 0 -15.24 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -957,7 +979,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 1.524 1.778 0)
+				(at 2.54 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -968,7 +990,7 @@
 				)
 			)
 			(property "Value" "18p"
-				(at 1.524 -2.032 0)
+				(at 2.54 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -979,7 +1001,7 @@
 				)
 			)
 			(property "Footprint" "V2_Capacitor_SMD:C_0603"
-				(at 0 -17.018 0)
+				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1013,6 +1035,17 @@
 			)
 			(property "Mouser" "810-CGA3E2C0G1H180J"
 				(at 0 -22.86 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Capacitor:${SYMBOL_NAME}"
+				(at 0 -15.24 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1157,7 +1190,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 1.524 1.778 0)
+				(at 2.54 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1168,7 +1201,7 @@
 				)
 			)
 			(property "Value" "10u"
-				(at 1.524 -2.032 0)
+				(at 2.54 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1179,7 +1212,7 @@
 				)
 			)
 			(property "Footprint" "V2_Capacitor_SMD:C_0805"
-				(at 0 -17.018 0)
+				(at 0 -21.59 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1212,7 +1245,18 @@
 				)
 			)
 			(property "Mouser" "810-C2012X5R1E106K"
-				(at 0 -22.86 0)
+				(at 0 -20.32 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Capacitor:${SYMBOL_NAME}"
+				(at 0 -19.05 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1223,7 +1267,7 @@
 				)
 			)
 			(property "Rating" "25V"
-				(at 0 -20.32 0)
+				(at 0 -22.86 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1753,6 +1797,17 @@
 					)
 				)
 			)
+			(property "Id" "WAGO:${SYMBOL_NAME}"
+				(at 0 -6.35 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Product" "2065-100/998-403"
 				(at 0 -16.51 0)
 				(show_name yes)
@@ -1824,27 +1879,29 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "Y"
-				(at 0 2.54 0)
+				(at -2.54 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "32k768"
-				(at 0 -3.81 0)
+				(at -2.54 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "V2_Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm"
-				(at -0.254 -12.192 0)
+				(at -0.254 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1877,7 +1934,7 @@
 				)
 			)
 			(property "Mouser" "815-ABS0716632.768KT"
-				(at 0 -15.24 0)
+				(at 0 -21.59 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1888,7 +1945,7 @@
 				)
 			)
 			(property "Product" "ABS07-166-32.768KHZ-T"
-				(at 0 -12.7 0)
+				(at 0 -19.05 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1899,7 +1956,29 @@
 				)
 			)
 			(property "Manufacturer" "ABRACON"
-				(at 0 -10.16 0)
+				(at 0 -16.51 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Crystal:${SYMBOL_NAME}"
+				(at 0 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating" "10ppm"
+				(at 0 -24.13 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2021,23 +2100,25 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "TVS"
-				(at -1.27 3.81 0)
+				(at -3.81 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "CG0603MLC-05LE"
-				(at 0 -3.81 0)
+				(at -3.81 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "V2_Diode_SMD:D_0603"
@@ -2074,7 +2155,18 @@
 				)
 			)
 			(property "Mouser" "652-CG0603MLC-05LE"
-				(at 0 -17.78 0)
+				(at 0 -20.32 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Diode:${SYMBOL_NAME}"
+				(at 0 -11.43 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2085,7 +2177,7 @@
 				)
 			)
 			(property "Product" "CG0603MLC-05LE"
-				(at 0 -12.954 0)
+				(at 0 -15.24 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2096,7 +2188,7 @@
 				)
 			)
 			(property "Manufacturer" "Bourns"
-				(at 0 -10.16 0)
+				(at 0 -12.7 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2107,7 +2199,7 @@
 				)
 			)
 			(property "Rating" "5V"
-				(at 0 -15.24 0)
+				(at 0 -17.78 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2220,7 +2312,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "TVS"
-				(at -2.54 6.35 0)
+				(at -2.54 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2231,7 +2323,7 @@
 				)
 			)
 			(property "Value" "SMBJ33CA"
-				(at -2.54 3.81 0)
+				(at -2.54 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2264,7 +2356,7 @@
 				)
 			)
 			(property "Description" "Transient Voltage Suppressor Diode, Bidirectional, 36.7-40.6V"
-				(at 0 -12.7 0)
+				(at 0 -20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2275,7 +2367,18 @@
 				)
 			)
 			(property "Mouser" "652-SMBJ33CA-Q"
-				(at 0 -23.114 0)
+				(at 0 -28.194 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Diode:${SYMBOL_NAME}"
+				(at 0 -11.43 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2286,7 +2389,7 @@
 				)
 			)
 			(property "Product" "SMBJ33CA-Q"
-				(at 0 -17.78 0)
+				(at 0 -25.4 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2297,7 +2400,7 @@
 				)
 			)
 			(property "Manufacturer" "Bourns"
-				(at 0 -15.24 0)
+				(at 0 -22.86 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2308,7 +2411,7 @@
 				)
 			)
 			(property "Rating" "33V"
-				(at 0 -20.32 0)
+				(at 0 -30.48 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2502,6 +2605,17 @@
 					)
 				)
 			)
+			(property "Id" "ESD:${SYMBOL_NAME}"
+				(at 0 -11.43 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(symbol "RCLAMP0582N_0_1"
 				(rectangle
 					(start -6.35 7.62)
@@ -2643,27 +2757,29 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "D"
-				(at 0 5.588 0)
+				(at -2.54 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "Orange"
-				(at 0 3.556 0)
+				(at -2.54 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "V2_LED:LED_0603"
-				(at 0 -9.906 0)
+				(at 0 -14.986 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2696,7 +2812,7 @@
 				)
 			)
 			(property "Sim.Pins" "1=K 2=A"
-				(at 0 -15.24 0)
+				(at 0 -22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2707,7 +2823,7 @@
 				)
 			)
 			(property "Mouser" "755-SML-D12D1WT86"
-				(at 0 -7.62 0)
+				(at 0 -15.24 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2718,7 +2834,7 @@
 				)
 			)
 			(property "Product" "SML-D12D1WT86"
-				(at 0 -12.7 0)
+				(at 0 -20.32 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2729,7 +2845,29 @@
 				)
 			)
 			(property "Manufacturer" "ROHM Semiconductor "
-				(at 0 -10.16 0)
+				(at 0 -17.78 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "LED:${SYMBOL_NAME}"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating" "605nm"
+				(at 0 -25.4 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2873,27 +3011,29 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "D3"
-				(at 0 10.414 0)
+				(at -5.08 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "WS2812"
-				(at 0 7.874 0)
+				(at -5.08 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "V2_LED:WS2812-2020"
-				(at 0 -9.906 0)
+				(at 0 -13.97 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2916,7 +3056,7 @@
 				)
 			)
 			(property "Description" "RGB LED with integrated controller"
-				(at 0 -6.858 0)
+				(at 0 -11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2927,7 +3067,7 @@
 				)
 			)
 			(property "Manufacturer" "Worldsemi"
-				(at 0 -15.494 0)
+				(at 0 -16.51 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2938,7 +3078,7 @@
 				)
 			)
 			(property "Product" "WS2812B-2020"
-				(at 0 -12.954 0)
+				(at 0 -19.05 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2949,7 +3089,29 @@
 				)
 			)
 			(property "LCSC" "C965555"
-				(at 0 -18.288 0)
+				(at 0 -21.59 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "LED:${SYMBOL_NAME}"
+				(at 0 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating" "15mA"
+				(at 0 -24.13 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3149,25 +3311,23 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at 5.08 -44.45 0)
+				(at 0 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
 			(property "Value" "ATSAMD51J"
-				(at 5.08 -46.99 0)
+				(at 0 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
 			(property "Footprint" "V2_Package_DFN_QFN:QFN-64-1EP_9x9mm_P0.5mm_EP4.8x4.8mm_ThermalVias"
@@ -3228,6 +3388,17 @@
 			)
 			(property "Manufacturer" "Microchip Technology"
 				(at 0 -73.66 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "MCU:${SYMBOL_NAME}"
+				(at 0 -63.5 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -5200,6 +5371,28 @@
 					)
 				)
 			)
+			(property "Id" "LDO:${SYMBOL_NAME}"
+				(at 0 -31.75 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating" "300mA"
+				(at 0 -49.53 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(symbol "TPS78433QWDRBRQ1_0_1"
 				(rectangle
 					(start -5.08 -5.08)
@@ -5398,27 +5591,29 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
-				(at 2.032 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(property "Value" "100k"
-				(at 3.81 -1.27 0)
+				(at 1.27 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
+				)
+			)
+			(property "Value" "100k"
+				(at 1.27 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "V2_Resistor_SMD:R_0603"
-				(at 0 -15.748 0)
+				(at 0 -16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -5452,6 +5647,17 @@
 			)
 			(property "Mouser" "71-CRCW0603100KFKEAC"
 				(at 0 -22.86 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Resistor:${SYMBOL_NAME}"
+				(at 0 -13.97 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -5583,27 +5789,29 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
-				(at 2.032 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(property "Value" "10k"
-				(at 3.302 -1.27 0)
+				(at 1.27 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
+				)
+			)
+			(property "Value" "10k"
+				(at 1.27 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "V2_Resistor_SMD:R_0603"
-				(at 0 -15.748 0)
+				(at 0 -16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -5637,6 +5845,17 @@
 			)
 			(property "Mouser" "71-CRCW060310K0FKEAC"
 				(at 0 -22.86 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Resistor:${SYMBOL_NAME}"
+				(at 0 -13.97 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -5768,27 +5987,29 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
-				(at 2.032 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(property "Value" "330R"
-				(at 4.064 -1.27 0)
+				(at 1.27 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
+				)
+			)
+			(property "Value" "330R"
+				(at 1.27 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "V2_Resistor_SMD:R_0603"
-				(at 0 -15.748 0)
+				(at 0 -16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -5822,6 +6043,17 @@
 			)
 			(property "Mouser" "71-CRCW0603330RFKEAC"
 				(at 0 -22.86 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Resistor:${SYMBOL_NAME}"
+				(at 0 -13.97 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -5995,8 +6227,8 @@
 				)
 			)
 			(property "Description" "Push button"
-				(at 0 -7.874 0)
-				(show_name no)
+				(at 0 -8.89 0)
+				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
@@ -6007,6 +6239,17 @@
 			)
 			(property "Mouser" "688-SKSGACE010"
 				(at 0 -17.78 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Button:${SYMBOL_NAME}"
+				(at 0 -6.35 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -6029,6 +6272,17 @@
 			)
 			(property "Product" "SKSGACE010"
 				(at 0 -15.24 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating" "1.6N"
+				(at 0 -20.32 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -6290,7 +6544,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
-				(at 0 -12.192 0)
+				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -9289,6 +9543,17 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 109.22 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "40994f9c-19ed-482d-9248-93dc90690555")
 		)
@@ -9387,7 +9652,7 @@
 		(at 223.52 165.1 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -9440,6 +9705,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 223.52 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 223.52 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -9625,6 +9901,28 @@
 		)
 		(property "Product" "SKSGACE010"
 			(at 118.11 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Button:${SYMBOL_NAME}"
+			(at 118.11 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "1.6N"
+			(at 118.11 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9975,6 +10273,28 @@
 				)
 			)
 		)
+		(property "Id" "LDO:${SYMBOL_NAME}"
+			(at 45.72 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "300mA"
+			(at 45.72 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9637be07-47bf-45fa-82e5-499659f57df0")
 		)
@@ -10019,7 +10339,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "183b23ac-bf89-4f74-a8bb-b8be259b2ecc")
 		(property "Reference" "#PWR105"
@@ -10349,6 +10669,28 @@
 				)
 			)
 		)
+		(property "Id" "LED:${SYMBOL_NAME}"
+			(at 128.27 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "605nm"
+			(at 128.27 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "04d62725-9abb-40ec-b476-f92cf9ca5fab")
 		)
@@ -10541,6 +10883,28 @@
 				)
 			)
 		)
+		(property "Id" "LED:${SYMBOL_NAME}"
+			(at 110.49 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "15mA"
+			(at 110.49 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "26add03a-e6ab-439c-8447-6c1dfd4f0e24")
 		)
@@ -10671,6 +11035,17 @@
 				)
 			)
 		)
+		(property "Id" "Resistor:${SYMBOL_NAME}"
+			(at 243.84 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "36fbd8d1-3d43-4850-9e70-83195d2dbd29")
 		)
@@ -10694,7 +11069,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29f1f822-582c-40f0-a393-ec8581cccafd")
@@ -10875,6 +11250,17 @@
 				)
 			)
 		)
+		(property "Id" "Diode:${SYMBOL_NAME}"
+			(at 207.01 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0d4bbdc8-97c3-465d-abfb-49f066de4dc8")
 		)
@@ -10895,7 +11281,7 @@
 		(at 190.5 152.4 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -10945,6 +11331,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 190.5 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 190.5 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -11074,6 +11471,17 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 58.42 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0ddde3ce-c4f1-4ec5-a9fa-6fda6649f90d")
 		)
@@ -11186,6 +11594,17 @@
 				)
 			)
 		)
+		(property "Id" "ESD:${SYMBOL_NAME}"
+			(at 170.18 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dcb9894a-3323-43ac-85c0-8dc9777453c4")
 		)
@@ -11221,7 +11640,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "344f2f85-b75c-4a92-9115-fb3597609471")
 		(property "Reference" "#PWR102"
@@ -11681,7 +12100,7 @@
 		(at 223.52 152.4 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -11734,6 +12153,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 223.52 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 223.52 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -11854,6 +12284,17 @@
 		)
 		(property "Rating" "50V"
 			(at 119.38 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 119.38 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12212,7 +12653,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5cff6f75-d552-4788-ab96-55a78c3bdab4")
@@ -12373,6 +12814,17 @@
 		)
 		(property "Manufacturer" "Microchip Technology"
 			(at 69.85 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "MCU:${SYMBOL_NAME}"
+			(at 69.85 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12758,6 +13210,28 @@
 		)
 		(property "LCSC" "C965555"
 			(at 125.73 199.898 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "LED:${SYMBOL_NAME}"
+			(at 125.73 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "15mA"
+			(at 125.73 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13359,6 +13833,17 @@
 				)
 			)
 		)
+		(property "Id" "Resistor:${SYMBOL_NAME}"
+			(at 270.51 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5ea74b3d-8e5f-47b1-9a9f-e207f65e0632")
 		)
@@ -13682,7 +14167,7 @@
 		(at 190.5 160.02 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -13732,6 +14217,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 190.5 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 190.5 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -13852,6 +14348,17 @@
 		)
 		(property "Manufacturer" "TDK"
 			(at 33.02 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 33.02 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14039,6 +14546,28 @@
 		)
 		(property "Manufacturer" "ABRACON"
 			(at 24.13 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Crystal:${SYMBOL_NAME}"
+			(at 24.13 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "10ppm"
+			(at 24.13 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14250,6 +14779,17 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 26.67 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dbad3011-3bb7-4b68-acdf-fdc265c6dd90")
 		)
@@ -14375,6 +14915,17 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 57.15 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9a0d2225-c269-4a51-84e4-3e513e7d8f7c")
 		)
@@ -14490,6 +15041,17 @@
 		)
 		(property "Rating" "33V"
 			(at 281.94 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Diode:${SYMBOL_NAME}"
+			(at 280.67 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14777,6 +15339,17 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 21.59 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "eaa9c83e-7bc4-4f72-8f4b-d5d56fec85fa")
 		)
@@ -14870,6 +15443,17 @@
 		)
 		(property "Product" "2065-100/998-403"
 			(at 245.11 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "WAGO:${SYMBOL_NAME}"
+			(at 245.11 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15125,7 +15709,7 @@
 		(at 157.48 160.02 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -15176,6 +15760,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 157.48 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 157.48 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -15294,6 +15889,17 @@
 		)
 		(property "Rating" "100mW"
 			(at 157.48 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Resistor:${SYMBOL_NAME}"
+			(at 151.13 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15428,6 +16034,17 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 261.62 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "774b674f-b1b6-4d4f-b3bf-3e0e8c22b1a1")
 		)
@@ -15544,6 +16161,17 @@
 		)
 		(property "Rating" "50V"
 			(at 99.06 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 99.06 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15756,6 +16384,17 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 78.74 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "957882ff-7c79-433b-b595-cba74e7b0f1d")
 		)
@@ -15930,7 +16569,7 @@
 		(at 223.52 158.75 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -15983,6 +16622,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 223.52 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 223.52 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -16090,6 +16740,28 @@
 		)
 		(property "Product" "SKSGACE010"
 			(at 129.54 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Button:${SYMBOL_NAME}"
+			(at 129.54 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "1.6N"
+			(at 129.54 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16536,6 +17208,17 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 88.9 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "456a6422-df18-4ff1-9de7-000df4adc192")
 		)
@@ -16651,6 +17334,17 @@
 		)
 		(property "Product" "CRCW0603100KFKEAC"
 			(at 243.84 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Resistor:${SYMBOL_NAME}"
+			(at 243.84 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16932,6 +17626,17 @@
 				)
 			)
 		)
+		(property "Id" "Resistor:${SYMBOL_NAME}"
+			(at 64.77 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "882ecb35-114d-452b-8aca-e842a8eb4a00")
 		)
@@ -17025,6 +17730,17 @@
 		)
 		(property "Product" "2065-100/998-403"
 			(at 245.11 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "WAGO:${SYMBOL_NAME}"
+			(at 245.11 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17278,7 +17994,7 @@
 		(at 190.5 168.91 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -17328,6 +18044,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 190.5 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 190.5 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -18058,18 +18785,17 @@
 		(file
 			(name "V2_A4.kicad_wks")
 			(type worksheet)
-			(data |KLUv/WBhBk0QALbYTiEQtRsmZc5q276ayLS71D6kxbkmoTeIJM7lAHtEAMAAxQFGAD8ARQCbvIHa
-				a/wrVHSazXnPhvzar1BNtH1kxRf5EwCAQPh5F+e0kJq0nmtfKDvj37Jf3xQUlFKqztoXWzE7iAAI
-				iJ6Q5m2d9RAC9jcPPWe/GXf/9ewpPR3+uPbv7bdzvr37wXlr2X8dBHFXu7Z3HUG7Kvrz9qKU7eB2
-				v/MM4n/Mhfg5G5sn7WsDTS2mA1WyssZDsy4YdpEGzfD8Ny+85JzH7H+961FjX/x0qtq0MdaqJ8dx
-				k1KAwF+soV3VFnEoqewX+XNfTaqqPatRlLsbgcKhzs5+29sEzSaWRPZ4txDEjpmZNCoSiiMhaUwy
-				y4Jg3oe5pmhPRSS7MtJAerbfnYNNgaEkuCg6oVzYhbEsF1vRgtxS55zTIVig4URjFFJTI1qYFNIB
-				YESmRusYYvaiF0uSUdhu1Q2lFiOgdmN7VvaH2oWyw9MQXRuZtQQQoIsxFn2ldtnpQiUNa0HvDQCK
-				f/XTisCgEJQEXe/if4EJsakkqj8BMmGAU+ZM/AG8LSEJMfgkOKfSKPhw4rD3ZHfmNZYNfDMigEPJ
-				EBoIDghtm1kJ8BAQ8xyGdkOuFQy33sishFt8DZNX4uNRXJZ5hBy746RJaNtgbfyB613d0dov6Cdg
-				iUQT9BXkf9EiYDuODpB6gKkC|
+			(data |KLUv/WD5BbUPADbXSyEA1TbWikhSlOA2eC2ekVMEUCwq7NEwtcLUrO9RVbWigglBAD0ARQB3rDJr
+				Vfe8iEc347HKLOu3hM0n3acAgEAZ+mtWq1rqUSxebyypb/3fvvl2Ks1ai1318qyxua+IAgRM0MgT
+				vxCDqNazy01dUkv9SffBzyqWXV6zk7TDjC//75ZXzHffvHX4Y/Xf35uU+iW//OHdpP7XYKnf08G7
+				Ws+4sz/Se05W5tbSsFNFN3RTUXTjhdPWNR7ehuG4iIngvhBQHGxi+IlSiXCRzHYxEfbe576fb+gn
+				B78Z+mSX28Z5ZV5BEKwWAwQ+a06BCmH90rZJg9JtG4SrtqNsE+pn/kpSOzSUhmVScSgcO1gJcdSg
+				J6zLuq1W1TZJF+moiP3v9XDUP1+S1KFCs7SB4TTQalSg4UCjGDM0M3GaNAZgZObmWAewpQGB0gB3
+				GYWe0WuYLYxil2+HCVPCLoewmMo8a9CJow+hHPOLKHdUb0wU8lRpRE+qFdAXJgbU7nMwecZYivJQ
+				iTgLkNig5tH7xtAJA8QyZ+ZP4GUJKSTwm+RM51H7yWknvCe7YZZxrISdEQ48yLJBiQaevBZD1kY4
+				h0V7Dqlt/1rBcP0NQy83g9hYapcpANydipsbWw09qO7ggsG8qpSEBRoltBf/e9cTMh29AaQeYKo=|
 			)
-			(checksum "0A61268C685EAF945CA2EA8187370BD3")
+			(checksum "080A27BD1FADC1F81518BF82EA92C143")
 		)
 	)
 )

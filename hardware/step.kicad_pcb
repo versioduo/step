@@ -8,7 +8,7 @@
 	)
 	(paper "A4")
 	(title_block
-		(date "2026-03-20")
+		(date "2026-04-11")
 		(rev "2025-11-30")
 	)
 	(layers
@@ -245,16 +245,23 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:1210_10u"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e24dc94a-867e-4d1c-8516-0cdca7091586")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/60568a1d-bb1f-4d77-8c18-3b21a35c5012/138430b5-5815-4ef4-97be-ca6e49754c80")
 		(sheetname "/Stepper-1/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -432,13 +439,7 @@
 		(path "/45150af7-3bc2-4240-a93b-1a4bd9cdfde0")
 		(sheetname "/")
 		(sheetfile "step.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(attr exclude_from_bom allow_missing_courtyard)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -596,16 +597,23 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:0603_0u1"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c49fc000-a184-4f82-929d-d0cef6fabc71")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/60568a1d-bb1f-4d77-8c18-3b21a35c5012/64b2bce4-5075-4ff7-92dc-a36458283ceb")
 		(sheetname "/Stepper-1/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -782,13 +790,7 @@
 		(path "/d92a65df-7cd2-4edf-8d60-7b890ad82234")
 		(sheetname "/")
 		(sheetfile "step.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(attr exclude_from_bom allow_missing_courtyard)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_arc
 			(start -0.9 -0.5)
@@ -935,15 +937,35 @@
 				)
 			)
 		)
+		(property "Id" "Button:SKSG"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "02469e44-4fe2-46bf-98d1-09e1d9017421")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rating" "1.6N"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8a6d9d49-0901-48d5-bb0f-7a4f8ce7c38e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/0676cd79-b280-49f0-bb2b-642706e7858b")
 		(sheetname "/")
 		(sheetfile "step.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -977,45 +999,16 @@
 			(layer "F.CrtYd")
 			(uuid "3b99f071-3e28-47e0-a23c-42ac7fa4bdad")
 		)
-		(fp_line
-			(start -1.75 1.35)
-			(end -1.75 -1.35)
+		(fp_rect
+			(start -2 -1.4)
+			(end 2 1.4)
 			(stroke
-				(width 0.15)
+				(width 0.1)
 				(type solid)
 			)
+			(fill no)
 			(layer "F.Fab")
-			(uuid "34e54fbd-0f01-485c-84d5-bf81878615e7")
-		)
-		(fp_line
-			(start 1.75 1.35)
-			(end -1.75 1.35)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "b0b03cc6-6894-432f-a729-c76845b910ca")
-		)
-		(fp_line
-			(start -1.75 -1.35)
-			(end 1.75 -1.35)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "b46fbfcc-e31b-4c4e-bfbb-5f0f2cd51bed")
-		)
-		(fp_line
-			(start 1.75 -1.35)
-			(end 1.75 1.35)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "eb9a973f-e969-4525-bba7-2e5469a18733")
+			(uuid "c69bb5b2-e5c3-4c03-a98a-68f4c9f5c937")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 270)
@@ -1188,16 +1181,23 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:1210_10u"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4973021a-a474-498a-be70-561a4518102c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/39d6363d-afe8-4428-a84b-595ab7901e78/138430b5-5815-4ef4-97be-ca6e49754c80")
 		(sheetname "/Stepper-4/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1398,15 +1398,22 @@
 				)
 			)
 		)
+		(property "Id" "Header:2x05_Horizontal"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c2bec702-6990-47d1-b124-ad9d0ce42bcb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/2a03ea79-269e-4abf-833c-000ba0ff13d7/c605229b-6362-40f3-ab09-0b7093c2d3df")
 		(sheetname "/Link Socket/")
 		(sheetfile "LinkSocket.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "5" "7" "9" "2" "4" "6" "8" "10")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -1839,7 +1846,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In1.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "Pin_3_3")
 			(pintype "passive")
@@ -1853,7 +1860,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In2.Cu")
+			(zone_layer_connections)
 			(net "+5V")
 			(pinfunction "Pin_4_4")
 			(pintype "passive")
@@ -1895,7 +1902,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In2.Cu")
+			(zone_layer_connections)
 			(net "+5V")
 			(pinfunction "Pin_7_7")
 			(pintype "passive")
@@ -1909,7 +1916,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In1.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "Pin_8_8")
 			(pintype "passive")
@@ -2039,15 +2046,22 @@
 				)
 			)
 		)
+		(property "Id" "WAGO:2065"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ff2bf994-ba59-443b-8d2f-35ab0ba2c3db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/b5cf9720-7adc-4c1b-b0f8-00fa5b3eb49c/f7da93d8-324a-469c-8e25-984d56287466")
 		(sheetname "/Stepper-2/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.1 1.78)
@@ -2343,15 +2357,22 @@
 				)
 			)
 		)
+		(property "Id" "WAGO:2065"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3011b704-1499-429b-82ed-fda6346174c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/b5cf9720-7adc-4c1b-b0f8-00fa5b3eb49c/d1cdc67e-f295-475e-9bea-d82a25080e6b")
 		(sheetname "/Stepper-2/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.1 1.78)
@@ -2624,13 +2645,7 @@
 		(path "/876d56f7-a978-4186-816c-574fe505860f")
 		(sheetname "/")
 		(sheetfile "step.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(attr exclude_from_bom allow_missing_courtyard)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(stackup
 			(layer "F.Cu")
 			(layer "B.Cu")
@@ -2972,16 +2987,23 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:1210_10u"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9ae97e92-9bbd-4793-b9d0-1f246b8b7f5d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/bbbca06b-b34a-42a6-b446-d9a6850f1915/138430b5-5815-4ef4-97be-ca6e49754c80")
 		(sheetname "/Stepper-3/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3193,16 +3215,23 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:Polarized_6.3x5.8_47u"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2a5ddfe2-62ca-47eb-b9c1-07178a58dd8e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "CP_*")
 		(path "/b5cf9720-7adc-4c1b-b0f8-00fa5b3eb49c/966398d5-f811-4ade-bc2b-fae4d1917c51")
 		(sheetname "/Stepper-2/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3641,15 +3670,35 @@
 				)
 			)
 		)
+		(property "Id" "LDO:TPS78433QWDRBRQ1"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8cc0c5f0-ee54-47d0-a452-9b0676e96d67")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rating" "300mA"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91f360af-852a-455d-86c8-3e623ee21cf7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/14b992fd-5156-4eff-9fa1-51be5e7bafe0")
 		(sheetname "/")
 		(sheetfile "step.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "8" "7" "5" "9" "2" "3" "4" "6" "1")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4058,7 +4107,7 @@
 			(uuid "1def4d53-3e69-4eab-92a1-95d06725b639")
 		)
 		(embedded_fonts no)
-		(model "../../3dmodels/V2_Package_SON.3dshapes/Texas_S-PVSON-N8.wrl"
+		(model "../../3dmodels/V2_Package_SON.3dshapes/Texas_S-PVSON-N8.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4176,16 +4225,23 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:0603_0u1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "46c7763d-88d8-42eb-a878-e0cdefd4413d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/b5cf9720-7adc-4c1b-b0f8-00fa5b3eb49c/2c8571a5-acd7-4925-872d-6e76b48aa7fa")
 		(sheetname "/Stepper-2/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4385,20 +4441,22 @@
 				)
 			)
 		)
-		(path "/5d27e373-8b8e-4111-8ca2-3a43d68280af")
-		(sheetname "/")
-		(sheetfile "step.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "13" "14" "15" "16" "17" "18" "19" "20" "29" "30"
-					"31" "32" "35" "36" "37" "38" "41" "42" "43" "44" "45" "46" "51" "57"
-					"58" "52" "55" "53" "22" "47" "54" "33" "7" "21" "48" "34" "56" "65"
-					"8" "61" "62" "63" "64" "5" "6" "9" "10" "11" "12" "23" "24" "25" "26"
-					"27" "28" "39" "40" "49" "50" "59" "60"
+		(property "Id" "MCU:ATSAMD51J"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "380458a9-3fec-4346-ac9b-1e0182901fad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
+		(path "/5d27e373-8b8e-4111-8ca2-3a43d68280af")
+		(sheetname "/")
+		(sheetfile "step.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5753,7 +5811,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In1.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_65")
 			(pintype "power_in")
@@ -5768,7 +5826,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In1.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_65")
 			(pintype "power_in")
@@ -5783,7 +5841,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In1.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_65")
 			(pintype "power_in")
@@ -5798,7 +5856,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In1.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_65")
 			(pintype "power_in")
@@ -5813,7 +5871,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In1.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_65")
 			(pintype "power_in")
@@ -5828,7 +5886,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In1.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_65")
 			(pintype "power_in")
@@ -5843,7 +5901,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In1.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_65")
 			(pintype "power_in")
@@ -5858,7 +5916,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In1.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_65")
 			(pintype "power_in")
@@ -5895,7 +5953,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In1.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_65")
 			(pintype "power_in")
@@ -5910,7 +5968,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In1.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_65")
 			(pintype "power_in")
@@ -5925,7 +5983,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In1.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_65")
 			(pintype "power_in")
@@ -5940,7 +5998,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In1.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_65")
 			(pintype "power_in")
@@ -5955,7 +6013,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In1.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_65")
 			(pintype "power_in")
@@ -5970,7 +6028,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In1.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_65")
 			(pintype "power_in")
@@ -5985,7 +6043,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In1.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_65")
 			(pintype "power_in")
@@ -6000,7 +6058,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In1.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_65")
 			(pintype "power_in")
@@ -6126,16 +6184,23 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:1210_10u"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ffc3949d-5398-42e6-86d1-04fa0e648d6a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/b5cf9720-7adc-4c1b-b0f8-00fa5b3eb49c/08ec2ab8-5431-4fa0-b5e0-a19f6d8c1d88")
 		(sheetname "/Stepper-2/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6301,12 +6366,6 @@
 		(path "/f3ebfb05-17be-488d-b5c3-e4a62e3009d2")
 		(sheetname "/")
 		(sheetfile "step.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -6448,16 +6507,23 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:0603_0u1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a7a515b9-7f20-4f40-9119-5d603726e034")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/460bc169-e1af-437f-a9cc-14071ce38e30")
 		(sheetname "/")
 		(sheetfile "step.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6668,16 +6734,23 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:0603_18p"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ab19237d-3bf6-4637-891f-b6e8e3405500")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/8aa35fa2-54d2-4de6-84fb-e40adea5ce97")
 		(sheetname "/")
 		(sheetfile "step.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6876,15 +6949,35 @@
 				)
 			)
 		)
+		(property "Id" "RS485:THVD2442"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1e7ed37b-a4a3-4248-a0a0-678b3acd8f55")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rating" "20Mbps"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ba8c08a2-6627-4118-99d1-a272d7e901e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/2a03ea79-269e-4abf-833c-000ba0ff13d7/3eb19088-3b08-4e96-8938-3d11fa73e612")
 		(sheetname "/Link Socket/")
 		(sheetfile "LinkSocket.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "10" "5" "11" "9" "8" "7" "6")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7305,7 +7398,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In1.Cu" "In2.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "GND_11")
 			(pintype "passive")
@@ -7337,7 +7430,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In1.Cu" "In2.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "GND_11")
 			(pintype "passive")
@@ -7369,7 +7462,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers no)
-			(zone_layer_connections "In1.Cu" "In2.Cu" "B.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "GND_11")
 			(pintype "passive")
@@ -7401,7 +7494,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In1.Cu" "In2.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "GND_11")
 			(pintype "passive")
@@ -7480,13 +7573,7 @@
 		(path "/124f68d9-b53f-445a-ae5e-ab115a05e72b")
 		(sheetname "/")
 		(sheetfile "step.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(attr exclude_from_bom allow_missing_courtyard)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(pad "" np_thru_hole circle
 			(at 0 0)
@@ -7592,15 +7679,35 @@
 				)
 			)
 		)
+		(property "Id" "LED:WS2812"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "994c3349-a557-47b3-86c2-0a473715671e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rating" "15mA"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "262dd629-aad3-40bc-9535-cd30f0b1f373")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/20d18c71-0c4f-4fe9-adf5-8312228ea199")
 		(sheetname "/")
 		(sheetfile "step.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "4" "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7827,16 +7934,23 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:0603_0u1"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7b4058df-cd60-4656-ba78-d02fd84935bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/39d6363d-afe8-4428-a84b-595ab7901e78/64b2bce4-5075-4ff7-92dc-a36458283ceb")
 		(sheetname "/Stepper-4/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8047,16 +8161,23 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:0603_0u1"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "468f26a8-e8ec-485a-bcf0-932aa9e4ae9c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/043872f7-f031-4401-97f4-30673956f95a")
 		(sheetname "/")
 		(sheetfile "step.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8221,12 +8342,6 @@
 		(path "/977377c2-2f87-473b-87b3-55cb2215e7cb")
 		(sheetname "/")
 		(sheetfile "step.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -8344,15 +8459,22 @@
 				)
 			)
 		)
+		(property "Id" "WAGO:2065"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da0d8200-e505-4edc-903f-704c39867ce2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/60568a1d-bb1f-4d77-8c18-3b21a35c5012/d1cdc67e-f295-475e-9bea-d82a25080e6b")
 		(sheetname "/Stepper-1/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.1 1.78)
@@ -8626,13 +8748,7 @@
 		(path "/4cc11ea8-fcc3-4f81-a9b7-809c1c7ae0b6")
 		(sheetname "/")
 		(sheetfile "step.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "5" "2" "4" "10")
-			)
-		)
-		(attr exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 2.9972 -0.7112)
@@ -8757,7 +8873,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In2.Cu")
+			(zone_layer_connections)
 			(net "+3V3")
 			(pinfunction "VCC_1")
 			(pintype "power_in")
@@ -8792,7 +8908,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In1.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "GND_3")
 			(pintype "power_in")
@@ -8827,7 +8943,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In1.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "GND_5")
 			(pintype "passive")
@@ -8917,13 +9033,7 @@
 		(path "/19c02e91-471d-4ed9-8b1c-9a3b1c73a545")
 		(sheetname "/")
 		(sheetfile "step.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(attr exclude_from_bom allow_missing_courtyard)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(pad "" np_thru_hole circle
 			(at 0 0)
@@ -9006,13 +9116,7 @@
 		(path "/0483c709-919b-46b7-945c-b3cbbee5652a")
 		(sheetname "/")
 		(sheetfile "step.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(attr exclude_from_bom allow_missing_courtyard)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_arc
 			(start 0.9 0.5)
@@ -9168,16 +9272,23 @@
 				)
 			)
 		)
+		(property "Id" "Resistor:0603_10k"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a46b1c6a-9172-4241-a842-1155b47aa2db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/76db554a-ba99-4694-9945-88e12cd4bdb4")
 		(sheetname "/")
 		(sheetfile "step.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9235,7 +9346,7 @@
 		)
 		(pad "" smd roundrect
 			(at -0.75 0 180)
-			(size 0.75 0.95)
+			(size 0.7 0.9)
 			(layers "F.Paste")
 			(roundrect_rratio 0.1333333333)
 			(chamfer_ratio 0.4)
@@ -9244,7 +9355,7 @@
 		)
 		(pad "" smd roundrect
 			(at 0.75 0 180)
-			(size 0.75 0.95)
+			(size 0.7 0.9)
 			(layers "F.Paste")
 			(roundrect_rratio 0.1333333333)
 			(chamfer_ratio 0.4)
@@ -9342,13 +9453,7 @@
 		(path "/adb048ee-edc5-4a6b-b0fa-1ff92fbc4b0a")
 		(sheetname "/")
 		(sheetfile "step.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(attr exclude_from_bom allow_missing_courtyard)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(pad "" np_thru_hole circle
 			(at 0 0)
@@ -9465,16 +9570,23 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:0603_0u47"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f500df45-c2d2-42ed-b829-9ef142fcca78")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/b5cf9720-7adc-4c1b-b0f8-00fa5b3eb49c/e9feafc0-7605-463c-ab43-73a5a7113a3d")
 		(sheetname "/Stepper-2/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9672,18 +9784,22 @@
 				)
 			)
 		)
-		(path "/bbbca06b-b34a-42a6-b446-d9a6850f1915/c4f27e0b-d3fa-4d1a-803c-ad29196820d4")
-		(sheetname "/Stepper-3/")
-		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "25" "26" "8" "29" "31" "16" "30" "23" "17" "36" "18" "19" "10"
-					"6" "7" "1" "22" "2" "3" "4" "5" "9" "11" "34" "32" "13" "15" "27" "28"
-					"20" "21" "33" "14" "24" "12" "35" "37"
+		(property "Id" "Stepper:TMC2130-LA"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "68b381ce-f0dd-4ac9-b182-5229fd57ae65")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
+		(path "/bbbca06b-b34a-42a6-b446-d9a6850f1915/c4f27e0b-d3fa-4d1a-803c-ad29196820d4")
+		(sheetname "/Stepper-3/")
+		(sheetfile "StepperDriver.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11850,7 +11966,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers no)
-			(zone_layer_connections "In1.Cu" "In2.Cu" "B.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_37")
 			(pintype "power_in")
@@ -11864,7 +11980,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers no)
-			(zone_layer_connections "In1.Cu" "In2.Cu" "B.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_37")
 			(pintype "power_in")
@@ -11878,7 +11994,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers no)
-			(zone_layer_connections "In1.Cu" "In2.Cu" "B.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_37")
 			(pintype "power_in")
@@ -11892,7 +12008,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers no)
-			(zone_layer_connections "In1.Cu" "In2.Cu" "B.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_37")
 			(pintype "power_in")
@@ -11906,7 +12022,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers no)
-			(zone_layer_connections "In1.Cu" "In2.Cu" "B.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_37")
 			(pintype "power_in")
@@ -11920,7 +12036,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers no)
-			(zone_layer_connections "In1.Cu" "In2.Cu" "B.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_37")
 			(pintype "power_in")
@@ -11954,7 +12070,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers no)
-			(zone_layer_connections "In1.Cu" "In2.Cu" "B.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_37")
 			(pintype "power_in")
@@ -11968,7 +12084,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers no)
-			(zone_layer_connections "In1.Cu" "In2.Cu" "B.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_37")
 			(pintype "power_in")
@@ -11982,7 +12098,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers no)
-			(zone_layer_connections "In1.Cu" "In2.Cu" "B.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_37")
 			(pintype "power_in")
@@ -11996,7 +12112,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers no)
-			(zone_layer_connections "In1.Cu" "In2.Cu" "B.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_37")
 			(pintype "power_in")
@@ -12010,7 +12126,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers no)
-			(zone_layer_connections "In1.Cu" "In2.Cu" "B.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_37")
 			(pintype "power_in")
@@ -12024,7 +12140,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers no)
-			(zone_layer_connections "In1.Cu" "In2.Cu" "B.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_37")
 			(pintype "power_in")
@@ -12149,16 +12265,23 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:0603_0u1"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b2a6d69b-1a9e-4c0b-a297-97c5bf6a329a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/cf32a5fd-5f5f-475f-9178-9dee2092531c")
 		(sheetname "/")
 		(sheetfile "step.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12322,13 +12445,7 @@
 		(path "/7eb06b9d-d894-478a-bc35-8590f2ab48d6")
 		(sheetname "/")
 		(sheetfile "step.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(attr exclude_from_bom allow_missing_courtyard)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REVISION} (${ISSUE_DATE})"
 			(at 0 0 0)
@@ -12438,15 +12555,22 @@
 				)
 			)
 		)
+		(property "Id" "WAGO:2065"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5dd58925-8d9b-44c7-ac19-6f5072cc3d97")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/b5cf9720-7adc-4c1b-b0f8-00fa5b3eb49c/9e185ff4-cd9c-4660-bb28-a0043f2777fd")
 		(sheetname "/Stepper-2/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.1 1.78)
@@ -12766,16 +12890,23 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:1210_10u"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "99e4bd86-baa2-488e-a7d2-2b440d72f262")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/60568a1d-bb1f-4d77-8c18-3b21a35c5012/08ec2ab8-5431-4fa0-b5e0-a19f6d8c1d88")
 		(sheetname "/Stepper-1/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12938,13 +13069,7 @@
 		(path "/ff5fa334-854e-4ca7-a359-9c419e0f5264")
 		(sheetname "/")
 		(sheetfile "step.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(attr exclude_from_bom allow_missing_courtyard)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
@@ -13189,16 +13314,23 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:0603_0u1"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c57ac4d-06e2-4316-8e9a-eb6ce4087ae9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/c260461d-00b9-4eb9-b031-8db68de74a86")
 		(sheetname "/")
 		(sheetfile "step.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13409,16 +13541,23 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:0603_0u1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3dd39978-4c6b-4fab-a965-0a2f01b12d2f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/c6db2f80-f80f-4104-8ca1-02f0ab85cfea/f076f75b-54ef-473a-90ee-71c9fc219e00")
 		(sheetname "/Link Plug/")
 		(sheetfile "LinkPlug.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13605,15 +13744,22 @@
 				)
 			)
 		)
+		(property "Id" "WAGO:2065"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4af6ee69-076c-4a04-b8a1-9ee2fe620a88")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/39d6363d-afe8-4428-a84b-595ab7901e78/f7da93d8-324a-469c-8e25-984d56287466")
 		(sheetname "/Stepper-4/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.1 1.78)
@@ -13920,16 +14066,36 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:0603_4u7"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9e7c162d-6aec-4860-b2ce-b43fd1321e48")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rating" "10V"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "34d01ad2-3898-433c-a79e-6df873c8d1dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/60568a1d-bb1f-4d77-8c18-3b21a35c5012/0fe3142c-31a3-45e9-8e7d-18b2b579033d")
 		(sheetname "/Stepper-1/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14130,15 +14296,35 @@
 				)
 			)
 		)
+		(property "Id" "Button:SKSG"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f8097193-ad1f-4d20-a3b3-c03b0e23b8de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rating" "1.6N"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "82a2395d-a8e4-4ca8-8c9f-89f2a2f8eda4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/db2e7cd7-d581-4e59-b8cc-804cecf82db8")
 		(sheetname "/")
 		(sheetfile "step.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14172,45 +14358,16 @@
 			(layer "F.CrtYd")
 			(uuid "cd91ca7a-1170-464d-b79d-6eadc74f8b98")
 		)
-		(fp_line
-			(start -1.75 -1.35)
-			(end 1.75 -1.35)
+		(fp_rect
+			(start -2 -1.4)
+			(end 2 1.4)
 			(stroke
-				(width 0.15)
+				(width 0.1)
 				(type solid)
 			)
+			(fill no)
 			(layer "F.Fab")
-			(uuid "7276b46b-70d8-4aa3-9f0d-0c1933d0c29d")
-		)
-		(fp_line
-			(start -1.75 1.35)
-			(end -1.75 -1.35)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "f04785af-f5f5-4658-a6ac-25c5a3b8d4e8")
-		)
-		(fp_line
-			(start 1.75 -1.35)
-			(end 1.75 1.35)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "37339feb-5597-4634-b971-3ac327824506")
-		)
-		(fp_line
-			(start 1.75 1.35)
-			(end -1.75 1.35)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "d1aa4f47-6a5e-4c7f-96b9-8482d518be18")
+			(uuid "fd3919fa-911e-4a66-995a-47fafe296c86")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -14370,18 +14527,22 @@
 				)
 			)
 		)
-		(path "/60568a1d-bb1f-4d77-8c18-3b21a35c5012/c4f27e0b-d3fa-4d1a-803c-ad29196820d4")
-		(sheetname "/Stepper-1/")
-		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "25" "26" "8" "29" "31" "16" "30" "23" "17" "36" "18" "19" "10"
-					"6" "7" "1" "22" "2" "3" "4" "5" "9" "11" "34" "32" "13" "15" "27" "28"
-					"20" "21" "33" "14" "24" "12" "35" "37"
+		(property "Id" "Stepper:TMC2130-LA"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ccffc6f4-875d-4f27-8b35-6ed57f293c7b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
+		(path "/60568a1d-bb1f-4d77-8c18-3b21a35c5012/c4f27e0b-d3fa-4d1a-803c-ad29196820d4")
+		(sheetname "/Stepper-1/")
+		(sheetfile "StepperDriver.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16548,7 +16709,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers no)
-			(zone_layer_connections "In1.Cu" "In2.Cu" "B.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_37")
 			(pintype "power_in")
@@ -16562,7 +16723,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers no)
-			(zone_layer_connections "In1.Cu" "In2.Cu" "B.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_37")
 			(pintype "power_in")
@@ -16576,7 +16737,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers no)
-			(zone_layer_connections "In1.Cu" "In2.Cu" "B.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_37")
 			(pintype "power_in")
@@ -16590,7 +16751,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers no)
-			(zone_layer_connections "In1.Cu" "In2.Cu" "B.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_37")
 			(pintype "power_in")
@@ -16604,7 +16765,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers no)
-			(zone_layer_connections "In1.Cu" "In2.Cu" "B.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_37")
 			(pintype "power_in")
@@ -16618,7 +16779,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers no)
-			(zone_layer_connections "In1.Cu" "In2.Cu" "B.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_37")
 			(pintype "power_in")
@@ -16652,7 +16813,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers no)
-			(zone_layer_connections "In1.Cu" "In2.Cu" "B.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_37")
 			(pintype "power_in")
@@ -16666,7 +16827,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers no)
-			(zone_layer_connections "In1.Cu" "In2.Cu" "B.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_37")
 			(pintype "power_in")
@@ -16680,7 +16841,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers no)
-			(zone_layer_connections "In1.Cu" "In2.Cu" "B.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_37")
 			(pintype "power_in")
@@ -16694,7 +16855,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers no)
-			(zone_layer_connections "In1.Cu" "In2.Cu" "B.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_37")
 			(pintype "power_in")
@@ -16708,7 +16869,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers no)
-			(zone_layer_connections "In1.Cu" "In2.Cu" "B.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_37")
 			(pintype "power_in")
@@ -16722,7 +16883,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers no)
-			(zone_layer_connections "In1.Cu" "In2.Cu" "B.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_37")
 			(pintype "power_in")
@@ -16847,16 +17008,23 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:0603_18p"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "faf6fd66-e7c2-4a0b-8a90-1c78be966d35")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/9b95cb83-a45c-4669-9b91-f341db699f30")
 		(sheetname "/")
 		(sheetfile "step.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17067,16 +17235,23 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:0603_0u47"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "db5ea5f9-be64-4ae4-84d0-4f1c1dc456db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/39d6363d-afe8-4428-a84b-595ab7901e78/e9feafc0-7605-463c-ab43-73a5a7113a3d")
 		(sheetname "/Stepper-4/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17263,15 +17438,22 @@
 				)
 			)
 		)
+		(property "Id" "WAGO:2065"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9170e3d6-6220-4872-95be-38127bdf4a30")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/60568a1d-bb1f-4d77-8c18-3b21a35c5012/a556a016-b7ff-4845-8428-37883ced63d1")
 		(sheetname "/Stepper-1/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.1 1.78)
@@ -17591,16 +17773,23 @@
 				)
 			)
 		)
+		(property "Id" "Resistor:0603_2R2"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "524493be-7243-49af-a8a9-8c594f871c17")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/bbbca06b-b34a-42a6-b446-d9a6850f1915/c3f01cef-f651-4e3c-a77e-32c3ef34c5c6")
 		(sheetname "/Stepper-3/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17658,7 +17847,7 @@
 		)
 		(pad "" smd roundrect
 			(at -0.75 0 180)
-			(size 0.75 0.95)
+			(size 0.7 0.9)
 			(layers "F.Paste")
 			(roundrect_rratio 0.1333333333)
 			(chamfer_ratio 0.4)
@@ -17667,7 +17856,7 @@
 		)
 		(pad "" smd roundrect
 			(at 0.75 0 180)
-			(size 0.75 0.95)
+			(size 0.7 0.9)
 			(layers "F.Paste")
 			(roundrect_rratio 0.1333333333)
 			(chamfer_ratio 0.4)
@@ -17811,16 +18000,23 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:0805_10u"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "872622b0-b707-4976-a4d6-b897f5f27b0c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/32f9cf95-5154-44fe-a4a0-3bd7d0128ffb")
 		(sheetname "/")
 		(sheetfile "step.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17983,13 +18179,7 @@
 		(path "/f661d9d4-0375-46e0-925e-0768422629af")
 		(sheetname "/")
 		(sheetfile "step.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(attr exclude_from_bom allow_missing_courtyard)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(pad "" np_thru_hole circle
 			(at 0 0)
@@ -18082,15 +18272,22 @@
 				)
 			)
 		)
+		(property "Id" "WAGO:2065"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "71d5085d-7693-4a44-a80f-019853a83b97")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/60568a1d-bb1f-4d77-8c18-3b21a35c5012/f7da93d8-324a-469c-8e25-984d56287466")
 		(sheetname "/Stepper-1/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.1 1.78)
@@ -18397,18 +18594,22 @@
 				)
 			)
 		)
-		(path "/39d6363d-afe8-4428-a84b-595ab7901e78/c4f27e0b-d3fa-4d1a-803c-ad29196820d4")
-		(sheetname "/Stepper-4/")
-		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "25" "26" "8" "29" "31" "16" "30" "23" "17" "36" "18" "19" "10"
-					"6" "7" "1" "22" "2" "3" "4" "5" "9" "11" "34" "32" "13" "15" "27" "28"
-					"20" "21" "33" "14" "24" "12" "35" "37"
+		(property "Id" "Stepper:TMC2130-LA"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b972fca3-5d73-4aad-9e4f-033700e0f8ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
+		(path "/39d6363d-afe8-4428-a84b-595ab7901e78/c4f27e0b-d3fa-4d1a-803c-ad29196820d4")
+		(sheetname "/Stepper-4/")
+		(sheetfile "StepperDriver.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20575,7 +20776,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers no)
-			(zone_layer_connections "In1.Cu" "In2.Cu" "B.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_37")
 			(pintype "power_in")
@@ -20589,7 +20790,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers no)
-			(zone_layer_connections "In1.Cu" "In2.Cu" "B.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_37")
 			(pintype "power_in")
@@ -20603,7 +20804,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers no)
-			(zone_layer_connections "In1.Cu" "In2.Cu" "B.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_37")
 			(pintype "power_in")
@@ -20617,7 +20818,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers no)
-			(zone_layer_connections "In1.Cu" "In2.Cu" "B.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_37")
 			(pintype "power_in")
@@ -20631,7 +20832,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers no)
-			(zone_layer_connections "In1.Cu" "In2.Cu" "B.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_37")
 			(pintype "power_in")
@@ -20645,7 +20846,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers no)
-			(zone_layer_connections "In1.Cu" "In2.Cu" "B.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_37")
 			(pintype "power_in")
@@ -20679,7 +20880,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers no)
-			(zone_layer_connections "In1.Cu" "In2.Cu" "B.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_37")
 			(pintype "power_in")
@@ -20693,7 +20894,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers no)
-			(zone_layer_connections "In1.Cu" "In2.Cu" "B.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_37")
 			(pintype "power_in")
@@ -20707,7 +20908,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers no)
-			(zone_layer_connections "In1.Cu" "In2.Cu" "B.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_37")
 			(pintype "power_in")
@@ -20721,7 +20922,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers no)
-			(zone_layer_connections "In1.Cu" "In2.Cu" "B.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_37")
 			(pintype "power_in")
@@ -20735,7 +20936,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers no)
-			(zone_layer_connections "In1.Cu" "In2.Cu" "B.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_37")
 			(pintype "power_in")
@@ -20749,7 +20950,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers no)
-			(zone_layer_connections "In1.Cu" "In2.Cu" "B.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_37")
 			(pintype "power_in")
@@ -20850,15 +21051,22 @@
 				)
 			)
 		)
+		(property "Id" "WAGO:2065"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fc769cec-4ad8-4b48-8e1a-1ad317ad463b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/39d6363d-afe8-4428-a84b-595ab7901e78/d1cdc67e-f295-475e-9bea-d82a25080e6b")
 		(sheetname "/Stepper-4/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.1 1.78)
@@ -21178,16 +21386,23 @@
 				)
 			)
 		)
+		(property "Id" "Resistor:0603_100k"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "66a5e161-fc14-4421-bae7-7e49f3834572")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/f9c63b6f-58f5-463c-9aaf-9b2e31fb1861")
 		(sheetname "/")
 		(sheetfile "step.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21245,7 +21460,7 @@
 		)
 		(pad "" smd roundrect
 			(at -0.75 0 180)
-			(size 0.75 0.95)
+			(size 0.7 0.9)
 			(layers "F.Paste")
 			(roundrect_rratio 0.1333333333)
 			(chamfer_ratio 0.4)
@@ -21254,7 +21469,7 @@
 		)
 		(pad "" smd roundrect
 			(at 0.75 0 180)
-			(size 0.75 0.95)
+			(size 0.7 0.9)
 			(layers "F.Paste")
 			(roundrect_rratio 0.1333333333)
 			(chamfer_ratio 0.4)
@@ -21398,16 +21613,23 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:0603_0u1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7878cffd-c6da-40cd-9849-d6f3fdf8712b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/b9fa3439-daac-4b65-9cd2-f53e12f361a0")
 		(sheetname "/")
 		(sheetfile "step.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21618,16 +21840,23 @@
 				)
 			)
 		)
+		(property "Id" "Resistor:0805_0R11"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df06531e-6830-42a4-a546-dc827c16431b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/60568a1d-bb1f-4d77-8c18-3b21a35c5012/500a9b1d-2c2f-4244-9016-0a4e6cd8237a")
 		(sheetname "/Stepper-1/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21838,16 +22067,23 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:0603_0u47"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "65b1ec0c-69c4-48e0-bb2a-08a2f9551032")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/60568a1d-bb1f-4d77-8c18-3b21a35c5012/e9feafc0-7605-463c-ab43-73a5a7113a3d")
 		(sheetname "/Stepper-1/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22058,16 +22294,23 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:0603_0u1"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3e02c896-8eef-4af2-9b10-e0e3ec3231c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/bbbca06b-b34a-42a6-b446-d9a6850f1915/64b2bce4-5075-4ff7-92dc-a36458283ceb")
 		(sheetname "/Stepper-3/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22230,13 +22473,7 @@
 		(path "/413d4a39-e1e2-4672-b240-a47741ae799c")
 		(sheetname "/")
 		(sheetfile "step.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(attr exclude_from_bom allow_missing_courtyard)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(pad "" np_thru_hole circle
 			(at 0 0)
@@ -22319,12 +22556,6 @@
 		(path "/827036bb-51e3-4843-bcd9-3cef96583bb3")
 		(sheetname "/")
 		(sheetfile "step.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr exclude_from_bom allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22564,13 +22795,7 @@
 		(path "/6cd046e4-3a13-4326-82b8-f9205dfbba3d")
 		(sheetname "/")
 		(sheetfile "step.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(attr exclude_from_bom allow_missing_courtyard)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(pad "" np_thru_hole circle
 			(at 0 0)
@@ -22687,16 +22912,23 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:Polarized_6.3x5.8_47u"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e1ead177-bc65-4e6a-a041-990cade50154")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "CP_*")
 		(path "/bbbca06b-b34a-42a6-b446-d9a6850f1915/966398d5-f811-4ade-bc2b-fae4d1917c51")
 		(sheetname "/Stepper-3/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23123,15 +23355,22 @@
 				)
 			)
 		)
+		(property "Id" "WAGO:2065"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0761a80e-a5b2-41a1-9bc1-335042b04002")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/b5cf9720-7adc-4c1b-b0f8-00fa5b3eb49c/a556a016-b7ff-4845-8428-37883ced63d1")
 		(sheetname "/Stepper-2/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.1 1.78)
@@ -23440,15 +23679,35 @@
 				)
 			)
 		)
+		(property "Id" "LED:WS2812"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7451ffcb-e330-440f-8b9d-3cd5129d793e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rating" "15mA"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f226f54-9258-4e46-bb46-e87e5d247543")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/60568a1d-bb1f-4d77-8c18-3b21a35c5012/177167f8-69d4-4817-a3c6-7fe0cf4ee065")
 		(sheetname "/Stepper-1/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "4" "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23675,16 +23934,23 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:0603_10u"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ea1c4dc-fbc9-4583-91c5-692e98798324")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/8b1cb416-f9ac-41d1-988c-0516ecf3ab43")
 		(sheetname "/")
 		(sheetfile "step.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23895,16 +24161,23 @@
 				)
 			)
 		)
+		(property "Id" "Resistor:0805_0R11"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e8535c50-c233-4e2a-b51c-dc9b36047f82")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/bbbca06b-b34a-42a6-b446-d9a6850f1915/500a9b1d-2c2f-4244-9016-0a4e6cd8237a")
 		(sheetname "/Stepper-3/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24115,16 +24388,23 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:0603_0u47"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f595063c-3a30-4b58-8f45-630f07c39e07")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/bbbca06b-b34a-42a6-b446-d9a6850f1915/e9feafc0-7605-463c-ab43-73a5a7113a3d")
 		(sheetname "/Stepper-3/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24324,15 +24604,35 @@
 				)
 			)
 		)
+		(property "Id" "LED:WS2812"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6619e614-ce38-488c-9bf8-5e73d8f4a1f4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rating" "15mA"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0a29ad29-ca07-48a7-94e1-b72daf836261")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/b5cf9720-7adc-4c1b-b0f8-00fa5b3eb49c/177167f8-69d4-4817-a3c6-7fe0cf4ee065")
 		(sheetname "/Stepper-2/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "4" "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24559,16 +24859,23 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:1210_10u"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8832e29f-6d2b-497a-8b80-404cf68c6ed6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/39d6363d-afe8-4428-a84b-595ab7901e78/08ec2ab8-5431-4fa0-b5e0-a19f6d8c1d88")
 		(sheetname "/Stepper-4/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24780,15 +25087,22 @@
 				)
 			)
 		)
+		(property "Id" "Diode:CG0603MLC-05LE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d0253959-4641-4c71-8ea4-4d153038c64f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/2aa6ef76-0d43-496a-a73d-3da42668d1f5")
 		(sheetname "/")
 		(sheetfile "step.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24856,7 +25170,7 @@
 		)
 		(pad "" smd roundrect
 			(at -0.75 0)
-			(size 1 0.8)
+			(size 0.9 0.7)
 			(layers "F.Paste")
 			(roundrect_rratio 0.125)
 			(chamfer_ratio 0.4)
@@ -24865,7 +25179,7 @@
 		)
 		(pad "" smd roundrect
 			(at 0.75 0)
-			(size 1 0.8)
+			(size 0.9 0.7)
 			(layers "F.Paste")
 			(roundrect_rratio 0.125)
 			(chamfer_ratio 0.4)
@@ -24987,15 +25301,22 @@
 				)
 			)
 		)
+		(property "Id" "WAGO:2065"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9cd1ec4e-2889-4c4a-b8bf-ca46404af7c9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/bbbca06b-b34a-42a6-b446-d9a6850f1915/f7da93d8-324a-469c-8e25-984d56287466")
 		(sheetname "/Stepper-3/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.1 1.78)
@@ -25315,16 +25636,23 @@
 				)
 			)
 		)
+		(property "Id" "Resistor:0603_2R2"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7e1f890f-a1cd-4576-881c-836e3fa35728")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/60568a1d-bb1f-4d77-8c18-3b21a35c5012/c3f01cef-f651-4e3c-a77e-32c3ef34c5c6")
 		(sheetname "/Stepper-1/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -25382,7 +25710,7 @@
 		)
 		(pad "" smd roundrect
 			(at -0.75 0 180)
-			(size 0.75 0.95)
+			(size 0.7 0.9)
 			(layers "F.Paste")
 			(roundrect_rratio 0.1333333333)
 			(chamfer_ratio 0.4)
@@ -25391,7 +25719,7 @@
 		)
 		(pad "" smd roundrect
 			(at 0.75 0 180)
-			(size 0.75 0.95)
+			(size 0.7 0.9)
 			(layers "F.Paste")
 			(roundrect_rratio 0.1333333333)
 			(chamfer_ratio 0.4)
@@ -25522,18 +25850,22 @@
 				)
 			)
 		)
-		(path "/b5cf9720-7adc-4c1b-b0f8-00fa5b3eb49c/c4f27e0b-d3fa-4d1a-803c-ad29196820d4")
-		(sheetname "/Stepper-2/")
-		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "25" "26" "8" "29" "31" "16" "30" "23" "17" "36" "18" "19" "10"
-					"6" "7" "1" "22" "2" "3" "4" "5" "9" "11" "34" "32" "13" "15" "27" "28"
-					"20" "21" "33" "14" "24" "12" "35" "37"
+		(property "Id" "Stepper:TMC2130-LA"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67fe5cb7-4e90-42ac-aae4-37802aa420b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
+		(path "/b5cf9720-7adc-4c1b-b0f8-00fa5b3eb49c/c4f27e0b-d3fa-4d1a-803c-ad29196820d4")
+		(sheetname "/Stepper-2/")
+		(sheetfile "StepperDriver.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -27700,7 +28032,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers no)
-			(zone_layer_connections "In1.Cu" "In2.Cu" "B.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_37")
 			(pintype "power_in")
@@ -27714,7 +28046,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers no)
-			(zone_layer_connections "In1.Cu" "In2.Cu" "B.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_37")
 			(pintype "power_in")
@@ -27728,7 +28060,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers no)
-			(zone_layer_connections "In1.Cu" "In2.Cu" "B.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_37")
 			(pintype "power_in")
@@ -27742,7 +28074,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers no)
-			(zone_layer_connections "In1.Cu" "In2.Cu" "B.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_37")
 			(pintype "power_in")
@@ -27756,7 +28088,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers no)
-			(zone_layer_connections "In1.Cu" "In2.Cu" "B.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_37")
 			(pintype "power_in")
@@ -27770,7 +28102,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers no)
-			(zone_layer_connections "In1.Cu" "In2.Cu" "B.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_37")
 			(pintype "power_in")
@@ -27804,7 +28136,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers no)
-			(zone_layer_connections "In1.Cu" "In2.Cu" "B.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_37")
 			(pintype "power_in")
@@ -27818,7 +28150,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers no)
-			(zone_layer_connections "In1.Cu" "In2.Cu" "B.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_37")
 			(pintype "power_in")
@@ -27832,7 +28164,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers no)
-			(zone_layer_connections "In1.Cu" "In2.Cu" "B.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_37")
 			(pintype "power_in")
@@ -27846,7 +28178,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers no)
-			(zone_layer_connections "In1.Cu" "In2.Cu" "B.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_37")
 			(pintype "power_in")
@@ -27860,7 +28192,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers no)
-			(zone_layer_connections "In1.Cu" "In2.Cu" "B.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_37")
 			(pintype "power_in")
@@ -27874,7 +28206,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers no)
-			(zone_layer_connections "In1.Cu" "In2.Cu" "B.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "PAD_37")
 			(pintype "power_in")
@@ -27986,16 +28318,36 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:0603_0u022"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "96eb2a12-32c5-478c-8662-8fef4977dcc2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rating" "50V"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "390ef925-0af8-48c9-8c47-376d1d5048de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/60568a1d-bb1f-4d77-8c18-3b21a35c5012/112f0a75-647d-4929-9dd6-d53a40dbe937")
 		(sheetname "/Stepper-1/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -28193,16 +28545,36 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:0603_4u7"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3756eb4c-f45e-4a82-a804-84feb342d8ea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rating" "10V"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d70efaf4-66fc-4a40-9301-fa5544d96a51")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/b5cf9720-7adc-4c1b-b0f8-00fa5b3eb49c/0fe3142c-31a3-45e9-8e7d-18b2b579033d")
 		(sheetname "/Stepper-2/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -28415,15 +28787,22 @@
 				)
 			)
 		)
+		(property "Id" "Diode:SMBJ33CA"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "33b5946b-94eb-47f7-ad92-be90740270ea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/910a5261-6f96-47bb-b7dd-4b8722b2f1bf")
 		(sheetname "/")
 		(sheetfile "step.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -28658,16 +29037,23 @@
 				)
 			)
 		)
+		(property "Id" "Resistor:0603_10k"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3f7acf8b-3bdc-4d7a-8a24-dbafce4288a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/27b08f89-021f-4290-9bac-eee0a52746b6")
 		(sheetname "/")
 		(sheetfile "step.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -28725,7 +29111,7 @@
 		)
 		(pad "" smd roundrect
 			(at -0.75 0)
-			(size 0.75 0.95)
+			(size 0.7 0.9)
 			(layers "F.Paste")
 			(roundrect_rratio 0.1333333333)
 			(chamfer_ratio 0.4)
@@ -28734,7 +29120,7 @@
 		)
 		(pad "" smd roundrect
 			(at 0.75 0)
-			(size 0.75 0.95)
+			(size 0.7 0.9)
 			(layers "F.Paste")
 			(roundrect_rratio 0.1333333333)
 			(chamfer_ratio 0.4)
@@ -28878,16 +29264,23 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:0603_0u1"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e7624d93-879e-413a-947d-02a57e7d700f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/2a03ea79-269e-4abf-833c-000ba0ff13d7/d6d86372-3cc0-4059-a968-9a78901fd202")
 		(sheetname "/Link Socket/")
 		(sheetfile "LinkSocket.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -29064,13 +29457,7 @@
 		(path "/b16d9dd0-40c0-4a7a-8c17-dfc755134c6c")
 		(sheetname "/")
 		(sheetfile "step.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(attr exclude_from_bom allow_missing_courtyard)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
@@ -29814,15 +30201,22 @@
 				)
 			)
 		)
+		(property "Id" "WAGO:2065"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e3bfe7d7-e755-4675-af25-e7d3471a4999")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/bbbca06b-b34a-42a6-b446-d9a6850f1915/a556a016-b7ff-4845-8428-37883ced63d1")
 		(sheetname "/Stepper-3/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.1 1.78)
@@ -30118,15 +30512,22 @@
 				)
 			)
 		)
+		(property "Id" "WAGO:2065"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "75692cd0-4985-4ee6-9bb2-41c99e757cbb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/bbbca06b-b34a-42a6-b446-d9a6850f1915/d1cdc67e-f295-475e-9bea-d82a25080e6b")
 		(sheetname "/Stepper-3/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.1 1.78)
@@ -30446,16 +30847,23 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:1210_10u"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c71f28c6-9172-44c1-9d52-ad8e4744acd1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/bbbca06b-b34a-42a6-b446-d9a6850f1915/08ec2ab8-5431-4fa0-b5e0-a19f6d8c1d88")
 		(sheetname "/Stepper-3/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -30654,16 +31062,36 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:0603_0u022"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "75de9547-681e-439b-a8d9-39f30e546b62")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rating" "50V"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6c0b731f-cb1f-4a2f-b06e-72b444e84cd9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/39d6363d-afe8-4428-a84b-595ab7901e78/112f0a75-647d-4929-9dd6-d53a40dbe937")
 		(sheetname "/Stepper-4/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -30863,15 +31291,22 @@
 				)
 			)
 		)
+		(property "Id" "Header:2x05_Horizontal"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f260c78-9bf4-4a61-acb7-c0b5419ca3f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/c6db2f80-f80f-4104-8ca1-02f0ab85cfea/62a1336e-f99f-41ce-b326-637bf3886a09")
 		(sheetname "/Link Plug/")
 		(sheetfile "LinkPlug.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "5" "7" "9" "2" "4" "6" "8" "10")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -31304,7 +31739,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In1.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "Pin_3_3")
 			(pintype "passive")
@@ -31318,7 +31753,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In2.Cu")
+			(zone_layer_connections)
 			(net "+5V")
 			(pinfunction "Pin_4_4")
 			(pintype "passive")
@@ -31360,7 +31795,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In2.Cu")
+			(zone_layer_connections)
 			(net "+5V")
 			(pinfunction "Pin_7_7")
 			(pintype "passive")
@@ -31374,7 +31809,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In1.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "Pin_8_8")
 			(pintype "passive")
@@ -31515,16 +31950,36 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:0603_4u7"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "defa35e4-5043-43be-94f2-ce6e9bd62236")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rating" "10V"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a57f0848-e2a8-45bb-ba0c-f6c3c44bc66c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/39d6363d-afe8-4428-a84b-595ab7901e78/0fe3142c-31a3-45e9-8e7d-18b2b579033d")
 		(sheetname "/Stepper-4/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -31735,16 +32190,23 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:Polarized_6.3x5.8_47u"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7b51906f-7cb7-45f6-9d1b-c99ae96c72f5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "CP_*")
 		(path "/39d6363d-afe8-4428-a84b-595ab7901e78/966398d5-f811-4ade-bc2b-fae4d1917c51")
 		(sheetname "/Stepper-4/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -32184,15 +32646,35 @@
 				)
 			)
 		)
+		(property "Id" "LED:WS2812"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "15931754-b859-45c3-aaef-6290b69dcac1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rating" "15mA"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aee344e6-3c36-424d-8ebd-499e6d06c340")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/5f1c71be-b9b9-47cf-820f-4afd322e7da4")
 		(sheetname "/")
 		(sheetfile "step.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "4" "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -32419,16 +32901,23 @@
 				)
 			)
 		)
+		(property "Id" "Resistor:0603_330R"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c4d5c9db-6b2f-428a-9d55-e22b948c9452")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/b3b0c6e8-2d4f-44f3-863f-e6c1387584b1")
 		(sheetname "/")
 		(sheetfile "step.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -32486,7 +32975,7 @@
 		)
 		(pad "" smd roundrect
 			(at -0.75 0)
-			(size 0.75 0.95)
+			(size 0.7 0.9)
 			(layers "F.Paste")
 			(roundrect_rratio 0.1333333333)
 			(chamfer_ratio 0.4)
@@ -32495,7 +32984,7 @@
 		)
 		(pad "" smd roundrect
 			(at 0.75 0)
-			(size 0.75 0.95)
+			(size 0.7 0.9)
 			(layers "F.Paste")
 			(roundrect_rratio 0.1333333333)
 			(chamfer_ratio 0.4)
@@ -32626,16 +33115,36 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:0603_0u022"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc610915-f4bf-4be6-9d0d-735c22b29ba2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rating" "50V"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5e5c3e16-f930-41e9-8caf-0773e6d7f0a8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/b5cf9720-7adc-4c1b-b0f8-00fa5b3eb49c/112f0a75-647d-4929-9dd6-d53a40dbe937")
 		(sheetname "/Stepper-2/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -32833,16 +33342,36 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:0603_4u7"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1e2a0f9f-fb45-4c45-9996-373b1954f215")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rating" "10V"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d4673a0-217e-4aa1-9421-834540bef500")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/bbbca06b-b34a-42a6-b446-d9a6850f1915/0fe3142c-31a3-45e9-8e7d-18b2b579033d")
 		(sheetname "/Stepper-3/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -33053,16 +33582,23 @@
 				)
 			)
 		)
+		(property "Id" "Resistor:0603_2R2"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a84095f2-fdab-4f79-830f-43cb05dfca95")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/b5cf9720-7adc-4c1b-b0f8-00fa5b3eb49c/c3f01cef-f651-4e3c-a77e-32c3ef34c5c6")
 		(sheetname "/Stepper-2/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -33120,7 +33656,7 @@
 		)
 		(pad "" smd roundrect
 			(at -0.75 0 180)
-			(size 0.75 0.95)
+			(size 0.7 0.9)
 			(layers "F.Paste")
 			(roundrect_rratio 0.1333333333)
 			(chamfer_ratio 0.4)
@@ -33129,7 +33665,7 @@
 		)
 		(pad "" smd roundrect
 			(at 0.75 0 180)
-			(size 0.75 0.95)
+			(size 0.7 0.9)
 			(layers "F.Paste")
 			(roundrect_rratio 0.1333333333)
 			(chamfer_ratio 0.4)
@@ -33261,15 +33797,35 @@
 				)
 			)
 		)
+		(property "Id" "RS485:THVD2442"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "578c7363-1dc5-43cd-90c8-2bebb96e3b2a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rating" "20Mbps"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bd2e31fd-f6c5-4a85-9287-ad4fed853370")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/c6db2f80-f80f-4104-8ca1-02f0ab85cfea/49f2f260-4bf1-486c-9d7a-43ac2a901e5b")
 		(sheetname "/Link Plug/")
 		(sheetfile "LinkPlug.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "10" "5" "11" "9" "8" "7" "6")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -33690,7 +34246,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In1.Cu" "In2.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "GND_11")
 			(pintype "passive")
@@ -33722,7 +34278,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In1.Cu" "In2.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "GND_11")
 			(pintype "passive")
@@ -33754,7 +34310,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers no)
-			(zone_layer_connections "In1.Cu" "B.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "GND_11")
 			(pintype "passive")
@@ -33786,7 +34342,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In1.Cu" "In2.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "GND_11")
 			(pintype "passive")
@@ -33887,15 +34443,22 @@
 				)
 			)
 		)
+		(property "Id" "WAGO:2065"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fd06b39b-ef43-4ce0-982c-393578b535f5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/60568a1d-bb1f-4d77-8c18-3b21a35c5012/9e185ff4-cd9c-4660-bb28-a0043f2777fd")
 		(sheetname "/Stepper-1/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.1 1.78)
@@ -34215,16 +34778,23 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:0603_0u1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1960191b-1740-4ff3-9e91-5c83f1355d37")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/39d6363d-afe8-4428-a84b-595ab7901e78/2c8571a5-acd7-4925-872d-6e76b48aa7fa")
 		(sheetname "/Stepper-4/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -34435,16 +35005,23 @@
 				)
 			)
 		)
+		(property "Id" "Resistor:0805_0R11"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f452b64-e827-402f-acc3-8ed13d5d6c74")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/39d6363d-afe8-4428-a84b-595ab7901e78/500a9b1d-2c2f-4244-9016-0a4e6cd8237a")
 		(sheetname "/Stepper-4/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -34655,16 +35232,23 @@
 				)
 			)
 		)
+		(property "Id" "Resistor:0805_0R11"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "406fc067-ddd6-4eac-ad4f-4275940c36b7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/b5cf9720-7adc-4c1b-b0f8-00fa5b3eb49c/e1315563-cfac-449f-852c-a7b4c0846d68")
 		(sheetname "/Stepper-2/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -34841,12 +35425,6 @@
 		(path "/ff928ce4-7b6a-40dc-844c-d7a7fa38d0a3")
 		(sheetname "/")
 		(sheetfile "step.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr exclude_from_bom allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -35132,16 +35710,23 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:0603_0u1"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "55f4668a-ef89-4da4-8696-b576b12dcbe9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/ed37f273-203c-4e14-8c3f-6d3652cda11b")
 		(sheetname "/")
 		(sheetfile "step.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -35341,16 +35926,36 @@
 				)
 			)
 		)
+		(property "Id" "Crystal:3.2x1.5_32k768"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "58b53616-59f7-46f8-9434-c6aeac217278")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rating" "10ppm"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b6984a0b-f5b6-4598-a6c0-539db68878d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Crystal*")
 		(path "/8983cb51-a714-4dae-ba79-062889bdc4de")
 		(sheetname "/")
 		(sheetfile "step.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -35466,7 +36071,7 @@
 		)
 		(pad "" smd roundrect
 			(at -1.25 0 90)
-			(size 1 1.8)
+			(size 0.9 1.7)
 			(layers "F.Paste")
 			(roundrect_rratio 0.1)
 			(chamfer_ratio 0.4)
@@ -35475,7 +36080,7 @@
 		)
 		(pad "" smd roundrect
 			(at 1.25 0 90)
-			(size 1 1.8)
+			(size 0.9 1.7)
 			(layers "F.Paste")
 			(roundrect_rratio 0.1)
 			(chamfer_ratio 0.4)
@@ -35511,7 +36116,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -35621,16 +36226,23 @@
 				)
 			)
 		)
+		(property "Id" "Resistor:0805_0R11"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a870a11e-42fa-4ded-9c11-bd71366bc886")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/b5cf9720-7adc-4c1b-b0f8-00fa5b3eb49c/500a9b1d-2c2f-4244-9016-0a4e6cd8237a")
 		(sheetname "/Stepper-2/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -35841,16 +36453,23 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:Polarized_6.3x5.8_47u"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "75007b6c-f407-4b42-8509-0f5136a15977")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "CP_*")
 		(path "/60568a1d-bb1f-4d77-8c18-3b21a35c5012/966398d5-f811-4ade-bc2b-fae4d1917c51")
 		(sheetname "/Stepper-1/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -36277,15 +36896,22 @@
 				)
 			)
 		)
+		(property "Id" "WAGO:2065"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9aa98719-0e17-4c73-8c08-d7ab74189d5c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/bbbca06b-b34a-42a6-b446-d9a6850f1915/9e185ff4-cd9c-4660-bb28-a0043f2777fd")
 		(sheetname "/Stepper-3/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.1 1.78)
@@ -36559,13 +37185,7 @@
 		(path "/7f4ad709-999b-4fb6-8319-47ff0a5c3bda")
 		(sheetname "/")
 		(sheetfile "step.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(attr exclude_from_bom allow_missing_courtyard)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(pad "" np_thru_hole circle
 			(at 0 0)
@@ -36682,16 +37302,23 @@
 				)
 			)
 		)
+		(property "Id" "Resistor:0805_0R11"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a2ee5ac-b8a9-405f-b4c8-b72e873792fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/39d6363d-afe8-4428-a84b-595ab7901e78/e1315563-cfac-449f-852c-a7b4c0846d68")
 		(sheetname "/Stepper-4/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -36891,15 +37518,35 @@
 				)
 			)
 		)
+		(property "Id" "LED:WS2812"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7fc09ad3-d644-4672-818b-4e0014b445d4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rating" "15mA"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a8cfee99-efe1-4e0f-aa23-a913c98b2c7b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/bbbca06b-b34a-42a6-b446-d9a6850f1915/177167f8-69d4-4817-a3c6-7fe0cf4ee065")
 		(sheetname "/Stepper-3/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "4" "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -37126,16 +37773,23 @@
 				)
 			)
 		)
+		(property "Id" "Resistor:0805_0R11"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cbf9c65f-cac1-4f11-8b94-82d3247988b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/60568a1d-bb1f-4d77-8c18-3b21a35c5012/e1315563-cfac-449f-852c-a7b4c0846d68")
 		(sheetname "/Stepper-1/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -37346,16 +38000,36 @@
 				)
 			)
 		)
+		(property "Id" "LED:0603_Orange"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f84c17f2-c3da-49c8-9a6d-dcfeb8ab829c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rating" "605nm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "28773146-33c8-49c1-a2f3-acb3c06415e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/1ded23bb-9e01-4b5c-b1b4-6483eb39a60c")
 		(sheetname "/")
 		(sheetfile "step.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -37581,13 +38255,7 @@
 		(path "/2ea90a9c-c79e-495b-b221-c6ea8643fdb4")
 		(sheetname "/")
 		(sheetfile "step.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(attr exclude_from_bom allow_missing_courtyard)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.6 -7.1)
@@ -37841,16 +38509,23 @@
 				)
 			)
 		)
+		(property "Id" "Resistor:0603_100R"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6452902b-14d0-4cd6-acfa-88674b3ee79a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/2a03ea79-269e-4abf-833c-000ba0ff13d7/8be78d92-c52c-403a-8e36-88157418b91c")
 		(sheetname "/Link Socket/")
 		(sheetfile "LinkSocket.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -37908,7 +38583,7 @@
 		)
 		(pad "" smd roundrect
 			(at -0.75 0 270)
-			(size 0.75 0.95)
+			(size 0.7 0.9)
 			(layers "F.Paste")
 			(roundrect_rratio 0.1333333333)
 			(chamfer_ratio 0.4)
@@ -37917,7 +38592,7 @@
 		)
 		(pad "" smd roundrect
 			(at 0.75 0 270)
-			(size 0.75 0.95)
+			(size 0.7 0.9)
 			(layers "F.Paste")
 			(roundrect_rratio 0.1333333333)
 			(chamfer_ratio 0.4)
@@ -38061,16 +38736,23 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:0603_0u1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3393d733-a250-4d44-9dd3-d9b7b3c96f6e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/60568a1d-bb1f-4d77-8c18-3b21a35c5012/2c8571a5-acd7-4925-872d-6e76b48aa7fa")
 		(sheetname "/Stepper-1/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -38281,16 +38963,23 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:0805_10u"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "74796b5d-e9b1-4695-83e6-febd8f15d164")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/86b706b9-6d90-4020-b4f0-e395502cc830")
 		(sheetname "/")
 		(sheetfile "step.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -38501,16 +39190,23 @@
 				)
 			)
 		)
+		(property "Id" "Resistor:0603_2R2"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d67b759a-efa1-485d-b101-8021db7ea6fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/39d6363d-afe8-4428-a84b-595ab7901e78/c3f01cef-f651-4e3c-a77e-32c3ef34c5c6")
 		(sheetname "/Stepper-4/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -38568,7 +39264,7 @@
 		)
 		(pad "" smd roundrect
 			(at -0.75 0 180)
-			(size 0.75 0.95)
+			(size 0.7 0.9)
 			(layers "F.Paste")
 			(roundrect_rratio 0.1333333333)
 			(chamfer_ratio 0.4)
@@ -38577,7 +39273,7 @@
 		)
 		(pad "" smd roundrect
 			(at 0.75 0 180)
-			(size 0.75 0.95)
+			(size 0.7 0.9)
 			(layers "F.Paste")
 			(roundrect_rratio 0.1333333333)
 			(chamfer_ratio 0.4)
@@ -38721,16 +39417,23 @@
 				)
 			)
 		)
+		(property "Id" "Resistor:0603_100k"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "01989229-70c4-4763-b9b5-08c1ffd24ceb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/f25e835e-cacc-4ac6-b988-a72d6883ddb2")
 		(sheetname "/")
 		(sheetfile "step.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -38788,7 +39491,7 @@
 		)
 		(pad "" smd roundrect
 			(at -0.75 0 180)
-			(size 0.75 0.95)
+			(size 0.7 0.9)
 			(layers "F.Paste")
 			(roundrect_rratio 0.1333333333)
 			(chamfer_ratio 0.4)
@@ -38797,7 +39500,7 @@
 		)
 		(pad "" smd roundrect
 			(at 0.75 0 180)
-			(size 0.75 0.95)
+			(size 0.7 0.9)
 			(layers "F.Paste")
 			(roundrect_rratio 0.1333333333)
 			(chamfer_ratio 0.4)
@@ -38929,15 +39632,22 @@
 				)
 			)
 		)
+		(property "Id" "ESD:RCLAMP0582N"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bfb5cbcb-6432-425e-9622-172923bff355")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/330191be-3691-4695-9403-de21f3946dc2")
 		(sheetname "/")
 		(sheetfile "step.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "4" "3" "5" "2" "6" "1")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -39265,16 +39975,23 @@
 				)
 			)
 		)
+		(property "Id" "Resistor:0603_100R"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7cc3c38c-2e6e-4284-991f-bdab883a60b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c6db2f80-f80f-4104-8ca1-02f0ab85cfea/51d3649f-ce1e-4270-8185-d550f68a90c3")
 		(sheetname "/Link Plug/")
 		(sheetfile "LinkPlug.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -39332,7 +40049,7 @@
 		)
 		(pad "" smd roundrect
 			(at -0.75 0 90)
-			(size 0.75 0.95)
+			(size 0.7 0.9)
 			(layers "F.Paste")
 			(roundrect_rratio 0.1333333333)
 			(chamfer_ratio 0.4)
@@ -39341,7 +40058,7 @@
 		)
 		(pad "" smd roundrect
 			(at 0.75 0 90)
-			(size 0.75 0.95)
+			(size 0.7 0.9)
 			(layers "F.Paste")
 			(roundrect_rratio 0.1333333333)
 			(chamfer_ratio 0.4)
@@ -39485,16 +40202,23 @@
 				)
 			)
 		)
+		(property "Id" "Resistor:0805_0R11"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "56863461-3182-4e8a-a687-855730233876")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/bbbca06b-b34a-42a6-b446-d9a6850f1915/e1315563-cfac-449f-852c-a7b4c0846d68")
 		(sheetname "/Stepper-3/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -39659,12 +40383,6 @@
 		(path "/d70eefe3-c463-42c7-ad37-0fcb53cb0f3d")
 		(sheetname "/")
 		(sheetfile "step.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -39806,16 +40524,23 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:1210_10u"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "052368f8-ee93-4061-97db-83a8d5f9d317")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/b5cf9720-7adc-4c1b-b0f8-00fa5b3eb49c/138430b5-5815-4ef4-97be-ca6e49754c80")
 		(sheetname "/Stepper-2/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -40003,15 +40728,22 @@
 				)
 			)
 		)
+		(property "Id" "WAGO:2065"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c2ef1949-494b-4463-9087-4e9af01768f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/a30ee4dc-ebad-4e22-945e-a42d2b4cf37c")
 		(sheetname "/")
 		(sheetfile "step.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.1 1.78)
@@ -40331,16 +41063,23 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:0603_0u1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9c2981fd-d93a-4a7a-9260-d22fc484a7f4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/bbbca06b-b34a-42a6-b446-d9a6850f1915/2c8571a5-acd7-4925-872d-6e76b48aa7fa")
 		(sheetname "/Stepper-3/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -40551,16 +41290,23 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:0603_0u1"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c02a39ba-fbc6-448e-a047-b5c9d4ae4e4e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/b5cf9720-7adc-4c1b-b0f8-00fa5b3eb49c/64b2bce4-5075-4ff7-92dc-a36458283ceb")
 		(sheetname "/Stepper-2/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -40747,15 +41493,22 @@
 				)
 			)
 		)
+		(property "Id" "WAGO:2065"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9a31db1d-2a10-4c09-9717-f537a3f4d849")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/fa19272e-9a2f-4429-a77d-32159347fa7b")
 		(sheetname "/")
 		(sheetfile "step.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.1 1.78)
@@ -41051,15 +41804,22 @@
 				)
 			)
 		)
+		(property "Id" "WAGO:2065"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "54e01f20-9c6b-4e8d-8e6b-b3c6414d8272")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/39d6363d-afe8-4428-a84b-595ab7901e78/9e185ff4-cd9c-4660-bb28-a0043f2777fd")
 		(sheetname "/Stepper-4/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.1 1.78)
@@ -41355,15 +42115,22 @@
 				)
 			)
 		)
+		(property "Id" "WAGO:2065"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "83924a85-7ab4-467e-833e-98db35d730ae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/39d6363d-afe8-4428-a84b-595ab7901e78/a556a016-b7ff-4845-8428-37883ced63d1")
 		(sheetname "/Stepper-4/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.1 1.78)
@@ -41635,13 +42402,7 @@
 		(path "/ff4fc8b4-ae8b-465d-b704-44e6a7a400a4")
 		(sheetname "/")
 		(sheetfile "step.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(attr exclude_from_bom allow_missing_courtyard)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(pad "" np_thru_hole circle
 			(at 0 0)
@@ -41745,16 +42506,36 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:0603_0u022"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3eb182f1-621e-4318-9997-46453714e1b4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rating" "50V"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0b096382-2c41-4e03-b02e-9d198a780987")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/bbbca06b-b34a-42a6-b446-d9a6850f1915/112f0a75-647d-4929-9dd6-d53a40dbe937")
 		(sheetname "/Stepper-3/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -41954,15 +42735,35 @@
 				)
 			)
 		)
+		(property "Id" "LED:WS2812"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "80a087c4-3762-42db-b4af-55a216d43305")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rating" "15mA"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "46b2aadb-c74a-4f4d-b9d0-fb11731f8960")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/39d6363d-afe8-4428-a84b-595ab7901e78/177167f8-69d4-4817-a3c6-7fe0cf4ee065")
 		(sheetname "/Stepper-4/")
 		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "4" "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
