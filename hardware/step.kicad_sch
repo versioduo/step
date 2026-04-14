@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "V2 step")
-		(date "2026-04-11")
+		(date "2026-04-14")
 		(rev "2026-02-10")
 		(company "Versio Duo")
 		(comment 1 "Stepper Motor Controller")
@@ -1754,7 +1754,7 @@
 				)
 			)
 			(property "Footprint" "V2_Connector_WAGO:2065-100"
-				(at 0 -9.906 0)
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1787,18 +1787,7 @@
 				)
 			)
 			(property "Manufacturer" "WAGO"
-				(at 0 -13.208 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Id" "WAGO:${SYMBOL_NAME}"
-				(at 0 -6.35 0)
+				(at 0 -12.7 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1809,7 +1798,29 @@
 				)
 			)
 			(property "Product" "2065-100/998-403"
-				(at 0 -16.51 0)
+				(at 0 -15.24 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "WAGO:${SYMBOL_NAME}"
+				(at 0 -7.62 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating" "9A"
+				(at 0 -17.78 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2540,7 +2551,7 @@
 				)
 			)
 			(property "Footprint" "V2_ESD_Suppressor:SLP1210N6"
-				(at 0 -13.97 0)
+				(at 0 -19.05 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2573,7 +2584,7 @@
 				)
 			)
 			(property "Mouser" "947-RCLAMP0582N.TCT"
-				(at 0 -21.59 0)
+				(at 0 -26.67 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2584,7 +2595,7 @@
 				)
 			)
 			(property "Product" "RCLAMP0582N.TCT"
-				(at 0 -19.05 0)
+				(at 0 -24.13 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2595,7 +2606,7 @@
 				)
 			)
 			(property "Manufacturer" "Semtech"
-				(at 0 -16.51 0)
+				(at 0 -21.59 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2606,7 +2617,18 @@
 				)
 			)
 			(property "Id" "ESD:${SYMBOL_NAME}"
-				(at 0 -11.43 0)
+				(at 0 -16.51 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating" "20kV"
+				(at 0 -29.21 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3399,6 +3421,17 @@
 			)
 			(property "Id" "MCU:${SYMBOL_NAME}"
 				(at 0 -63.5 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating" "Cortex-M4F"
+				(at 0 -81.28 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -8867,7 +8900,7 @@
 		)
 		(uuid "5cbd89f6-8abd-4fa9-9cba-8be1d5bdd443")
 	)
-	(label "VDDCORE"
+	(label "+VCORE"
 		(at 58.42 21.59 0)
 		(effects
 			(font
@@ -11605,6 +11638,17 @@
 				)
 			)
 		)
+		(property "Rating" "20kV"
+			(at 170.18 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dcb9894a-3323-43ac-85c0-8dc9777453c4")
 		)
@@ -12825,6 +12869,17 @@
 		)
 		(property "Id" "MCU:${SYMBOL_NAME}"
 			(at 69.85 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "Cortex-M4F"
+			(at 69.85 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15463,6 +15518,17 @@
 				)
 			)
 		)
+		(property "Rating" "9A"
+			(at 245.11 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c0618045-0770-402f-aee1-86d902b67643")
 		)
@@ -17741,6 +17807,17 @@
 		)
 		(property "Id" "WAGO:${SYMBOL_NAME}"
 			(at 245.11 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "9A"
+			(at 245.11 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

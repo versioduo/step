@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "V2 step")
-		(date "2026-04-11")
+		(date "2026-04-14")
 		(rev "2026-02-10")
 		(company "Versio Duo")
 		(comment 1 "Stepper Motor Controller")
@@ -1334,7 +1334,7 @@
 				)
 			)
 			(property "Footprint" "V2_Connector_WAGO:2065-100"
-				(at 0 -9.906 0)
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1367,18 +1367,7 @@
 				)
 			)
 			(property "Manufacturer" "WAGO"
-				(at 0 -13.208 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Id" "WAGO:${SYMBOL_NAME}"
-				(at 0 -6.35 0)
+				(at 0 -12.7 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1389,7 +1378,29 @@
 				)
 			)
 			(property "Product" "2065-100/998-403"
-				(at 0 -16.51 0)
+				(at 0 -15.24 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "WAGO:${SYMBOL_NAME}"
+				(at 0 -7.62 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating" "9A"
+				(at 0 -17.78 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1455,27 +1466,29 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at 0 41.402 0)
+				(at -12.7 40.64 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "TMC2130-LA"
-				(at 0 38.862 0)
+				(at -12.7 38.1 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "V2_Package_DFN_QFN:QFN-36-5X6"
-				(at 0 -58.674 0)
+				(at 0 -58.42 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1510,7 +1523,7 @@
 				)
 			)
 			(property "Manufacturer" "Analog Devices"
-				(at 0 -61.976 0)
+				(at 0 -60.96 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1521,7 +1534,7 @@
 				)
 			)
 			(property "Product" "TMC2130-LA"
-				(at 0 -65.532 0)
+				(at 0 -63.5 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1532,7 +1545,7 @@
 				)
 			)
 			(property "LCSC" "C915795"
-				(at 0 -69.088 0)
+				(at 0 -66.04 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1544,6 +1557,17 @@
 			)
 			(property "Id" "Stepper:${SYMBOL_NAME}"
 				(at 0 -55.88 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating" "2A"
+				(at 0 -68.58 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -6643,6 +6667,17 @@
 				)
 			)
 		)
+		(property "Rating" "9A"
+			(at 189.23 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6d201e4f-995a-4c60-92c5-50c4c3296c30")
 		)
@@ -6756,6 +6791,17 @@
 		)
 		(property "Id" "WAGO:${SYMBOL_NAME}"
 			(at 189.23 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "9A"
+			(at 189.23 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7230,6 +7276,17 @@
 				)
 			)
 		)
+		(property "Rating" "2A"
+			(at 157.48 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "13"
 			(uuid "90775b8a-6dad-46ee-bc41-157d3389e09f")
 		)
@@ -7451,6 +7508,17 @@
 		)
 		(property "Id" "WAGO:${SYMBOL_NAME}"
 			(at 189.23 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "9A"
+			(at 189.23 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8050,6 +8118,17 @@
 		)
 		(property "Id" "WAGO:${SYMBOL_NAME}"
 			(at 189.23 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "9A"
+			(at 189.23 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
