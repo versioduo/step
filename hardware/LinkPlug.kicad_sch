@@ -6,13 +6,13 @@
 	(paper "A4")
 	(title_block
 		(title "V2 step")
-		(date "2026-04-14")
+		(date "2026-05-08")
 		(rev "2026-02-10")
 		(company "Versio Duo")
 		(comment 1 "Stepper Motor Controller")
 	)
 	(lib_symbols
-		(symbol "V2_Capacitor:0603_0u1"
+		(symbol "V2_Capacitor:1608_0u1"
 			(pin_numbers
 				(hide yes)
 			)
@@ -47,7 +47,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "V2_Capacitor_SMD:C_0603"
+			(property "Footprint" "V2_Capacitor_SMD:C_1608"
 				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -157,7 +157,7 @@
 					)
 				)
 			)
-			(symbol "0603_0u1_0_1"
+			(symbol "1608_0u1_0_1"
 				(polyline
 					(pts
 						(xy -1.524 0.508) (xy 1.524 0.508)
@@ -183,7 +183,7 @@
 					)
 				)
 			)
-			(symbol "0603_0u1_1_1"
+			(symbol "1608_0u1_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
@@ -1056,7 +1056,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "V2_Resistor:0603_100R"
+		(symbol "V2_Resistor:1608_100R"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1091,7 +1091,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "V2_Resistor_SMD:R_0603"
+			(property "Footprint" "V2_Resistor_SMD:R_1608"
 				(at 0 -16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1201,7 +1201,7 @@
 					)
 				)
 			)
-			(symbol "0603_100R_0_1"
+			(symbol "1608_100R_0_1"
 				(rectangle
 					(start -0.762 1.778)
 					(end 0.762 -1.778)
@@ -1214,7 +1214,7 @@
 					)
 				)
 			)
-			(symbol "0603_100R_1_1"
+			(symbol "1608_100R_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 0.762)
@@ -2165,7 +2165,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0424c4f3-85a4-465c-b233-1a650daff944")
-		(property "Reference" "#PWR1902"
+		(property "Reference" "#PWR1908"
 			(at 166.37 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -2226,7 +2226,7 @@
 		(instances
 			(project "step"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c6db2f80-f80f-4104-8ca1-02f0ab85cfea"
-					(reference "#PWR1902")
+					(reference "#PWR1908")
 					(unit 1)
 				)
 			)
@@ -2474,7 +2474,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Resistor:0603_100R")
+		(lib_id "V2_Resistor:1608_100R")
 		(at 157.48 71.12 0)
 		(unit 1)
 		(body_style 1)
@@ -2485,7 +2485,7 @@
 		(dnp no)
 		(uuid "51d3649f-ce1e-4270-8185-d550f68a90c3")
 		(property "Reference" "R1901"
-			(at 162.56 69.85 0)
+			(at 162.306 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2495,7 +2495,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 161.29 72.39 0)
+			(at 161.798 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2504,7 +2504,7 @@
 				)
 			)
 		)
-		(property "Footprint" "V2_Resistor_SMD:R_0603"
+		(property "Footprint" "V2_Resistor_SMD:R_1608"
 			(at 157.48 86.868 0)
 			(hide yes)
 			(show_name no)
@@ -2776,7 +2776,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a50a4f94-6044-4810-b7e9-9168e306b849")
-		(property "Reference" "#PWR1908"
+		(property "Reference" "#PWR1903"
 			(at 148.59 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -2837,7 +2837,7 @@
 		(instances
 			(project "step"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c6db2f80-f80f-4104-8ca1-02f0ab85cfea"
-					(reference "#PWR1908")
+					(reference "#PWR1903")
 					(unit 1)
 				)
 			)
@@ -2854,7 +2854,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "afb73ded-0411-4bb9-9664-e9156d949823")
-		(property "Reference" "#PWR1904"
+		(property "Reference" "#PWR1901"
 			(at 134.62 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -2915,7 +2915,7 @@
 		(instances
 			(project "step"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c6db2f80-f80f-4104-8ca1-02f0ab85cfea"
-					(reference "#PWR1904")
+					(reference "#PWR1901")
 					(unit 1)
 				)
 			)
@@ -2932,7 +2932,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bd20b057-b856-45fa-ab3f-0c7b37662069")
-		(property "Reference" "#PWR1906"
+		(property "Reference" "#PWR1902"
 			(at 144.78 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -2993,7 +2993,7 @@
 		(instances
 			(project "step"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c6db2f80-f80f-4104-8ca1-02f0ab85cfea"
-					(reference "#PWR1906")
+					(reference "#PWR1902")
 					(unit 1)
 				)
 			)
@@ -3010,7 +3010,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "be77e115-89c3-4c96-8eda-21367d69e956")
-		(property "Reference" "#PWR1903"
+		(property "Reference" "#PWR1905"
 			(at 146.05 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -3071,7 +3071,7 @@
 		(instances
 			(project "step"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c6db2f80-f80f-4104-8ca1-02f0ab85cfea"
-					(reference "#PWR1903")
+					(reference "#PWR1905")
 					(unit 1)
 				)
 			)
@@ -3088,7 +3088,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c2da836a-3661-4643-af78-9afd18d81ebe")
-		(property "Reference" "#PWR1905"
+		(property "Reference" "#PWR1906"
 			(at 149.86 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -3149,7 +3149,7 @@
 		(instances
 			(project "step"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c6db2f80-f80f-4104-8ca1-02f0ab85cfea"
-					(reference "#PWR1905")
+					(reference "#PWR1906")
 					(unit 1)
 				)
 			)
@@ -3166,7 +3166,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e7fe0738-e64f-410b-87d2-2898ed4dbb8d")
-		(property "Reference" "#PWR1901"
+		(property "Reference" "#PWR1904"
 			(at 146.05 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -3227,7 +3227,7 @@
 		(instances
 			(project "step"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c6db2f80-f80f-4104-8ca1-02f0ab85cfea"
-					(reference "#PWR1901")
+					(reference "#PWR1904")
 					(unit 1)
 				)
 			)
@@ -3312,7 +3312,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Capacitor:0603_0u1")
+		(lib_id "V2_Capacitor:1608_0u1")
 		(at 166.37 55.88 0)
 		(unit 1)
 		(body_style 1)
@@ -3344,7 +3344,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "V2_Capacitor_SMD:C_0603"
+		(property "Footprint" "V2_Capacitor_SMD:C_1608"
 			(at 166.37 72.898 0)
 			(hide yes)
 			(show_name no)

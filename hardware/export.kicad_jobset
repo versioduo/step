@@ -19,7 +19,8 @@
         "plot_drawing_sheet": true,
         "show_hop_over": false,
         "use_background_color": true,
-        "variant_name": ""
+        "variant_name": "",
+        "variant_names": []
       },
       "type": "sch_export_plot_pdf"
     },
@@ -90,7 +91,8 @@
         "subtract_solder_mask_from_silk": true,
         "use_drill_origin": true,
         "use_protel_file_extension": true,
-        "use_x2_format": true
+        "use_x2_format": true,
+        "variant": ""
       },
       "type": "pcb_export_gerbers"
     },
@@ -161,7 +163,8 @@
         "sketch_dnp_footprints_on_fab_layers": true,
         "sketch_pads_on_fab_layers": false,
         "subtract_solder_mask_from_silk": true,
-        "use_drill_origin": true
+        "use_drill_origin": true,
+        "variant": ""
       },
       "type": "pcb_export_pdf"
     },
@@ -213,6 +216,7 @@
         "rotation_z": 5.0,
         "side": "top",
         "use_board_stackup_colors": true,
+        "variant": "",
         "width": 4000,
         "zoom": 1.0
       },

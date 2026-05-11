@@ -6,13 +6,13 @@
 	(paper "A4")
 	(title_block
 		(title "V2 step")
-		(date "2026-04-14")
+		(date "2026-05-08")
 		(rev "2026-02-10")
 		(company "Versio Duo")
 		(comment 1 "Stepper Motor Controller")
 	)
 	(lib_symbols
-		(symbol "V2_Capacitor:0603_0u022"
+		(symbol "V2_Capacitor:1608_0u022"
 			(pin_numbers
 				(hide yes)
 			)
@@ -47,7 +47,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "V2_Capacitor_SMD:C_0603"
+			(property "Footprint" "V2_Capacitor_SMD:C_1608"
 				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -157,7 +157,7 @@
 					)
 				)
 			)
-			(symbol "0603_0u022_0_1"
+			(symbol "1608_0u022_0_1"
 				(polyline
 					(pts
 						(xy -1.524 0.508) (xy 1.524 0.508)
@@ -183,7 +183,7 @@
 					)
 				)
 			)
-			(symbol "0603_0u022_1_1"
+			(symbol "1608_0u022_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
@@ -223,7 +223,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "V2_Capacitor:0603_0u1"
+		(symbol "V2_Capacitor:1608_0u1"
 			(pin_numbers
 				(hide yes)
 			)
@@ -258,7 +258,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "V2_Capacitor_SMD:C_0603"
+			(property "Footprint" "V2_Capacitor_SMD:C_1608"
 				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -368,7 +368,7 @@
 					)
 				)
 			)
-			(symbol "0603_0u1_0_1"
+			(symbol "1608_0u1_0_1"
 				(polyline
 					(pts
 						(xy -1.524 0.508) (xy 1.524 0.508)
@@ -394,7 +394,7 @@
 					)
 				)
 			)
-			(symbol "0603_0u1_1_1"
+			(symbol "1608_0u1_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
@@ -434,7 +434,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "V2_Capacitor:0603_0u47"
+		(symbol "V2_Capacitor:1608_0u47"
 			(pin_numbers
 				(hide yes)
 			)
@@ -469,7 +469,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "V2_Capacitor_SMD:C_0603"
+			(property "Footprint" "V2_Capacitor_SMD:C_1608"
 				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -579,7 +579,7 @@
 					)
 				)
 			)
-			(symbol "0603_0u47_0_1"
+			(symbol "1608_0u47_0_1"
 				(polyline
 					(pts
 						(xy -1.524 0.508) (xy 1.524 0.508)
@@ -605,7 +605,7 @@
 					)
 				)
 			)
-			(symbol "0603_0u47_1_1"
+			(symbol "1608_0u47_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
@@ -645,7 +645,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "V2_Capacitor:0603_4u7"
+		(symbol "V2_Capacitor:1608_4u7"
 			(pin_numbers
 				(hide yes)
 			)
@@ -680,7 +680,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "V2_Capacitor_SMD:C_0603"
+			(property "Footprint" "V2_Capacitor_SMD:C_1608"
 				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -790,7 +790,7 @@
 					)
 				)
 			)
-			(symbol "0603_4u7_0_1"
+			(symbol "1608_4u7_0_1"
 				(polyline
 					(pts
 						(xy -1.524 0.508) (xy 1.524 0.508)
@@ -816,7 +816,7 @@
 					)
 				)
 			)
-			(symbol "0603_4u7_1_1"
+			(symbol "1608_4u7_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
@@ -856,7 +856,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "V2_Capacitor:1210_10u"
+		(symbol "V2_Capacitor:3225_10u"
 			(pin_numbers
 				(hide yes)
 			)
@@ -891,7 +891,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "V2_Capacitor_SMD:C_1210"
+			(property "Footprint" "V2_Capacitor_SMD:C_3225"
 				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1001,7 +1001,7 @@
 					)
 				)
 			)
-			(symbol "1210_10u_0_1"
+			(symbol "3225_10u_0_1"
 				(polyline
 					(pts
 						(xy -1.524 0.508) (xy 1.524 0.508)
@@ -1027,7 +1027,7 @@
 					)
 				)
 			)
-			(symbol "1210_10u_1_1"
+			(symbol "3225_10u_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
@@ -2578,7 +2578,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "V2_Resistor:0603_2R2"
+		(symbol "V2_Resistor:1608_2R2"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2613,7 +2613,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "V2_Resistor_SMD:R_0603"
+			(property "Footprint" "V2_Resistor_SMD:R_1608"
 				(at 0 -16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2723,7 +2723,7 @@
 					)
 				)
 			)
-			(symbol "0603_2R2_0_1"
+			(symbol "1608_2R2_0_1"
 				(rectangle
 					(start -0.762 1.778)
 					(end 0.762 -1.778)
@@ -2736,7 +2736,7 @@
 					)
 				)
 			)
-			(symbol "0603_2R2_1_1"
+			(symbol "1608_2R2_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 0.762)
@@ -2776,7 +2776,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "V2_Resistor:0805_0R11"
+		(symbol "V2_Resistor:2012_0R11"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2811,7 +2811,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "V2_Resistor_SMD:R_0805"
+			(property "Footprint" "V2_Resistor_SMD:R_2012"
 				(at 0 -16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2921,7 +2921,7 @@
 					)
 				)
 			)
-			(symbol "0805_0R11_0_1"
+			(symbol "2012_0R11_0_1"
 				(rectangle
 					(start -0.762 1.778)
 					(end 0.762 -1.778)
@@ -2934,7 +2934,7 @@
 					)
 				)
 			)
-			(symbol "0805_0R11_1_1"
+			(symbol "2012_0R11_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 0.762)
@@ -4145,7 +4145,7 @@
 		(uuid "ff27be41-9d6a-4155-8118-467f4610b5db")
 	)
 	(symbol
-		(lib_id "V2_Capacitor:1210_10u")
+		(lib_id "V2_Capacitor:3225_10u")
 		(at 158.75 49.53 0)
 		(unit 1)
 		(body_style 1)
@@ -4155,7 +4155,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "08ec2ab8-5431-4fa0-b5e0-a19f6d8c1d88")
-		(property "Reference" "C203"
+		(property "Reference" "C206"
 			(at 162.052 48.514 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4176,7 +4176,7 @@
 				)
 			)
 		)
-		(property "Footprint" "V2_Capacitor_SMD:C_1210"
+		(property "Footprint" "V2_Capacitor_SMD:C_3225"
 			(at 158.75 66.548 0)
 			(hide yes)
 			(show_name no)
@@ -4273,26 +4273,26 @@
 		(instances
 			(project "step"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/39d6363d-afe8-4428-a84b-595ab7901e78"
-					(reference "C503")
+					(reference "C506")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/60568a1d-bb1f-4d77-8c18-3b21a35c5012"
-					(reference "C203")
+					(reference "C206")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/b5cf9720-7adc-4c1b-b0f8-00fa5b3eb49c"
-					(reference "C303")
+					(reference "C306")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/bbbca06b-b34a-42a6-b446-d9a6850f1915"
-					(reference "C403")
+					(reference "C406")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "V2_Capacitor:0603_4u7")
+		(lib_id "V2_Capacitor:1608_4u7")
 		(at 107.95 81.28 0)
 		(unit 1)
 		(body_style 1)
@@ -4302,7 +4302,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0fe3142c-31a3-45e9-8e7d-18b2b579033d")
-		(property "Reference" "C205"
+		(property "Reference" "C201"
 			(at 100.33 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4324,7 +4324,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "V2_Capacitor_SMD:C_0603"
+		(property "Footprint" "V2_Capacitor_SMD:C_1608"
 			(at 107.95 98.298 0)
 			(hide yes)
 			(show_name no)
@@ -4421,19 +4421,19 @@
 		(instances
 			(project "step"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/39d6363d-afe8-4428-a84b-595ab7901e78"
-					(reference "C505")
+					(reference "C501")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/60568a1d-bb1f-4d77-8c18-3b21a35c5012"
-					(reference "C205")
+					(reference "C201")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/b5cf9720-7adc-4c1b-b0f8-00fa5b3eb49c"
-					(reference "C305")
+					(reference "C301")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/bbbca06b-b34a-42a6-b446-d9a6850f1915"
-					(reference "C405")
+					(reference "C401")
 					(unit 1)
 				)
 			)
@@ -4450,7 +4450,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "0fe9dbc6-040a-4f27-8c19-d4042580ccc6")
-		(property "Reference" "#PWR208"
+		(property "Reference" "#PWR206"
 			(at 143.51 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -4511,26 +4511,26 @@
 		(instances
 			(project "step"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/39d6363d-afe8-4428-a84b-595ab7901e78"
-					(reference "#PWR508")
+					(reference "#PWR506")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/60568a1d-bb1f-4d77-8c18-3b21a35c5012"
-					(reference "#PWR208")
+					(reference "#PWR206")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/b5cf9720-7adc-4c1b-b0f8-00fa5b3eb49c"
-					(reference "#PWR308")
+					(reference "#PWR306")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/bbbca06b-b34a-42a6-b446-d9a6850f1915"
-					(reference "#PWR408")
+					(reference "#PWR406")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "V2_Capacitor:0603_0u022")
+		(lib_id "V2_Capacitor:1608_0u022")
 		(at 175.26 91.44 0)
 		(unit 1)
 		(body_style 1)
@@ -4562,7 +4562,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "V2_Capacitor_SMD:C_0603"
+		(property "Footprint" "V2_Capacitor_SMD:C_1608"
 			(at 175.26 108.458 0)
 			(hide yes)
 			(show_name no)
@@ -4678,7 +4678,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Capacitor:1210_10u")
+		(lib_id "V2_Capacitor:3225_10u")
 		(at 170.18 49.53 0)
 		(unit 1)
 		(body_style 1)
@@ -4688,7 +4688,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "138430b5-5815-4ef4-97be-ca6e49754c80")
-		(property "Reference" "C204"
+		(property "Reference" "C207"
 			(at 173.482 48.514 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4710,7 +4710,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "V2_Capacitor_SMD:C_1210"
+		(property "Footprint" "V2_Capacitor_SMD:C_3225"
 			(at 170.18 66.548 0)
 			(hide yes)
 			(show_name no)
@@ -4807,19 +4807,19 @@
 		(instances
 			(project "step"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/39d6363d-afe8-4428-a84b-595ab7901e78"
-					(reference "C504")
+					(reference "C507")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/60568a1d-bb1f-4d77-8c18-3b21a35c5012"
-					(reference "C204")
+					(reference "C207")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/b5cf9720-7adc-4c1b-b0f8-00fa5b3eb49c"
-					(reference "C304")
+					(reference "C307")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/bbbca06b-b34a-42a6-b446-d9a6850f1915"
-					(reference "C404")
+					(reference "C407")
 					(unit 1)
 				)
 			)
@@ -4837,7 +4837,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13fd5a71-a965-48d0-8e3e-a987594ffb01")
-		(property "Reference" "#PWR214"
+		(property "Reference" "#PWR217"
 			(at 198.12 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -4899,19 +4899,19 @@
 		(instances
 			(project "step"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/39d6363d-afe8-4428-a84b-595ab7901e78"
-					(reference "#PWR514")
+					(reference "#PWR517")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/60568a1d-bb1f-4d77-8c18-3b21a35c5012"
-					(reference "#PWR214")
+					(reference "#PWR217")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/b5cf9720-7adc-4c1b-b0f8-00fa5b3eb49c"
-					(reference "#PWR314")
+					(reference "#PWR317")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/bbbca06b-b34a-42a6-b446-d9a6850f1915"
-					(reference "#PWR414")
+					(reference "#PWR417")
 					(unit 1)
 				)
 			)
@@ -5072,7 +5072,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Capacitor:0603_0u1")
+		(lib_id "V2_Capacitor:1608_0u1")
 		(at 124.46 49.53 0)
 		(unit 1)
 		(body_style 1)
@@ -5082,7 +5082,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2c8571a5-acd7-4925-872d-6e76b48aa7fa")
-		(property "Reference" "C201"
+		(property "Reference" "C203"
 			(at 126.492 48.006 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5104,7 +5104,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "V2_Capacitor_SMD:C_0603"
+		(property "Footprint" "V2_Capacitor_SMD:C_1608"
 			(at 124.46 66.548 0)
 			(hide yes)
 			(show_name no)
@@ -5201,19 +5201,19 @@
 		(instances
 			(project "step"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/39d6363d-afe8-4428-a84b-595ab7901e78"
-					(reference "C501")
+					(reference "C503")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/60568a1d-bb1f-4d77-8c18-3b21a35c5012"
-					(reference "C201")
+					(reference "C203")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/b5cf9720-7adc-4c1b-b0f8-00fa5b3eb49c"
-					(reference "C301")
+					(reference "C303")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/bbbca06b-b34a-42a6-b446-d9a6850f1915"
-					(reference "C401")
+					(reference "C403")
 					(unit 1)
 				)
 			)
@@ -5322,7 +5322,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "376f8b53-4339-43a5-94bc-b3be87ac5238")
-		(property "Reference" "#PWR216"
+		(property "Reference" "#PWR211"
 			(at 161.29 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -5383,19 +5383,19 @@
 		(instances
 			(project "step"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/39d6363d-afe8-4428-a84b-595ab7901e78"
-					(reference "#PWR516")
+					(reference "#PWR511")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/60568a1d-bb1f-4d77-8c18-3b21a35c5012"
-					(reference "#PWR216")
+					(reference "#PWR211")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/b5cf9720-7adc-4c1b-b0f8-00fa5b3eb49c"
-					(reference "#PWR316")
+					(reference "#PWR311")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/bbbca06b-b34a-42a6-b446-d9a6850f1915"
-					(reference "#PWR416")
+					(reference "#PWR411")
 					(unit 1)
 				)
 			)
@@ -5413,7 +5413,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f20cffb-f180-46c9-a9b2-5adf4b6ba0d0")
-		(property "Reference" "#PWR213"
+		(property "Reference" "#PWR216"
 			(at 198.12 127 0)
 			(hide yes)
 			(show_name no)
@@ -5475,26 +5475,26 @@
 		(instances
 			(project "step"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/39d6363d-afe8-4428-a84b-595ab7901e78"
-					(reference "#PWR513")
+					(reference "#PWR516")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/60568a1d-bb1f-4d77-8c18-3b21a35c5012"
-					(reference "#PWR213")
+					(reference "#PWR216")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/b5cf9720-7adc-4c1b-b0f8-00fa5b3eb49c"
-					(reference "#PWR313")
+					(reference "#PWR316")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/bbbca06b-b34a-42a6-b446-d9a6850f1915"
-					(reference "#PWR413")
+					(reference "#PWR416")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "V2_Resistor:0805_0R11")
+		(lib_id "V2_Resistor:2012_0R11")
 		(at 189.23 127 90)
 		(unit 1)
 		(body_style 1)
@@ -5524,7 +5524,7 @@
 				)
 			)
 		)
-		(property "Footprint" "V2_Resistor_SMD:R_0805"
+		(property "Footprint" "V2_Resistor_SMD:R_2012"
 			(at 204.978 127 0)
 			(hide yes)
 			(show_name no)
@@ -5650,7 +5650,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5d05b3f6-198d-47a3-899d-33d249682017")
-		(property "Reference" "#PWR203"
+		(property "Reference" "#PWR204"
 			(at 124.46 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -5711,26 +5711,26 @@
 		(instances
 			(project "step"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/39d6363d-afe8-4428-a84b-595ab7901e78"
-					(reference "#PWR503")
+					(reference "#PWR504")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/60568a1d-bb1f-4d77-8c18-3b21a35c5012"
-					(reference "#PWR203")
+					(reference "#PWR204")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/b5cf9720-7adc-4c1b-b0f8-00fa5b3eb49c"
-					(reference "#PWR303")
+					(reference "#PWR304")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/bbbca06b-b34a-42a6-b446-d9a6850f1915"
-					(reference "#PWR403")
+					(reference "#PWR404")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "V2_Capacitor:0603_0u1")
+		(lib_id "V2_Capacitor:1608_0u1")
 		(at 139.7 86.36 0)
 		(unit 1)
 		(body_style 1)
@@ -5740,7 +5740,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "64b2bce4-5075-4ff7-92dc-a36458283ceb")
-		(property "Reference" "C207"
+		(property "Reference" "C204"
 			(at 132.334 84.074 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5762,7 +5762,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "V2_Capacitor_SMD:C_0603"
+		(property "Footprint" "V2_Capacitor_SMD:C_1608"
 			(at 139.7 103.378 0)
 			(hide yes)
 			(show_name no)
@@ -5859,19 +5859,19 @@
 		(instances
 			(project "step"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/39d6363d-afe8-4428-a84b-595ab7901e78"
-					(reference "C507")
+					(reference "C504")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/60568a1d-bb1f-4d77-8c18-3b21a35c5012"
-					(reference "C207")
+					(reference "C204")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/b5cf9720-7adc-4c1b-b0f8-00fa5b3eb49c"
-					(reference "C307")
+					(reference "C304")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/bbbca06b-b34a-42a6-b446-d9a6850f1915"
-					(reference "C407")
+					(reference "C404")
 					(unit 1)
 				)
 			)
@@ -5888,7 +5888,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "64fe2d3d-f8a7-4521-81a6-4367e45f3cac")
-		(property "Reference" "#PWR204"
+		(property "Reference" "#PWR214"
 			(at 170.18 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -5949,19 +5949,19 @@
 		(instances
 			(project "step"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/39d6363d-afe8-4428-a84b-595ab7901e78"
-					(reference "#PWR504")
+					(reference "#PWR514")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/60568a1d-bb1f-4d77-8c18-3b21a35c5012"
-					(reference "#PWR204")
+					(reference "#PWR214")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/b5cf9720-7adc-4c1b-b0f8-00fa5b3eb49c"
-					(reference "#PWR304")
+					(reference "#PWR314")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/bbbca06b-b34a-42a6-b446-d9a6850f1915"
-					(reference "#PWR404")
+					(reference "#PWR414")
 					(unit 1)
 				)
 			)
@@ -5979,7 +5979,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a51717b-758d-45aa-87c0-c4df878610d9")
-		(property "Reference" "#PWR210"
+		(property "Reference" "#PWR208"
 			(at 133.35 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -6041,19 +6041,19 @@
 		(instances
 			(project "step"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/39d6363d-afe8-4428-a84b-595ab7901e78"
-					(reference "#PWR510")
+					(reference "#PWR508")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/60568a1d-bb1f-4d77-8c18-3b21a35c5012"
-					(reference "#PWR210")
+					(reference "#PWR208")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/b5cf9720-7adc-4c1b-b0f8-00fa5b3eb49c"
-					(reference "#PWR310")
+					(reference "#PWR308")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/bbbca06b-b34a-42a6-b446-d9a6850f1915"
-					(reference "#PWR410")
+					(reference "#PWR408")
 					(unit 1)
 				)
 			)
@@ -6161,7 +6161,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7aedc456-61de-4353-aa00-fa41d1d4b2cd")
-		(property "Reference" "#PWR201"
+		(property "Reference" "#PWR203"
 			(at 124.46 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -6222,19 +6222,19 @@
 		(instances
 			(project "step"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/39d6363d-afe8-4428-a84b-595ab7901e78"
-					(reference "#PWR501")
+					(reference "#PWR503")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/60568a1d-bb1f-4d77-8c18-3b21a35c5012"
-					(reference "#PWR201")
+					(reference "#PWR203")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/b5cf9720-7adc-4c1b-b0f8-00fa5b3eb49c"
-					(reference "#PWR301")
+					(reference "#PWR303")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/bbbca06b-b34a-42a6-b446-d9a6850f1915"
-					(reference "#PWR401")
+					(reference "#PWR403")
 					(unit 1)
 				)
 			)
@@ -6251,7 +6251,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "7bd08665-c1f8-477f-99ca-ce07607b001c")
-		(property "Reference" "#PWR209"
+		(property "Reference" "#PWR207"
 			(at 143.51 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -6312,19 +6312,19 @@
 		(instances
 			(project "step"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/39d6363d-afe8-4428-a84b-595ab7901e78"
-					(reference "#PWR509")
+					(reference "#PWR507")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/60568a1d-bb1f-4d77-8c18-3b21a35c5012"
-					(reference "#PWR209")
+					(reference "#PWR207")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/b5cf9720-7adc-4c1b-b0f8-00fa5b3eb49c"
-					(reference "#PWR309")
+					(reference "#PWR307")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/bbbca06b-b34a-42a6-b446-d9a6850f1915"
-					(reference "#PWR409")
+					(reference "#PWR407")
 					(unit 1)
 				)
 			)
@@ -6342,7 +6342,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f7dcbff-6b76-4ec4-8d15-6ead4eb412dd")
-		(property "Reference" "#PWR207"
+		(property "Reference" "#PWR202"
 			(at 120.65 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -6403,19 +6403,19 @@
 		(instances
 			(project "step"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/39d6363d-afe8-4428-a84b-595ab7901e78"
-					(reference "#PWR507")
+					(reference "#PWR502")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/60568a1d-bb1f-4d77-8c18-3b21a35c5012"
-					(reference "#PWR207")
+					(reference "#PWR202")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/b5cf9720-7adc-4c1b-b0f8-00fa5b3eb49c"
-					(reference "#PWR307")
+					(reference "#PWR302")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/bbbca06b-b34a-42a6-b446-d9a6850f1915"
-					(reference "#PWR407")
+					(reference "#PWR402")
 					(unit 1)
 				)
 			)
@@ -6432,7 +6432,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "966398d5-f811-4ade-bc2b-fae4d1917c51")
-		(property "Reference" "C202"
+		(property "Reference" "C205"
 			(at 146.05 48.514 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6551,19 +6551,19 @@
 		(instances
 			(project "step"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/39d6363d-afe8-4428-a84b-595ab7901e78"
-					(reference "C502")
+					(reference "C505")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/60568a1d-bb1f-4d77-8c18-3b21a35c5012"
-					(reference "C202")
+					(reference "C205")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/b5cf9720-7adc-4c1b-b0f8-00fa5b3eb49c"
-					(reference "C302")
+					(reference "C305")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/bbbca06b-b34a-42a6-b446-d9a6850f1915"
-					(reference "C402")
+					(reference "C405")
 					(unit 1)
 				)
 			)
@@ -6847,7 +6847,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac97314e-bef2-4841-a8e3-73cc781efb2b")
-		(property "Reference" "#PWR211"
+		(property "Reference" "#PWR209"
 			(at 133.35 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -6909,19 +6909,19 @@
 		(instances
 			(project "step"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/39d6363d-afe8-4428-a84b-595ab7901e78"
-					(reference "#PWR511")
+					(reference "#PWR509")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/60568a1d-bb1f-4d77-8c18-3b21a35c5012"
-					(reference "#PWR211")
+					(reference "#PWR209")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/b5cf9720-7adc-4c1b-b0f8-00fa5b3eb49c"
-					(reference "#PWR311")
+					(reference "#PWR309")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/bbbca06b-b34a-42a6-b446-d9a6850f1915"
-					(reference "#PWR411")
+					(reference "#PWR409")
 					(unit 1)
 				)
 			)
@@ -6939,7 +6939,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c057e6c3-1e64-4e65-a8a9-acbeb7ef3c66")
-		(property "Reference" "#PWR206"
+		(property "Reference" "#PWR201"
 			(at 107.95 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -7000,26 +7000,26 @@
 		(instances
 			(project "step"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/39d6363d-afe8-4428-a84b-595ab7901e78"
-					(reference "#PWR506")
+					(reference "#PWR501")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/60568a1d-bb1f-4d77-8c18-3b21a35c5012"
-					(reference "#PWR206")
+					(reference "#PWR201")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/b5cf9720-7adc-4c1b-b0f8-00fa5b3eb49c"
-					(reference "#PWR306")
+					(reference "#PWR301")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/bbbca06b-b34a-42a6-b446-d9a6850f1915"
-					(reference "#PWR406")
+					(reference "#PWR401")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "V2_Resistor:0603_2R2")
+		(lib_id "V2_Resistor:1608_2R2")
 		(at 114.3 78.74 90)
 		(unit 1)
 		(body_style 1)
@@ -7050,7 +7050,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "V2_Resistor_SMD:R_0603"
+		(property "Footprint" "V2_Resistor_SMD:R_1608"
 			(at 130.048 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -7553,7 +7553,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Resistor:0805_0R11")
+		(lib_id "V2_Resistor:2012_0R11")
 		(at 189.23 129.54 90)
 		(unit 1)
 		(body_style 1)
@@ -7583,7 +7583,7 @@
 				)
 			)
 		)
-		(property "Footprint" "V2_Resistor_SMD:R_0805"
+		(property "Footprint" "V2_Resistor_SMD:R_2012"
 			(at 204.978 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -7710,7 +7710,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e41209f4-a2a4-468c-b5ab-bf7effa7dc46")
-		(property "Reference" "#PWR202"
+		(property "Reference" "#PWR213"
 			(at 170.18 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -7771,26 +7771,26 @@
 		(instances
 			(project "step"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/39d6363d-afe8-4428-a84b-595ab7901e78"
-					(reference "#PWR502")
+					(reference "#PWR513")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/60568a1d-bb1f-4d77-8c18-3b21a35c5012"
-					(reference "#PWR202")
+					(reference "#PWR213")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/b5cf9720-7adc-4c1b-b0f8-00fa5b3eb49c"
-					(reference "#PWR302")
+					(reference "#PWR313")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/bbbca06b-b34a-42a6-b446-d9a6850f1915"
-					(reference "#PWR402")
+					(reference "#PWR413")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "V2_Capacitor:0603_0u47")
+		(lib_id "V2_Capacitor:1608_0u47")
 		(at 120.65 81.28 0)
 		(unit 1)
 		(body_style 1)
@@ -7800,7 +7800,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e9feafc0-7605-463c-ab43-73a5a7113a3d")
-		(property "Reference" "C206"
+		(property "Reference" "C202"
 			(at 112.776 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7822,7 +7822,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "V2_Capacitor_SMD:C_0603"
+		(property "Footprint" "V2_Capacitor_SMD:C_1608"
 			(at 120.65 98.298 0)
 			(hide yes)
 			(show_name no)
@@ -7919,19 +7919,19 @@
 		(instances
 			(project "step"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/39d6363d-afe8-4428-a84b-595ab7901e78"
-					(reference "C506")
+					(reference "C502")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/60568a1d-bb1f-4d77-8c18-3b21a35c5012"
-					(reference "C206")
+					(reference "C202")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/b5cf9720-7adc-4c1b-b0f8-00fa5b3eb49c"
-					(reference "C306")
+					(reference "C302")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/bbbca06b-b34a-42a6-b446-d9a6850f1915"
-					(reference "C406")
+					(reference "C402")
 					(unit 1)
 				)
 			)
@@ -7949,7 +7949,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea295958-7b16-4301-9e0c-92e9527b34cd")
-		(property "Reference" "#PWR212"
+		(property "Reference" "#PWR210"
 			(at 133.35 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -8011,19 +8011,19 @@
 		(instances
 			(project "step"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/39d6363d-afe8-4428-a84b-595ab7901e78"
-					(reference "#PWR512")
+					(reference "#PWR510")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/60568a1d-bb1f-4d77-8c18-3b21a35c5012"
-					(reference "#PWR212")
+					(reference "#PWR210")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/b5cf9720-7adc-4c1b-b0f8-00fa5b3eb49c"
-					(reference "#PWR312")
+					(reference "#PWR310")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/bbbca06b-b34a-42a6-b446-d9a6850f1915"
-					(reference "#PWR412")
+					(reference "#PWR410")
 					(unit 1)
 				)
 			)
@@ -8173,7 +8173,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ff4b43d4-80c7-4a78-b71b-ea36c5dc5aee")
-		(property "Reference" "#PWR217"
+		(property "Reference" "#PWR212"
 			(at 171.45 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -8234,19 +8234,19 @@
 		(instances
 			(project "step"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/39d6363d-afe8-4428-a84b-595ab7901e78"
-					(reference "#PWR517")
+					(reference "#PWR512")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/60568a1d-bb1f-4d77-8c18-3b21a35c5012"
-					(reference "#PWR217")
+					(reference "#PWR212")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/b5cf9720-7adc-4c1b-b0f8-00fa5b3eb49c"
-					(reference "#PWR317")
+					(reference "#PWR312")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/bbbca06b-b34a-42a6-b446-d9a6850f1915"
-					(reference "#PWR417")
+					(reference "#PWR412")
 					(unit 1)
 				)
 			)
