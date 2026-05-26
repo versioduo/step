@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "V2 step")
-		(date "2026-05-08")
-		(rev "2026-02-10")
+		(date "2026-05-26")
+		(rev "2026-05-26")
 		(company "Versio Duo")
 		(comment 1 "Stepper Motor Controller")
 	)
@@ -5140,14 +5140,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "V2_Production:Layer_Numbers"
+		(symbol "V2_Production:Layer_Numbers-6"
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "INFO"
-				(at 0 3.81 0)
+				(at 0 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -5156,7 +5156,7 @@
 					)
 				)
 			)
-			(property "Value" "Layer_Numbers"
+			(property "Value" "Layer_Numbers-6"
 				(at 0 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5167,7 +5167,7 @@
 					)
 				)
 			)
-			(property "Footprint" "V2_Production:Layer_Numbers"
+			(property "Footprint" "V2_Production:Layer_Numbers-6"
 				(at 0 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5200,7 +5200,7 @@
 					)
 				)
 			)
-			(symbol "Layer_Numbers_0_0"
+			(symbol "Layer_Numbers-6_0_0"
 				(text "1 2 3 4"
 					(at 0 0 0)
 					(effects
@@ -5210,7 +5210,7 @@
 					)
 				)
 			)
-			(symbol "Layer_Numbers_0_1"
+			(symbol "Layer_Numbers-6_0_1"
 				(rectangle
 					(start -5.08 1.27)
 					(end 5.08 -1.27)
@@ -7189,6 +7189,12 @@
 		(uuid "c78c031f-b809-4c52-a09f-be21960668ee")
 	)
 	(junction
+		(at 161.29 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "018c8c33-45af-40b5-9bd8-9d5238b5b8a9")
+	)
+	(junction
 		(at 88.9 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7199,6 +7205,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0ac7f713-6c10-4bbf-aa8a-0f773934f6fc")
+	)
+	(junction
+		(at 161.29 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24a0683e-0b90-4193-bf29-9769a5a609f7")
 	)
 	(junction
 		(at 261.62 66.04)
@@ -7385,16 +7397,8 @@
 		(uuid "b3c9c856-221f-4ee4-9ff5-9c4dcd1dc6ff")
 	)
 	(no_connect
-		(at 161.29 127)
-		(uuid "b814f51e-2169-4bab-b81e-bdd7d908acca")
-	)
-	(no_connect
 		(at 133.35 180.34)
 		(uuid "c0f068ca-40fa-4f55-af0b-f02c3dae0653")
-	)
-	(no_connect
-		(at 161.29 119.38)
-		(uuid "c9f5d535-6385-4406-9a2a-88fbbcc38a56")
 	)
 	(no_connect
 		(at 53.34 55.88)
@@ -8342,6 +8346,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 116.84) (xy 161.29 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc2c4389-7305-40f6-bb4b-030c398de4fa")
+	)
+	(wire
+		(pts
 			(xy 243.84 66.04) (xy 254 66.04)
 		)
 		(stroke
@@ -8549,6 +8563,16 @@
 			(type default)
 		)
 		(uuid "f4a2376a-f7a6-45f4-be4c-fefc67405127")
+	)
+	(wire
+		(pts
+			(xy 161.29 124.46) (xy 161.29 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f88741d3-bbf7-4195-89ef-3b2aa5e9e700")
 	)
 	(wire
 		(pts
@@ -9685,7 +9709,7 @@
 		(at 223.52 165.1 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -10702,6 +10726,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 128.27 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "04d62725-9abb-40ec-b476-f92cf9ca5fab")
 		)
@@ -11292,7 +11327,7 @@
 		(at 190.5 152.4 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -12111,7 +12146,7 @@
 		(at 223.52 152.4 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -14178,7 +14213,7 @@
 		(at 190.5 160.02 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -14384,7 +14419,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Production:Layer_Numbers")
+		(lib_id "V2_Production:Layer_Numbers-6")
 		(at 160.02 173.99 0)
 		(unit 1)
 		(body_style 1)
@@ -14405,7 +14440,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Layer_Numbers"
+		(property "Value" "Layer_Numbers-6"
 			(at 159.4184 170.5185 0)
 			(hide yes)
 			(show_name no)
@@ -14416,7 +14451,7 @@
 				)
 			)
 		)
-		(property "Footprint" "V2_Production:Layer_Numbers"
+		(property "Footprint" "V2_Production:Layer_Numbers-6"
 			(at 160.02 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -15166,7 +15201,7 @@
 		(dnp no)
 		(uuid "977377c2-2f87-473b-87b3-55cb2215e7cb")
 		(property "Reference" "FID101"
-			(at 273.558 152.654 0)
+			(at 273.558 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15720,7 +15755,7 @@
 		(at 157.48 160.02 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -16422,7 +16457,7 @@
 		(dnp no)
 		(uuid "d70eefe3-c463-42c7-ad37-0fcb53cb0f3d")
 		(property "Reference" "FID102"
-			(at 273.558 157.734 0)
+			(at 273.558 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16569,7 +16604,7 @@
 		(at 223.52 158.75 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -17370,7 +17405,7 @@
 		(dnp no)
 		(uuid "f3ebfb05-17be-488d-b5c3-e4a62e3009d2")
 		(property "Reference" "FID103"
-			(at 273.05 162.814 0)
+			(at 273.558 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17994,7 +18029,7 @@
 		(at 190.5 168.91 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)

@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "V2 step")
-		(date "2026-05-08")
-		(rev "2026-02-10")
+		(date "2026-05-26")
+		(rev "2026-05-26")
 		(company "Versio Duo")
 		(comment 1 "Stepper Motor Controller")
 	)
