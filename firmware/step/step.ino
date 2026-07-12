@@ -8,7 +8,7 @@
 #include <V2PowerSupply.h>
 #include <V2Stepper.h>
 
-V2DEVICE_METADATA("com.versioduo.step", 20, "versioduo:samd:step");
+V2DEVICE_METADATA("com.versioduo.step", 21, "versioduo:samd:step");
 
 namespace {
   constexpr uint8_t       nSteppers{4};
@@ -329,7 +329,7 @@ void setup() {
   // Set the SERCOM interrupt priority, it requires a stable ~300 kHz interrupt
   // frequency. This needs to be after begin().
   setSerialPriority(&SerialPlug, 2);
-  setSerialPriority(&SerialSocket, 2);
+  setSerialPriority(&SerialSocket, 1);
 
   Power.begin();
   for (auto& s : Steppers)
