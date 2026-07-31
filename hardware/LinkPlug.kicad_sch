@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "V2 step")
-		(date "2026-05-26")
+		(date "2026-07-31")
 		(rev "2026-05-26")
 		(company "Versio Duo")
 		(comment 1 "Stepper Motor Controller")
@@ -2165,7 +2165,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0424c4f3-85a4-465c-b233-1a650daff944")
-		(property "Reference" "#PWR1908"
+		(property "Reference" "#PWR01908"
 			(at 166.37 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -2226,7 +2226,7 @@
 		(instances
 			(project "step"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c6db2f80-f80f-4104-8ca1-02f0ab85cfea"
-					(reference "#PWR1908")
+					(reference "#PWR01908")
 					(unit 1)
 				)
 			)
@@ -2243,7 +2243,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4072bcf9-7e5a-49f7-9263-a0a606602071")
-		(property "Reference" "#FLG1901"
+		(property "Reference" "#FLG01901"
 			(at 144.78 156.845 0)
 			(hide yes)
 			(show_name no)
@@ -2303,7 +2303,7 @@
 		(instances
 			(project "step"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c6db2f80-f80f-4104-8ca1-02f0ab85cfea"
-					(reference "#FLG1901")
+					(reference "#FLG01901")
 					(unit 1)
 				)
 			)
@@ -2776,7 +2776,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a50a4f94-6044-4810-b7e9-9168e306b849")
-		(property "Reference" "#PWR1903"
+		(property "Reference" "#PWR01903"
 			(at 148.59 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -2837,7 +2837,7 @@
 		(instances
 			(project "step"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c6db2f80-f80f-4104-8ca1-02f0ab85cfea"
-					(reference "#PWR1903")
+					(reference "#PWR01903")
 					(unit 1)
 				)
 			)
@@ -2854,7 +2854,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "afb73ded-0411-4bb9-9664-e9156d949823")
-		(property "Reference" "#PWR1901"
+		(property "Reference" "#PWR01901"
 			(at 134.62 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -2915,7 +2915,7 @@
 		(instances
 			(project "step"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c6db2f80-f80f-4104-8ca1-02f0ab85cfea"
-					(reference "#PWR1901")
+					(reference "#PWR01901")
 					(unit 1)
 				)
 			)
@@ -2932,7 +2932,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bd20b057-b856-45fa-ab3f-0c7b37662069")
-		(property "Reference" "#PWR1902"
+		(property "Reference" "#PWR01902"
 			(at 144.78 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -2993,7 +2993,7 @@
 		(instances
 			(project "step"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c6db2f80-f80f-4104-8ca1-02f0ab85cfea"
-					(reference "#PWR1902")
+					(reference "#PWR01902")
 					(unit 1)
 				)
 			)
@@ -3010,7 +3010,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "be77e115-89c3-4c96-8eda-21367d69e956")
-		(property "Reference" "#PWR1905"
+		(property "Reference" "#PWR01905"
 			(at 146.05 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -3071,7 +3071,7 @@
 		(instances
 			(project "step"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c6db2f80-f80f-4104-8ca1-02f0ab85cfea"
-					(reference "#PWR1905")
+					(reference "#PWR01905")
 					(unit 1)
 				)
 			)
@@ -3088,7 +3088,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c2da836a-3661-4643-af78-9afd18d81ebe")
-		(property "Reference" "#PWR1906"
+		(property "Reference" "#PWR01906"
 			(at 149.86 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -3149,7 +3149,7 @@
 		(instances
 			(project "step"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c6db2f80-f80f-4104-8ca1-02f0ab85cfea"
-					(reference "#PWR1906")
+					(reference "#PWR01906")
 					(unit 1)
 				)
 			)
@@ -3166,7 +3166,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e7fe0738-e64f-410b-87d2-2898ed4dbb8d")
-		(property "Reference" "#PWR1904"
+		(property "Reference" "#PWR01904"
 			(at 146.05 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -3227,7 +3227,7 @@
 		(instances
 			(project "step"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c6db2f80-f80f-4104-8ca1-02f0ab85cfea"
-					(reference "#PWR1904")
+					(reference "#PWR01904")
 					(unit 1)
 				)
 			)
@@ -3244,7 +3244,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "efe495e2-5921-4d2f-9f16-57ddd4bdedbd")
-		(property "Reference" "#PWR1907"
+		(property "Reference" "#PWR01907"
 			(at 160.02 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -3305,7 +3305,7 @@
 		(instances
 			(project "step"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c6db2f80-f80f-4104-8ca1-02f0ab85cfea"
-					(reference "#PWR1907")
+					(reference "#PWR01907")
 					(unit 1)
 				)
 			)
