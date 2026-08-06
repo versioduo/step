@@ -45,34 +45,34 @@ namespace {
   } Steppers[nSteppers]{
     Stepper(
       {
-        .ampere{0.5},
-        .microstepsShift{3},
-        .home{.speed{500}, .stall{0.045}},
-        .speed{.min{200}, .max{2000}, .accel{8000}},
+        .ampere{0.7},
+        .microstepsShift{4},
+        .home{.speed{750}, .stall{0.04}},
+        .speed{.min{50}, .max{2400}, .accel{6000}},
       },
       0),
     Stepper(
       {
-        .ampere{0.5},
-        .microstepsShift{3},
-        .home{.speed{500}, .stall{0.045}},
-        .speed{.min{200}, .max{2000}, .accel{8000}},
+        .ampere{0.7},
+        .microstepsShift{4},
+        .home{.speed{750}, .stall{0.04}},
+        .speed{.min{50}, .max{2400}, .accel{6000}},
       },
       1),
     Stepper(
       {
-        .ampere{0.5},
-        .microstepsShift{3},
-        .home{.speed{500}, .stall{0.045}},
-        .speed{.min{200}, .max{2000}, .accel{8000}},
+        .ampere{0.7},
+        .microstepsShift{4},
+        .home{.speed{750}, .stall{0.04}},
+        .speed{.min{50}, .max{2400}, .accel{6000}},
       },
       2),
     Stepper(
       {
-        .ampere{0.5},
-        .microstepsShift{3},
-        .home{.speed{500}, .stall{0.045}},
-        .speed{.min{200}, .max{2000}, .accel{8000}},
+        .ampere{0.7},
+        .microstepsShift{4},
+        .home{.speed{750}, .stall{0.04}},
+        .speed{.min{50}, .max{2400}, .accel{6000}},
       },
       3),
   };
@@ -169,7 +169,7 @@ namespace {
       if (channel >= nSteppers)
         return;
 
-      if (note < V2MIDI::C(3) || note > V2MIDI::B(4))
+      if (note < V2MIDI::A(-1) || note > V2MIDI::A(-1) + 88)
         return;
 
       if (velocity == 0) {
@@ -180,9 +180,9 @@ namespace {
       if (!power())
         return;
 
-      const float range{(float)(note - V2MIDI::C(3)) / 23.f};
-      const float speed{(float)velocity / 127.f};
-      Steppers[channel].setPosition(range * 200.f * 3.f, powf(speed, 3));
+      auto range{float(note - V2MIDI::A(-1)) / 87.f};
+      auto speed{float(velocity) / 127.f};
+      Steppers[channel].setPosition(range * 200.f * 44.f, powf(speed, 3));
     }
 
     void handleNote(uint8_t channel, uint8_t note, uint8_t velocity) override {
@@ -244,8 +244,8 @@ namespace {
 
         {
           JsonObject jsonChromatic = jsonChannel["chromatic"].to<JsonObject>();
-          jsonChromatic["start"]   = V2MIDI::C(3);
-          jsonChromatic["count"]   = 24;
+          jsonChromatic["start"]   = V2MIDI::A(-1);
+          jsonChromatic["count"]   = 88;
         }
       }
     }
