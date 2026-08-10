@@ -8,15 +8,15 @@
 #include <V2PowerSupply.h>
 #include <V2Stepper.h>
 
-V2DEVICE_METADATA("com.versioduo.step", 21, "versioduo:samd:step");
+V2DEVICE_METADATA("com.versioduo.step", 22, "versioduo:samd:step");
 
 namespace {
-  constexpr uint8_t       nSteppers{4};
-  V2LED::WS2812           LED(nSteppers + 2, PIN_LED_WS2812, &sercom2, SPI_PAD_0_SCK_1, PIO_SERCOM);
-  V2Link::Port            Plug(&SerialPlug, PIN_SERIAL_PLUG_TX_ENABLE);
-  V2Link::Port            Socket(&SerialSocket, PIN_SERIAL_SOCKET_TX_ENABLE);
-  V2Base::Timer::Periodic Timer(2, 200000);
-  V2Base::Analog::ADC     ADC(V2Base::Analog::ADC::getID(PIN_VOLTAGE_SENSE));
+  constexpr uint8_t            nSteppers{4};
+  V2LED::WS2812<nSteppers + 2> LED(PIN_LED_WS2812, sercom2, SPI_PAD_0_SCK_1, PIO_SERCOM);
+  V2Link::Port                 Plug(&SerialPlug, PIN_SERIAL_PLUG_TX_ENABLE);
+  V2Link::Port                 Socket(&SerialSocket, PIN_SERIAL_SOCKET_TX_ENABLE);
+  V2Base::Timer::Periodic      Timer(2, 200000);
+  V2Base::Analog::ADC          ADC(V2Base::Analog::ADC::getID(PIN_VOLTAGE_SENSE));
 
   class Stepper : public V2Stepper::Motor {
   public:
@@ -30,15 +30,15 @@ namespace {
     void handleMovement(Move move) override {
       switch (move) {
         case Move::Forward:
-          LED.setHSV(_index, V2Colour::Cyan, 1, 0.4);
+          LED.hsv({V2Colour::Cyan, 1, 0.4}, _index);
           break;
 
         case Move::Reverse:
-          LED.setHSV(_index, V2Colour::Orange, 1, 0.4);
+          LED.hsv({V2Colour::Orange, 1, 0.4}, _index);
           break;
 
         case Move::Stop:
-          LED.setHSV(_index, V2Colour::Green, 1, 0.2);
+          LED.hsv({V2Colour::Green, 1, 0.2}, _index);
           break;
       }
     }
@@ -48,7 +48,7 @@ namespace {
         .ampere{0.7},
         .microstepsShift{4},
         .home{.speed{750}, .stall{0.04}},
-        .speed{.min{50}, .max{2400}, .accel{6000}},
+        .speed{.min{50}, .max{2400}, .accel{10000}},
       },
       0),
     Stepper(
@@ -56,7 +56,7 @@ namespace {
         .ampere{0.7},
         .microstepsShift{4},
         .home{.speed{750}, .stall{0.04}},
-        .speed{.min{50}, .max{2400}, .accel{6000}},
+        .speed{.min{50}, .max{2400}, .accel{10000}},
       },
       1),
     Stepper(
@@ -64,7 +64,7 @@ namespace {
         .ampere{0.7},
         .microstepsShift{4},
         .home{.speed{750}, .stall{0.04}},
-        .speed{.min{50}, .max{2400}, .accel{6000}},
+        .speed{.min{50}, .max{2400}, .accel{10000}},
       },
       2),
     Stepper(
@@ -72,7 +72,7 @@ namespace {
         .ampere{0.7},
         .microstepsShift{4},
         .home{.speed{750}, .stall{0.04}},
-        .speed{.min{50}, .max{2400}, .accel{6000}},
+        .speed{.min{50}, .max{2400}, .accel{10000}},
       },
       3),
   };
@@ -103,20 +103,20 @@ namespace {
     void handleNotify(float voltage) override {
       // Power interruption, or commands without a power connection show yellow LEDs.
       if (voltage < config.min) {
-        LED.splashHSV(0.5, V2Colour::Yellow, 1, 0.5);
+        LED.flash({V2Colour::Yellow, 1, 0.5}, 0.5);
         return;
       }
 
       // Over-voltage shows red LEDs.
       if (voltage > config.max) {
-        LED.splashHSV(0.5, V2Colour::Red, 1, 1);
+        LED.flash({V2Colour::Red, 1, 1}, 0.5);
         return;
       }
 
       // The number of green LEDs shows the voltage.
       const float fraction{voltage / (float)config.max};
       const float n{ceil((float)nSteppers * fraction)};
-      LED.splashHSV(0.5, 0, n, V2Colour::Green, 1, 0.5);
+      LED.flash({V2Colour::Green, 1, 0.5}, 0.5, 0, n);
     }
   } Power;
 
@@ -307,8 +307,7 @@ namespace {
     }
 
     void handleHold(uint8_t count) override {
-      LED.setHSV(nSteppers + 0, V2Colour::Cyan, 1, 0.25);
-      LED.setHSV(nSteppers + 1, V2Colour::Cyan, 1, 0.25);
+      LED.hsv({V2Colour::Cyan, 1, 0.25}, nSteppers + 0, 2);
     }
 
     void handleRelease() override {}
@@ -320,7 +319,7 @@ void setup() {
   SPI.begin();
 
   LED.begin();
-  LED.setMaxBrightness(0.5);
+  LED.brightnessMax(0.5);
 
   Plug.begin();
   Socket.begin();
