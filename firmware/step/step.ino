@@ -8,13 +8,13 @@
 #include <V2PowerSupply.h>
 #include <V2Stepper.h>
 
-V2DEVICE_METADATA("com.versioduo.step", 22, "versioduo:samd:step");
+V2DEVICE_METADATA("com.versioduo.step", 23, "versioduo:samd:step");
 
 namespace {
   constexpr uint8_t            nSteppers{4};
   V2LED::WS2812<nSteppers + 2> LED(PIN_LED_WS2812, sercom2, SPI_PAD_0_SCK_1, PIO_SERCOM);
-  V2Link::Port                 Plug(&SerialPlug, PIN_SERIAL_PLUG_TX_ENABLE);
-  V2Link::Port                 Socket(&SerialSocket, PIN_SERIAL_SOCKET_TX_ENABLE);
+  V2Link::Port                 Plug(&SerialPlug, PIN_SERIAL_PLUG_TX_ENABLE, "plug");
+  V2Link::Port                 Socket(&SerialSocket, PIN_SERIAL_SOCKET_TX_ENABLE, "socket");
   V2Base::Timer::Periodic      Timer(2, 200000);
   V2Base::Analog::ADC          ADC(V2Base::Analog::ADC::getID(PIN_VOLTAGE_SENSE));
 
