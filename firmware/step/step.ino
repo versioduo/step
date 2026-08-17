@@ -8,10 +8,9 @@
 #include <V2PowerSupply.h>
 #include <V2Stepper.h>
 
-V2DEVICE_METADATA("com.versioduo.step", 23, "versioduo:samd:step");
-
 namespace {
   constexpr uint8_t            nSteppers{4};
+  V2Device::Info               Info{V2DeviceInfo("com.versioduo.step", 23, "versioduo:samd:step")};
   V2LED::WS2812<nSteppers + 2> LED(PIN_LED_WS2812, sercom2, SPI_PAD_0_SCK_1, PIO_SERCOM);
   V2Link::Port                 Plug(&SerialPlug, PIN_SERIAL_PLUG_TX_ENABLE, "plug");
   V2Link::Port                 Socket(&SerialSocket, PIN_SERIAL_SOCKET_TX_ENABLE, "socket");
@@ -127,9 +126,8 @@ namespace {
       metadata.product     = "V2 step";
       metadata.description = "Stepper Motor Controller";
       metadata.home        = "https://versioduo.com/#step";
-
-      system.download  = "https://versioduo.com/download";
-      system.configure = "https://versioduo.com/configure";
+      system.download      = "https://versioduo.com/download";
+      system.configure     = "https://versioduo.com/configure";
     }
 
   private:
