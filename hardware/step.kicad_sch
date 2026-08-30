@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "V2 step")
-		(date "2026-07-31")
+		(date "2026-08-30")
 		(rev "2026-05-26")
 		(company "Versio Duo")
 		(comment 1 "Stepper Motor Controller")
@@ -5531,25 +5531,6 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 0 -26.67 180)
-					(length 2.54)
-					(hide yes)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -5588,6 +5569,25 @@
 				)
 			)
 			(symbol "TPS78433QWDRBRQ1_1_1"
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(hide yes)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at 0 -7.62 90)
 					(length 2.54)
@@ -9709,7 +9709,7 @@
 		(at 223.52 165.1 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -9762,17 +9762,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 223.52 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 223.52 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -11338,7 +11327,7 @@
 		(at 190.5 152.4 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -11388,17 +11377,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 190.5 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 190.5 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -12168,7 +12146,7 @@
 		(at 223.52 152.4 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -12221,17 +12199,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 223.52 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 223.52 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -14246,7 +14213,7 @@
 		(at 190.5 160.02 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -14296,17 +14263,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 190.5 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 190.5 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -15799,7 +15755,7 @@
 		(at 157.48 160.02 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -15850,17 +15806,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 157.48 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 157.48 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -16659,7 +16604,7 @@
 		(at 223.52 158.75 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -16712,17 +16657,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 223.52 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 223.52 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -18095,7 +18029,7 @@
 		(at 190.5 168.91 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -18155,17 +18089,6 @@
 				)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 190.5 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(instances
 			(project "step"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
@@ -18202,7 +18125,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "LinkSocket.kicad_sch"
+		(property "Sheetfile" "Link-Socket.kicad_sch"
 			(at 266.7 128.8546 0)
 			(hide yes)
 			(show_name no)
@@ -18289,7 +18212,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "StepperDriver.kicad_sch"
+		(property "Sheetfile" "Stepper.kicad_sch"
 			(at 205.74 85.6746 0)
 			(hide yes)
 			(show_name no)
@@ -18416,7 +18339,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "StepperDriver.kicad_sch"
+		(property "Sheetfile" "Stepper.kicad_sch"
 			(at 170.18 51.3846 0)
 			(hide yes)
 			(show_name no)
@@ -18543,7 +18466,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "StepperDriver.kicad_sch"
+		(property "Sheetfile" "Stepper.kicad_sch"
 			(at 205.74 51.3846 0)
 			(hide yes)
 			(show_name no)
@@ -18670,7 +18593,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "StepperDriver.kicad_sch"
+		(property "Sheetfile" "Stepper.kicad_sch"
 			(at 170.18 85.6746 0)
 			(hide yes)
 			(show_name no)
@@ -18796,7 +18719,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "LinkPlug.kicad_sch"
+		(property "Sheetfile" "Link-Plug.kicad_sch"
 			(at 227.33 123.7746 0)
 			(hide yes)
 			(show_name no)
